@@ -936,11 +936,167 @@ PAGES["aquarium-moss-real-or-not"] = dict(
 ''',
 )
 
+PAGES["moss-on-roofs"] = dict(
+    title="Moss on roofs: is it a problem?",
+    description="Whether moss damages a roof, why you should never pressure-wash it off, how to remove it safely, and how zinc or copper strips and better light stop it returning.",
+    active="guides",
+    hero="hypnum.jpg",
+    blurb="Does it actually harm the roof? Why not to pressure-wash, how to clear it safely, and how to keep it from coming back.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss on a roof looks alarming and is usually less serious than it appears, but it is worth managing for two real reasons. Here is what it does, what not to do about it, and how to keep it down.</p>
+
+      <h2>Does it harm the roof?</h2>
+      <p>Moss does not eat into sound tiles or slates. The genuine problems are indirect: thick growth holds moisture against the surface, which matters in a hard frost when trapped water freezes and flakes the face of a tile, and clumps break off and block gutters and valleys, backing water up under the edges. On a sound roof it is mostly cosmetic; on an old or north-facing one it is worth staying on top of.</p>
+
+      <h2>Why not to pressure-wash</h2>
+      <p>This is the big one. A pressure washer blasts the protective surface off tiles and slates, drives water under them, and takes years off the roof's life. It does far more damage than the moss ever would. Whatever you read, do not jet-wash a roof to clean moss.</p>
+
+      <h2>Removing it safely</h2>
+      <p>Brush it off dry with a stiff brush, working downward so you do not lift the tiles, and clear the gutters and valleys while you are there. Do this from a safe platform or leave it to someone who works at height; a wet mossy roof is treacherous. There is no rush, so wait for dry weather and good access.</p>
+
+      <h2>Keeping it down</h2>
+      <p>Moss returns wherever the roof stays damp and shaded, so reduce that: cut back overhanging branches to let in light and air. Fitting a strip of zinc or copper along the ridge works well, since rain washes a trace of metal down the slope that moss dislikes, slowing regrowth for years. For the general principles, see <a href="removing-moss.html">how to get rid of moss</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["best-moss-for-terrariums"] = dict(
+    title="The best mosses for a terrarium",
+    description="Choosing moss for a terrarium: cushion versus carpet species, reliable choices like bun moss, broom fork-moss, mood moss and sheet moss, where to source them, and what to avoid.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="Cushion or carpet? The species that thrive under glass, where to get them, and which to avoid.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Almost any moss survives in a closed terrarium, but some look far better and behave far better than others. A quick guide to choosing.</p>
+
+      <h2>Cushion or carpet</h2>
+      <p>Cushion mosses grow in domed mounds and hold their shape beautifully behind glass, giving a terrarium structure and little hills. Carpet or feather mosses spread flat to cover ground and soften the floor between features. Most good terrariums use one or two cushions for height and a carpet to knit it together.</p>
+
+      <h2>Reliable choices</h2>
+      <ul class="loose">
+        <li><strong>Bun moss</strong> (<em>Leucobryum</em>): the classic pale-green dome, holds its shape for years.</li>
+        <li><strong>Broom fork-moss</strong> (<em>Dicranum scoparium</em>): springy combed cushions, very photogenic.</li>
+        <li><strong>Mood moss</strong> (<em>Dicranum</em> types sold under this name): larger clumps for a wilder look.</li>
+        <li><strong>Sheet or carpet moss</strong> (<em>Hypnum</em> and relatives): the flat green floor.</li>
+        <li><strong>Fern moss</strong> (<em>Thuidium</em>): fine, frond-like, lovely as an accent.</li>
+      </ul>
+
+      <h2>Where to get it</h2>
+      <p>You can collect small amounts from your own garden, walls and paths, which is free and local; take a little from several places rather than stripping one patch, and rinse off soil and creatures. Specialist terrarium suppliers sell named, clean cushions if you want a particular look or to avoid introducing pests.</p>
+
+      <h2>What to avoid</h2>
+      <p>Skip bog moss (sphagnum) unless you are deliberately running a wet, boggy setup, as it wants saturation. Be wary of moss lifted with a lot of soil and leaf litter, which brings in mould spores, slugs and springtails; a closed jar will happily incubate all of them. A quick rinse and a look-over saves trouble later. See the <a href="terrariums.html">terrarium guide</a> for building and care.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-indoors"] = dict(
+    title="Can you keep moss as a houseplant?",
+    description="Keeping moss alive indoors: why moss browns in a normal room, why a closed terrarium is the reliable answer, caring for open dishes and bonsai, and the light moss needs inside.",
+    active="guides",
+    blurb="Why moss browns on a windowsill, why a closed jar is the answer, and how to keep it green indoors.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">People bring moss indoors expecting a low-effort green and watch it turn brown in a fortnight. It is not that moss is fussy; it is that a normal room is the wrong climate. Here is how to keep it alive inside.</p>
+
+      <h2>Why it browns on the windowsill</h2>
+      <p>A heated room is dry, and dry air is moss's main enemy indoors. Out in the open it loses water faster than it can take it up, dries out and goes dormant, and if it stays dry it eventually dies rather than just resting. Direct sun through glass finishes it off fast. Open moss in a normal living room is fighting a losing battle.</p>
+
+      <h2>The reliable answer: a closed terrarium</h2>
+      <p>A lidded glass jar or bowl traps humidity and recycles it, which is exactly what moss wants, and turns it into a near-zero-maintenance feature. This is the honest answer to "moss as a houseplant": grow it behind glass and it thrives for years. See the <a href="terrariums.html">terrarium guide</a> and the <a href="best-moss-for-terrariums.html">species roundup</a>.</p>
+
+      <h2>Open dishes and bonsai</h2>
+      <p>If you want moss in the open, on a bonsai or in a shallow dish, you are signing up to mist it daily and keep it out of direct sun and away from radiators. It can be done in a humid room such as a bright bathroom, but it is hands-on. A room sitting at higher humidity, well above half, makes it far easier.</p>
+
+      <h2>Light</h2>
+      <p>Moss does not want strong light, but it does need some. Bright, indirect light is ideal; deep gloom leaves it weak and prone to algae. A spot near a north window, or a low-output grow light for a closed setup, keeps it healthy without cooking it.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["peat-and-peat-free"] = dict(
+    title="Sphagnum, peat, and why peat-free matters",
+    description="How sphagnum moss builds peat, why peat bogs matter for carbon and water, the cost of digging peat for compost, and the peat-free alternatives available to growers.",
+    active="guides",
+    hero="sphagnum.jpg",
+    blurb="How bog moss makes peat over millennia, why digging it up is so costly, and what to use instead.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Of all the things moss does, building peat is the one with the biggest consequences. It is worth understanding, because it is why "peat-free" is written on compost bags now.</p>
+
+      <h2>How sphagnum makes peat</h2>
+      <p>Sphagnum, the bog mosses, grow in waterlogged, acidic, oxygen-poor ground. The old growth beneath the living surface does not fully rot, because there is too little oxygen and the conditions are too acidic for the usual decomposers. Instead it accumulates, layer on layer, over thousands of years, as peat. A deep peat bog is, in effect, millennia of moss stacked up and half-preserved.</p>
+
+      <h2>Why bogs matter</h2>
+      <p>Because the carbon in all that moss never finished decomposing, peatlands lock away enormous amounts of it, more per hectare than forest. They also hold and slowly release vast quantities of water, steadying rivers and reducing floods, and they are home to specialised plants and animals found nowhere else. Intact, they are quietly doing several important jobs at once.</p>
+
+      <h2>The cost of digging it</h2>
+      <p>Cutting peat for fuel or compost drains the bog, exposes the stored carbon to the air, and releases it. A resource that took thousands of years to form is gone in one season's growing, and the carbon it held goes into the atmosphere. That is the case against peat compost in a sentence.</p>
+
+      <h2>Peat-free for growers</h2>
+      <p>Modern peat-free composts use coir, wood fibre, bark, green compost and similar materials. They behave a little differently, tending to dry on top while staying wet below, so they reward checking the moisture lower down rather than watering on a fixed schedule. For most growing they now work well, and they leave the bogs where they are.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-myths"] = dict(
+    title="Moss myths, busted",
+    description="Common myths about moss put straight: whether it kills lawns, harms trees, only grows on the north side, whether marimo balls and Java moss are really moss, and more.",
+    active="guides",
+    blurb="It kills lawns, harms trees, only grows on the north side? The common moss myths put straight.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss attracts more folklore than most plants. A few of the common claims, and what is actually true.</p>
+
+      <h2>"Moss is killing my lawn"</h2>
+      <p>No. Moss moves in where grass is already failing through shade, compaction or poor drainage. It is the symptom, not the cause. Kill it without fixing the conditions and it returns. See <a href="lawn.html">moss and lawns</a>.</p>
+
+      <h2>"Moss damages trees"</h2>
+      <p>No. Moss on bark simply uses the trunk as a surface and takes nothing from the tree. It is a sign of clean, damp air, not of a sick tree.</p>
+
+      <h2>"Moss only grows on the north side"</h2>
+      <p>Mostly a half-truth. Moss favours the cooler, damper, shadier side of a tree or wall, which in the northern hemisphere is usually the north side, but it is following shade and moisture, not a compass. In a damp wood it grows on every side. Useful as a rough guide, not a reliable one.</p>
+
+      <h2>"You have to pressure-wash moss off"</h2>
+      <p>Please do not, at least not on a roof. Pressure-washing strips the protective surface off tiles and slates and shortens their life far more than moss does. A dry brush is the tool. See <a href="moss-on-roofs.html">moss on roofs</a>.</p>
+
+      <h2>"Marimo balls are moss"</h2>
+      <p>No. The marimo "moss ball" is a green alga, not a moss at all. Java moss, on the other hand, genuinely is a moss. See <a href="aquarium-moss-real-or-not.html">which aquarium mosses are really moss</a>.</p>
+
+      <h2>"Moss has no roots, so it must feed off whatever it grows on"</h2>
+      <p>No. Those fine threads are rhizoids, and they only anchor the plant. Moss feeds itself from rain, mist and dust through its leaves, which is why it can live on bare rock, glass or a roof tile and harm none of them. See <a href="biology.html">what a moss actually is</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
-    "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-pole",
-    "spraying-moss", "aquarium-moss", "aquarium-moss-real-or-not",
-    "telling-moss-apart", "growing-moss-from-spores", "life-in-moss",
+    "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
+    "moss-pole", "spraying-moss", "aquarium-moss", "aquarium-moss-real-or-not",
+    "best-moss-for-terrariums", "moss-indoors", "telling-moss-apart",
+    "growing-moss-from-spores", "peat-and-peat-free", "life-in-moss", "moss-myths",
 ]
 
 
