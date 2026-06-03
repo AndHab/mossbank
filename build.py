@@ -1535,13 +1535,192 @@ PAGES["moss-for-shrimp"] = dict(
 ''',
 )
 
+PAGES["moss-in-vivariums"] = dict(
+    title="Moss in a bioactive vivarium",
+    description="Using live moss in a bioactive vivarium for dart frogs, geckos and invertebrates: the drainage and substrate layers, the cleanup crew of springtails and isopods, which mosses actually survive, the lighting and humidity they need, and why so many attempts fail.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="Live moss in a dart-frog or gecko vivarium: the layers, the cleanup crew, which mosses survive, and why many fail.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A bioactive vivarium, a planted, self-cleaning enclosure for dart frogs, geckos, mantids or other small humid-loving animals, is one of the few indoor settings where moss can genuinely thrive, because it provides the warmth, light and constant humidity moss wants. Get the conditions right and a moss carpet becomes the living floor of a little rainforest; get them wrong and it browns like any houseplant. Here is how to give it a real chance.</p>
+
+      <h2>What "bioactive" means</h2>
+      <p>A bioactive setup is built to run as a tiny ecosystem rather than a box you scrub out. A population of small invertebrates lives in the substrate and eats animal waste, mould and dead plant matter, breaking it down on the spot so the enclosure cleans itself. Live plants, including moss, take up the resulting nutrients and keep the air and surfaces healthy. Done well, it is low-maintenance and far better for the animals than a sterile tank.</p>
+
+      <h2>The layers</h2>
+      <p>A vivarium is built up in layers, and moss sits on top of all of them:</p>
+      <ul class="loose">
+        <li><strong>Drainage layer</strong>: clay pebbles or a purpose-made false bottom at the base, so excess water collects below the roots rather than waterlogging everything.</li>
+        <li><strong>Barrier</strong>: a mesh or fabric layer to keep the substrate from washing down into the drainage.</li>
+        <li><strong>Substrate</strong>: a moisture-holding, free-draining mix, typically coir, orchid bark, sphagnum and leaf compost, deep enough for plant roots and the cleanup crew.</li>
+        <li><strong>Leaf litter</strong>: a scatter of dried leaves on top, which feeds the invertebrates and shelters them, and sets off the moss nicely.</li>
+      </ul>
+
+      <h2>The cleanup crew</h2>
+      <p>The engine of the whole thing is the cleanup crew: springtails and isopods (woodlice), seeded into the substrate where they multiply and quietly consume waste and mould. They are harmless to the animals and to the moss, and a healthy population is what keeps mould off a humid, warm enclosure. Add them early and let them establish before the main animal goes in.</p>
+
+      <h2>Which mosses survive, and the honest failure rate</h2>
+      <p>This is where people are caught out: a lot of moss put into vivariums slowly dies, because even a humid tank is not the cool, shaded wild. The species that cope best are the resilient cushion and carpet mosses, and several so-called vivarium mosses are sold specifically because they tolerate the warmth. Java moss, normally an aquarium plant, also does well grown emersed in a humid viv. Be ready to lose some, reseed from what thrives, and favour fragments grown on in place over big transplanted sheets, which tend to brown from the middle. See <a href="best-moss-for-terrariums.html">the best mosses for a terrarium</a> for the cushion-versus-carpet split, which applies here too.</p>
+
+      <h2>Light, humidity and airflow</h2>
+      <p>Moss wants bright but indirect light, so the plant lighting that suits most vivarium foliage suits it, kept off a harsh direct beam. Humidity should be high and steady, which a planted, misted enclosure with a glass top holds easily, but it must be paired with a little airflow: a stagnant, soaking box grows mould faster than the cleanup crew can eat it. Most keepers run gentle ventilation and mist on a schedule, by hand or with an automatic mister, to keep the surface damp without drowning it.</p>
+
+      <h2>Establishing it</h2>
+      <p>Press moss fragments firmly onto the substrate and hardscape so they make contact, mist daily, and give it weeks rather than days. A dry-start approach works beautifully here: grow the moss in under glass with the cleanup crew before introducing the animal, so the floor is established and the system is already cycling. Patience at this stage pays off in a carpet that then looks after itself for years.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["dry-start-method"] = dict(
+    title="The dry start method for moss and carpets",
+    description="The aquascaping dry start method explained in full: growing moss and carpeting plants emersed in a sealed, misted tank before flooding it, why it works, how to set it up, the week-by-week timeline, when and how to flood, and the trade-offs against planting straight into water.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="Grow a dense moss carpet emersed before you flood the tank. The full aquascaping method, timeline and trade-offs.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">The dry start method, or DSM, is an aquascaping technique for establishing a thick, even carpet of moss or foreground plants before the tank ever holds water. You plant into damp hardscape, seal the tank to trap humidity, grow everything emersed for a few weeks, and only then flood it. It takes patience up front and repays it with a dense, algae-free carpet that would be much harder to grow underwater from the start.</p>
+
+      <h2>Why it works</h2>
+      <p>Many carpeting plants and mosses actually grow faster out of the water than in it, given saturated air, because carbon dioxide is freely available from the atmosphere rather than limited as it is when dissolved. Just as importantly, while the tank is drained there is no water column for algae to bloom in, so the young plants get a clear run to establish without competition. By the time you flood, the carpet is rooted, dense and able to hold its own.</p>
+
+      <h2>Setting it up</h2>
+      <p>Lay your substrate and hardscape and shape the scape as you want it. Plant moss as a thin scatter of fragments pressed firmly onto the wood, rock or soil, and tuck carpeting plants in small, well-spaced clumps. Mist everything thoroughly with dechlorinated or RO water until the surface glistens and a shallow film sits in the low points, but do not flood. Then seal the top with cling film or glass to hold near-total humidity, and light the tank on a normal photoperiod, around eight to ten hours.</p>
+
+      <h2>The waiting weeks</h2>
+      <p>For the next few weeks the work is light: keep the surface damp by misting if it dries, lift the cover briefly every day or two for fresh air to stave off mould, and watch for growth. You will see fine new shoots and spreading first, then thickening. Pull out any fuzzy mould promptly and air the tank more if it appears. Most scapes need around four to six weeks emersed, sometimes longer for a really dense carpet; rushing it is the usual mistake.</p>
+
+      <h2>When and how to flood</h2>
+      <p>Flood once the carpet has knitted together and is gripping the surface, not before. Add water slowly and gently, ideally pouring onto a plate or bag laid on the substrate so you do not blast the new growth loose. Expect a short adjustment as the plants switch from emersed to submerged growth, during which a little melt-back is normal, and run good flow and your normal maintenance from day one to keep early algae down.</p>
+
+      <h2>The trade-offs</h2>
+      <p>The DSM gives a denser, more even, more securely attached carpet with far less early algae than planting straight into water, and it is gentle on the wallet because nothing is lost to a tank that has not cycled. Against that, it is slow, it ties the tank up for weeks before any fish go in, and not every plant takes the transition to submerged life equally well. For moss specifically it works very well, and it pairs naturally with the bulk-growing ideas in <a href="propagating-aquarium-moss.html">how to propagate aquarium moss</a> and the rig in <a href="moss-propagation-machine.html">the propagation box</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["acrocarpous-vs-pleurocarpous"] = dict(
+    title="Acrocarpous and pleurocarpous mosses",
+    description="The two main growth forms of moss explained: acrocarpous, upright and cushion-forming, versus pleurocarpous, creeping, branching and carpet-forming, how to tell them apart by their capsules and branching, and why the difference matters for lawns, walls, terrariums and bonsai.",
+    active="guides",
+    hero="hypnum.jpg",
+    blurb="Cushion-forming or carpet-forming? The two growth forms of moss, how to tell them apart, and why it matters.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Once you start looking at mosses closely, they sort into two broad camps, and learning the difference is one of the most useful things a beginner can do. It explains why some mosses make tight domes and others spread in flat carpets, and it quietly decides which moss is right for a lawn, a wall, a terrarium or a bonsai.</p>
+
+      <h2>The two forms</h2>
+      <p>The two camps are the acrocarpous mosses and the pleurocarpous mosses. Acrocarps grow upright in tufts and cushions, with stems that mostly stand on end and grow from the tip. Pleurocarps creep and trail, with much-branched stems that spread sideways into mats and wefts. The cushiony bun moss on top of a wall is a classic acrocarp; the flat, feathery plait moss trailing over a log is a classic pleurocarp.</p>
+
+      <h2>How to tell them apart</h2>
+      <p>The names come from where the spore capsules grow, and that is the surest test. In acrocarpous mosses the capsule forms at the very tip of the main stem, which also tends to stop that stem growing upward, so they stay compact and upright. In pleurocarpous mosses the capsules grow on short side branches along the stem, not at the tip, leaving the main stem free to keep creeping and branching. Even without capsules you can usually tell by habit: upright and tufted, or sprawling and feathery. A hand lens makes it obvious, as covered in <a href="how-to-identify-moss.html">how to identify moss</a>.</p>
+
+      <h2>Acrocarps in practice</h2>
+      <p>Because they grow as discrete upright cushions, acrocarps hold a domed shape beautifully and are slow, tidy and sculptural. They are the stars of a terrarium, where their little hills give structure, and of Japanese moss gardens, where the rolling cushion texture is the whole point. The trade-off is that they spread slowly and knit into a continuous surface reluctantly, so they are less good where you want fast, seamless cover.</p>
+
+      <h2>Pleurocarps in practice</h2>
+      <p>Pleurocarps are the carpet-makers. Their creeping, branching habit lets them knit quickly into a continuous mat, which makes them the right choice for a moss lawn, a green wall or covering ground fast. They are generally more tolerant of being walked on and handled, and they fragment and regrow readily, which is why most slurry and propagation work uses them. The trade-off is that they look like a carpet rather than a collection of jewel-like cushions.</p>
+
+      <h2>Why it matters for your project</h2>
+      <p>Match the form to the job. For a lawn, a wall or any fast continuous cover, reach for pleurocarpous carpet mosses. For a terrarium, a moss garden or anywhere you want shape and texture, choose acrocarpous cushions, or mix the two, cushions for the hills and a pleurocarp to knit the floor between them. Knowing which is which turns "buy some moss" into choosing the right tool, and it is the single most practical piece of moss botany there is. See the <a href="species.html">species page</a> for common examples of each.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-ground-cover"] = dict(
+    title="Moss as ground cover in a shade garden",
+    description="Using moss as ground cover in shade: under trees where grass fails, on banks and slopes to hold soil, between stepping stones, and among ferns and hostas. Why it beats grass in deep shade, how to establish a large area, and how to keep it.",
+    active="guides",
+    hero="thuidium.jpg",
+    blurb="The answer to that bare, shady patch where grass won't grow. Moss under trees, on banks, and among shade plants.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Every garden has the spot where grass gives up: the dry shade under a tree, the damp north-facing bank, the corner that never sees sun. Fighting to grow a lawn there is a losing battle. Moss is the plant that actually wants those conditions, and used as ground cover it turns the garden's problem corners into its quietest, greenest ones.</p>
+
+      <h2>Where moss earns its place</h2>
+      <p>Moss comes into its own exactly where conventional ground cover struggles: deep or dappled shade, consistent moisture, poor or compacted soil, and acidic ground. In those conditions it gives you a soft, even, evergreen surface that needs no mowing, no feeding and almost no water once established, and stays green through winter and drought when grass has gone brown and patchy. It is lower input and lower effort, not a compromise.</p>
+
+      <h2>Under trees</h2>
+      <p>The dry, root-filled, shaded ground beneath a tree is the textbook place grass fails and moss flourishes. Moss has no roots to compete with the tree, takes nothing from the soil, and copes with the shade, so it carpets the ground where nothing else will hold. Clear the failing grass and weeds, firm the surface, and establish moss as below; the result frames the tree far better than thin, struggling turf.</p>
+
+      <h2>Banks and slopes</h2>
+      <p>On a shaded bank, moss does a practical job as well as a decorative one: a knitted moss carpet holds the surface together, slows run-off and reduces the erosion that bare or sparsely grassed slopes suffer in heavy rain. Choose creeping, carpet-forming pleurocarpous mosses for this, since they knit fastest into a continuous, soil-binding mat, as explained in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>Among ferns, hostas and stone</h2>
+      <p>Moss is the perfect understorey for the classic shade-garden plants. It sets off the bold leaves of hostas, the fronds of ferns and the foliage of woodland perennials, filling the ground between them with calm green instead of bare soil or bark mulch. Run it up to and between stepping stones and around the base of rocks and it ties a shady planting together into something that looks settled and whole. The Japanese tradition leans on exactly this; see <a href="japanese-moss-gardens.html">Japanese moss gardens</a>.</p>
+
+      <h2>Establishing a large area</h2>
+      <p>For anything bigger than a patch, the slurry method is the practical way in: blend moss with rainwater or buttermilk and spread or paint it over the prepared ground, or for the largest areas spray it, as in <a href="spraying-moss.html">spraying moss slurry at scale</a>. Prepare the ground first by clearing competition and firming the surface, keep it misted daily for the first few weeks while it grips, and accept that full, seamless cover takes a season or two to develop.</p>
+
+      <h2>Keeping it</h2>
+      <p>Upkeep is mostly a matter of leaves. The one thing that smothers a moss carpet is a thick layer of autumn leaf fall left to sit and rot, so sweep or gently blow leaves off through autumn. Beyond that, keep foot traffic light on young moss, top up moisture in long dry spells until it is well established, and otherwise leave it alone to thicken year on year. See the <a href="growing.html">growing guide</a> for the establishing detail.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-through-the-seasons"] = dict(
+    title="Moss care through the seasons",
+    description="A seasonal calendar for moss: encouraging growth in the cool damp of spring, helping it survive summer heat and drought, clearing leaves and establishing new moss in autumn, and understanding what moss does in winter.",
+    active="guides",
+    hero="hero.jpg",
+    blurb="What moss needs in spring, summer, autumn and winter, and why the cool damp shoulders of the year do the heavy lifting.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss does not follow the garden's usual calendar. It does most of its growing when the showy plants are dormant and rests when they are at their peak, so caring for it well is mostly a matter of working with that rhythm rather than against it. Here is the year, season by season.</p>
+
+      <h2>Spring</h2>
+      <p>Spring is prime moss season. Cool, damp air and steadily lengthening days are exactly what it likes, and growth is at its fastest, so this is the best time to start new moss, whether by transplanting patches or laying down a slurry. Established moss greens up and thickens with little help. The one spring job worth noting is that birds gather moss for nests now, so expect a little pilfering from lawns and walls, and pin down freshly laid moss if they are lifting it before it has gripped.</p>
+
+      <h2>Summer</h2>
+      <p>Summer is the hard season, because heat and dry air are moss's main enemies. Established moss in deep shade usually rides it out, drying and going dormant in spells without rain and greening up again when the weather breaks, so brown summer moss is almost always just resting rather than dead. New or recently laid moss is far more vulnerable and may need watering through dry weeks, ideally with rainwater in the early morning or evening rather than the midday heat. Resist the urge to dig up a brown patch and give up on it; wait for rain.</p>
+
+      <h2>Autumn</h2>
+      <p>Autumn brings back the cool, damp conditions of spring, and with them a second flush of growth, which makes it the other good window for establishing new moss. It also brings the single most important maintenance job of the moss year: clearing fallen leaves. A thick blanket of wet leaves left over a moss carpet smothers and kills it over winter, so sweep or gently blow leaves off through the season. Do that one thing and the moss comes through fine.</p>
+
+      <h2>Winter</h2>
+      <p>Winter is moss's quiet advantage. While the rest of the garden is bare and brown, moss stays green and even keeps growing slowly in mild, damp spells, which is much of why a shaded moss surface looks good when nothing else does. It tolerates frost without harm, simply pausing and resuming. There is little to do beyond keeping heavy leaf litter and debris off it, and enjoying the fact that the greenest thing in the garden in January asked nothing of you.</p>
+
+      <h2>The rhythm of it</h2>
+      <p>The pattern underneath all this is simple: moss does its real work in the cool, damp shoulders of the year, spring and autumn, rests through summer drought, and quietly carries the green through winter. Plan your planting for the shoulders, your watering for summer, and your leaf-clearing for autumn, and the rest looks after itself. See the <a href="growing.html">growing guide</a> for the establishing basics that all of this builds on.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
-    "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
-    "moss-in-paving", "watering-moss", "moss-pole", "spraying-moss",
-    "sphagnum-moss", "aquarium-moss", "aquarium-moss-real-or-not",
-    "propagating-aquarium-moss", "moss-propagation-machine", "moss-for-shrimp",
-    "best-moss-for-terrariums", "moss-indoors",
+    "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "removing-moss",
+    "moss-on-roofs", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
+    "moss-pole", "spraying-moss", "sphagnum-moss", "aquarium-moss",
+    "aquarium-moss-real-or-not", "propagating-aquarium-moss",
+    "moss-propagation-machine", "moss-for-shrimp", "dry-start-method",
+    "moss-in-vivariums", "best-moss-for-terrariums", "moss-indoors",
+    "moss-terrarium-troubleshooting", "how-to-identify-moss",
+    "acrocarpous-vs-pleurocarpous", "telling-moss-apart", "collecting-moss",
+    "growing-moss-from-spores", "how-fast-does-moss-grow", "peat-and-peat-free",
+    "moss-and-wildlife", "life-in-moss", "moss-and-air-quality",
+    "moss-in-history", "moss-myths",
+]
     "moss-terrarium-troubleshooting", "how-to-identify-moss", "telling-moss-apart",
     "collecting-moss", "growing-moss-from-spores", "how-fast-does-moss-grow",
     "peat-and-peat-free", "moss-and-wildlife", "life-in-moss",
