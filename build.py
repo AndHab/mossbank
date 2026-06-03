@@ -21,6 +21,7 @@ NAV = [
     ("species", "Species"),
     ("growing", "Growing"),
     ("projects", "Projects"),
+    ("guides", "Guides"),
     ("uses", "Uses"),
     ("lawn", "Moss & lawns"),
     ("faq", "FAQ"),
@@ -624,6 +625,263 @@ PAGES["moss-graffiti"] = dict(
       <p>This is lovely on your own damp north wall, a shaded fence or a back yard. On anyone else's property it is criminal damage however green and gentle it looks, so ask first, and do not do it on listed or historic stonework where even moss can be unwelcome. Your wall, your rules; someone else's wall, their permission.</p>
 
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+
+PAGES["preserved-moss-wall"] = dict(
+    title="Preserved moss walls",
+    description="Preserved moss walls explained: what preserved moss is, why it suits offices with no light or watering, the ideal humidity, how to build one, and how it differs from a living wall.",
+    active="guides",
+    blurb="The no-watering, no-light green wall most offices actually have. What preserved moss is, and how to build one.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Most of the lush green moss walls you see in offices and reception areas are not alive. They are made from preserved moss: real moss whose sap has been replaced with a glycerine solution so it stays soft, green and supple indefinitely, without light, soil or water. For an indoor wall this is usually the right answer.</p>
+
+      <h2>Why preserved suits an office</h2>
+      <p>A preserved wall needs no light, no irrigation, no misting and no feeding. It does not grow, so it never outgrows its frame or drops debris. The only things it dislikes are direct sun, which fades it, the dry blast of an air-conditioning vent, and standing damp. Humidity in the region of 40 to 60 per cent keeps it at its best: below about 40 it can turn brittle, and much above 60 to 70 it may slowly reabsorb moisture and spoil. An office sitting at 55 to 60 per cent is squarely in the happy range.</p>
+
+      <h2>The kinds of preserved moss</h2>
+      <ul class="loose">
+        <li><strong>Reindeer moss</strong> (actually a lichen): the springy, bobbly texture used for most flat panels.</li>
+        <li><strong>Flat or sheet moss</strong>: a smooth, carpet-like green for clean modern panels.</li>
+        <li><strong>Bun or ball moss</strong>: rounded cushions that give a rolling, hummocky surface.</li>
+        <li><strong>Mood moss</strong>: larger clumps for a wilder, more three-dimensional look.</li>
+      </ul>
+      <p>Most walls mix two or three for depth.</p>
+
+      <h2>Building one</h2>
+      <p>Preserved moss is simply glued to a backing board. Cut a board to size, lay out your moss to plan the texture and colour, then fix each piece down with a hot-melt glue gun or a strong craft adhesive, packing the pieces tight so no backing shows at the edges. Mount the finished panel like a picture. There is no blending, no slurry and no yoghurt; those are living-moss techniques and have no place here.</p>
+
+      <h2>If you want it living instead</h2>
+      <p>At 55 to 60 per cent humidity a living wall is borderline rather than impossible. It would need a genuinely shaded position out of direct sun, a small grow light, regular misting, and hardy cushion or sheet mosses rather than bog moss. That is a real ongoing project. If you want green on the wall and your time back, preserved is the sane choice; see the <a href="moss-walls.html">living moss walls</a> guide for the other path.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["removing-moss"] = dict(
+    title="How to get rid of moss",
+    description="Removing moss from lawns, roofs, patios, paths and decking: why it appears, how to clear it without damage, and how to stop it coming straight back.",
+    active="guides",
+    blurb="Lawns, roofs, patios, paths and decking: how to clear moss without wrecking the surface, and stop it returning.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss appears where conditions favour it over whatever you would rather have: shade, damp, poor drainage and compaction. You can scrape it off, but unless you change those conditions it returns. Here is how to clear each surface and, more importantly, keep it gone.</p>
+
+      <h2>Lawns</h2>
+      <p>Rake or scarify out the dead and living moss, then treat the cause: relieve compaction by spiking or aerating, improve drainage, cut less hard, reduce shade where you can, and feed the grass so it competes. A lawn sand or iron-sulphate treatment blackens moss quickly but changes nothing underlying. The full picture is on the <a href="lawn.html">moss and lawns</a> page.</p>
+
+      <h2>Roofs and gutters</h2>
+      <p>Brush moss off dry, working downwards so you do not lift tiles, and clear it out of gutters and valleys where it traps water. Do not pressure-wash: the force strips the protective surface off tiles and slates and shortens the roof's life far more than the moss would. Improving light and airflow, and fitting zinc or copper strips near the ridge, slows regrowth.</p>
+
+      <h2>Patios, paths and decking</h2>
+      <p>For paving and stone, a stiff brush and a bucket of hot water shift most of it; a patio cleaner or a weak solution does the rest. On decking, scrub along the grain and rinse. Keep these surfaces clear afterwards by improving drainage and cutting back overhanging growth so they dry out between downpours. On steps, treat moss as a slip hazard and stay on top of it.</p>
+
+      <h2>The honest caveat</h2>
+      <p>If a surface is permanently shaded and damp, moss will keep coming. At that point you are choosing between regular clearing and accepting a little green. Where it is not a safety issue, the second option is a great deal less work.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-lawn"] = dict(
+    title="How to make a moss lawn",
+    description="Making a moss lawn: when it is the right choice, preparing the ground, planting by transplant or slurry, watering it in, and keeping a moss lawn over the years.",
+    active="guides",
+    hero="hero.jpg",
+    blurb="A green, no-mow, drought-proof carpet for shade. When to choose it, and how to establish and keep one.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">In a shaded, damp garden a moss lawn is soft underfoot, green through winter and drought, and free of mowing, feeding and watering once established. Where grass struggles, it is often the better surface, not the consolation prize.</p>
+
+      <h2>Is your site right?</h2>
+      <p>Moss lawns want shade or part shade, reliable moisture, and acidic, firm, low-nutrient ground. A spot that bakes in afternoon sun is the wrong place; a cool, damp, north-facing or tree-shaded area is ideal. If grass already sulks there and moss is creeping in on its own, the site is telling you what it wants.</p>
+
+      <h2>Prepare the ground</h2>
+      <p>Strip off the existing grass and weeds, level the surface, then firm it down; moss likes contact with compacted ground, not fluffy tilth. Do not add compost or feed. On limey soils a light dressing of something acidic helps tip the balance in moss's favour.</p>
+
+      <h2>Plant it</h2>
+      <p>Either press fresh patches of moss firmly onto the prepared surface, butted tight together, or blend moss into a slurry with water or buttermilk and spread it over the area. Carpet-forming species such as the springy turf-mosses and feather mosses knit into a lawn faster than cushion types.</p>
+
+      <h2>Establish and keep it</h2>
+      <p>Mist daily for the first three or four weeks, ideally with rainwater, while the moss grips. After that, rainfall and shade do most of the work. The only routine job is clearing fallen leaves in autumn so the moss is not smothered. Walk on it lightly while young; once thick it takes gentle use. It improves every year.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-pole"] = dict(
+    title="Moss poles for climbing houseplants",
+    description="Moss poles explained: why climbing aroids like monstera and pothos benefit, sphagnum versus coir poles, how to make and mount one, and keeping it damp so aerial roots grip.",
+    active="guides",
+    blurb="Why monstera and other climbers love them, how to make one, and how to keep it damp so aerial roots grip.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A moss pole gives a climbing houseplant something to do what it does in the wild: grip a damp vertical surface with its aerial roots and haul itself upward. For aroids such as monstera, pothos and philodendron it often means bigger leaves and a stronger plant.</p>
+
+      <h2>Why it helps</h2>
+      <p>These plants are climbers. Given a damp, textured support, their aerial roots attach and feed, and the plant frequently responds by producing larger, more mature foliage than it would scrambling along the ground or flopping out of a pot. The pole also keeps a big plant upright and tidy.</p>
+
+      <h2>Sphagnum or coir</h2>
+      <p>This is the one moss-wall context where sphagnum is exactly right. A pole stuffed with damp sphagnum holds water and stays moist, which is what the roots want, and being upright and regularly watered it does not suffer the way sphagnum would on a dry vertical wall. Coir poles are tidier and longer-lasting but hold less water; sphagnum is messier but the roots love it.</p>
+
+      <h2>Making and using one</h2>
+      <p>Form a tube of plastic mesh, pack it firmly with pre-soaked sphagnum, and stand it in the pot behind the plant, anchored into the soil. Tie the stems in loosely to start, guiding the nodes against the moss. Then keep the pole damp: mist it daily or pour water down the top, and the aerial roots will grow into it and grip on their own. Extend the pole as the plant climbs.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["aquarium-moss"] = dict(
+    title="Aquarium mosses",
+    description="Aquatic mosses for the planted tank: Java moss, Christmas moss, flame moss and Weeping moss, how to attach them to wood and rock, and the light and trimming they need.",
+    active="guides",
+    blurb="Java moss and friends: attaching them to wood and rock, the light they want, and keeping them tidy underwater.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Mosses are not only land plants. A handful of true mosses grow happily underwater, and they are among the most useful plants in the aquarium: undemanding, slow to outgrow, and the natural cover for fry and shrimp.</p>
+
+      <h2>The usual suspects</h2>
+      <ul class="loose">
+        <li><strong>Java moss</strong> (<em>Taxiphyllum barbieri</em>): the classic, nearly indestructible, grows in almost any light.</li>
+        <li><strong>Christmas moss</strong> (<em>Vesicularia montagnei</em>): tidier, with a fir-branch shape, a little more demanding.</li>
+        <li><strong>Flame moss</strong> (<em>Taxiphyllum</em> "Flame"): grows upward in twisting flame-like columns.</li>
+        <li><strong>Weeping moss</strong> (<em>Vesicularia ferriei</em>): trails downward, lovely draped over wood.</li>
+      </ul>
+
+      <h2>Attaching it</h2>
+      <p>Aquatic moss does not root into substrate; it clings to hard surfaces by rhizoids, exactly as land moss does. Tie or wrap a thin layer over wood or rock with cotton thread or fine fishing line, or use a dab of cyanoacrylate gel. Spread it thin; a thick wad rots underneath because water cannot reach the inner strands. In a few weeks it grips on its own and the thread can be removed or will simply rot away.</p>
+
+      <h2>Light, flow and trimming</h2>
+      <p>Most aquarium mosses are content in low to moderate light and do not need added carbon dioxide, though brighter light and CO2 give denser, neater growth. Gentle flow keeps debris from settling in the strands, which otherwise traps muck and starves the moss. Trim with scissors to keep the shape; the clippings will start new patches wherever they settle.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["telling-moss-apart"] = dict(
+    title="Moss, lichen, liverwort or algae?",
+    description="How to tell moss from the things mistaken for it: liverworts, lichens, algae and clubmosses, with the simple features that separate each.",
+    active="guides",
+    blurb="The green stuff on the wall is not always moss. The simple features that separate moss from its lookalikes.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">"Moss" gets blamed for a lot of green that is not moss at all. Telling them apart takes only a close look, and it matters because they want different things and respond differently to treatment.</p>
+
+      <h2>True moss</h2>
+      <p>A soft, leafy plant with tiny leaves arranged around a stem, forming cushions or carpets, very often with fine stalks carrying capsules held above the green. If you can see little leafy shoots and stalked capsules, it is a moss.</p>
+
+      <h2>Liverwort</h2>
+      <p>Either flat and ribbon-like, pressed close to the surface in branching green lobes (the thallose kind), or leafy and very low-growing. No upright leafy stems like a moss, and the spore capsules, when present, are quite different. Liverworts favour really wet, often disturbed ground, such as the surface of pot compost.</p>
+
+      <h2>Lichen</h2>
+      <p>Not a plant at all, but a partnership of a fungus and an alga living as one. Lichens are usually crusty, leafy or shrubby in texture and often grey, white, yellow or orange rather than fresh green. They feel dry and tough, not soft, and grow very slowly on bark, stone and roofs. Reindeer "moss" is in fact a lichen.</p>
+
+      <h2>Algae</h2>
+      <p>A formless green film or slime with no leaves, stems or structure at all, on damp paving, timber, glass and pots. If you can smear it and there is nothing leafy to it, it is algae.</p>
+
+      <h2>Clubmosses</h2>
+      <p>These look mossy but are larger, with tougher, scaly stems, and belong to an ancient vascular group quite separate from the true mosses. Mostly you meet them on heath and hill rather than in the garden.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["life-in-moss"] = dict(
+    title="The hidden world in a moss cushion",
+    description="The miniature ecosystem inside a moss cushion: tardigrades, springtails, mites, rotifers and nematodes, and why moss is such a rich habitat in miniature.",
+    active="guides",
+    blurb="Tardigrades, springtails and a whole micro-ecosystem live in a single moss cushion. A look at the tiny world inside.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Pull up a cushion of moss and you are holding a small, crowded world. The damp, sheltered spaces between the leaves are home to a community of tiny animals, and one of them is among the toughest creatures known.</p>
+
+      <h2>The water bears</h2>
+      <p>Tardigrades, the "water bears", are eight-legged animals under a millimetre long that live in the film of water around moss leaves. When the moss dries, they dry too, curling into a desiccated tun and shutting their metabolism almost entirely off. In that state they have survived being frozen, boiled, irradiated and even the vacuum of space, springing back when wetted. Moss is the easiest place to find them: soak a dry cushion, squeeze the water into a dish, and look under a cheap microscope.</p>
+
+      <h2>The rest of the crowd</h2>
+      <p>They share the cushion with springtails, which flick themselves into the air with a sprung tail; mites; rotifers, the "wheel animalcules" that whirl food into their mouths; nematode worms; and the protozoa and bacteria they all feed on. A handful of moss can hold thousands of individuals across dozens of species.</p>
+
+      <h2>Why moss is such good habitat</h2>
+      <p>Moss does for these animals what it does for itself: it holds water, buffers the swings of temperature and humidity, and provides endless sheltered surface in a small space. Lose the moss from a wall or a wood and you lose this whole layer of life, and the larger creatures that feed on it. It is a reminder that the quiet green is doing more than it appears.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["growing-moss-from-spores"] = dict(
+    title="Growing moss from spores",
+    description="Growing moss from spores and fragments: how moss spreads naturally, the realistic fragment and slurry methods, and why spore-from-scratch is slow and unpredictable.",
+    active="guides",
+    blurb="Can you grow moss from spores like seed? Sort of. What works, what does not, and the faster fragment route.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">People often ask whether moss can be grown from spores the way you sow seed. It can, in principle, but it is slow and unpredictable, and there is almost always a faster route to the same place.</p>
+
+      <h2>How moss spreads naturally</h2>
+      <p>A ripe capsule releases dust-fine spores to the wind. A spore that lands somewhere damp and shaded germinates into a fine green thread called a protonema, which spreads and then buds into recognisable leafy shoots. The whole sequence is gradual and depends entirely on conditions staying damp throughout.</p>
+
+      <h2>The realistic methods</h2>
+      <p>In practice, gardeners propagate moss from fragments rather than spores, because moss regenerates so readily from broken pieces. The two reliable approaches are pressing fresh patches onto prepared ground, and the slurry method, blending moss with water or buttermilk and spreading it. Both are described in the <a href="growing.html">growing guide</a>, and both are far quicker than starting from spores.</p>
+
+      <h2>If you really want to start from spores</h2>
+      <p>Scatter the contents of ripe capsules, or lay whole capsules, onto a firm, damp, low-nutrient surface in shade, and keep it constantly moist and undisturbed for weeks to months. Results are erratic; whatever moss spores happen to be in your air may colonise the patch before your chosen species does. Treat it as an experiment rather than a reliable way to cover ground.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+# Guides hub: auto-built from the list below so new articles only need adding here.
+GUIDES_ORDER = [
+    "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-pole",
+    "aquarium-moss", "telling-moss-apart", "growing-moss-from-spores", "life-in-moss",
+]
+
+
+def _guide_tile(slug):
+    p = PAGES[slug]
+    return (f'        <a class="tile" href="{slug}.html"><h3>{html.escape(p["title"])}</h3>'
+            f'<p>{html.escape(p.get("blurb", p["description"]))}</p></a>')
+
+
+PAGES["guides"] = dict(
+    title="Guides",
+    description="Practical moss guides: making a moss lawn, preserved and living moss walls, moss poles, aquarium mosses, removing moss, telling moss from its lookalikes, and more.",
+    active="guides",
+    body='''
+  <section class="section">
+    <div class="wrap">
+      <p class="lede">Practical, single-topic guides. New ones are added regularly; the <a href="projects.html">projects</a> have their own section.</p>
+      <div class="grid-cards">
+''' + "\n".join(_guide_tile(s) for s in GUIDES_ORDER) + '''
+      </div>
     </div>
   </section>
 ''',
