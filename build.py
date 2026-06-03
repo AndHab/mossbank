@@ -896,11 +896,51 @@ PAGES["spraying-moss"] = dict(
 ''',
 )
 
+PAGES["aquarium-moss-real-or-not"] = dict(
+    title="Which aquarium “mosses” are really moss",
+    description="Java moss is a true moss, and so are most named aquarium mosses. But marimo balls are algae, Riccia and Pellia are liverworts, and Subwassertang is a fern. A guide to the real and the impostors.",
+    active="guides",
+    blurb="Java moss is the real thing. Marimo balls, Riccia and Subwassertang are not. Sorting the true mosses from the impostors.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">It is a fair thing to wonder, because the aquarium trade calls a lot of unrelated plants "moss". The surprise is which way it falls: Java moss really is a moss, while several of the other "mosses" in the hobby are nothing of the sort.</p>
+
+      <h2>The real mosses</h2>
+      <p>Java moss is a genuine true moss, <em>Taxiphyllum barbieri</em> (long sold under the old name <em>Vesicularia dubyana</em>, which caused years of confusion in the trade). It is a bryophyte, the same broad group as the moss on a wall, simply one that grows submerged. So are most of the other named aquarium mosses:</p>
+      <ul class="loose">
+        <li>Christmas moss (<em>Vesicularia montagnei</em>)</li>
+        <li>Flame moss (<em>Taxiphyllum</em> "Flame")</li>
+        <li>Weeping moss (<em>Vesicularia ferriei</em>)</li>
+        <li>Taiwan moss (<em>Taxiphyllum alternans</em>)</li>
+        <li>Phoenix moss (<em>Fissidens fontanus</em>)</li>
+        <li>Willow moss (<em>Fontinalis antipyretica</em>)</li>
+      </ul>
+      <p>All true mosses. If the label says one of these, you are growing the real thing.</p>
+
+      <h2>The impostors</h2>
+      <p>These are sold and used like mosses but belong to entirely different groups:</p>
+      <ul class="loose">
+        <li><strong>Marimo "moss balls"</strong> (<em>Aegagropila linnaei</em>) are not moss and not even a plant in the usual sense. They are a green <strong>alga</strong> that happens to grow into a velvety sphere.</li>
+        <li><strong>Riccia or crystalwort</strong> (<em>Riccia fluitans</em>) is a <strong>liverwort</strong>, a bryophyte cousin of moss but a separate lineage.</li>
+        <li><strong>Monosolenium</strong>, often sold as "Pellia", is also a <strong>liverwort</strong>.</li>
+        <li><strong>Subwassertang</strong>, sometimes called round pellia, is stranger still: it is the gametophyte stage of a <strong>fern</strong>, with no true leaves or stems at all.</li>
+      </ul>
+
+      <h2>Does it matter?</h2>
+      <p>For day-to-day growing, not hugely; most behave like low-light, undemanding plants you attach to wood or rock. But it is worth knowing, because care differs at the edges, an alga and a fern are not going to respond to advice written for moss, and it saves you the embarrassment of insisting a marimo ball is a moss. For attaching and trimming the genuine aquarium mosses, see the <a href="aquarium-moss.html">aquarium mosses</a> guide; for telling the land groups apart, see <a href="telling-moss-apart.html">moss, lichen, liverwort or algae</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-pole",
-    "spraying-moss", "aquarium-moss", "telling-moss-apart",
-    "growing-moss-from-spores", "life-in-moss",
+    "spraying-moss", "aquarium-moss", "aquarium-moss-real-or-not",
+    "telling-moss-apart", "growing-moss-from-spores", "life-in-moss",
 ]
 
 
