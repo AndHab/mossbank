@@ -1413,16 +1413,47 @@ PAGES["moss-and-air-quality"] = dict(
 ''',
 )
 
+PAGES["propagating-aquarium-moss"] = dict(
+    title="How to propagate aquarium moss",
+    description="Propagating aquarium moss at home: multiplying Java moss and others from fragments, spreading thin on mesh or hardscape, the emersed and dry-start methods for fast bulk, and keeping it clean.",
+    active="guides",
+    blurb="Never buy it twice. Multiply Java moss and friends from fragments, on mesh or hardscape, submerged or emersed.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Aquarium moss is the plant you buy once. Like its land cousins it regrows readily from fragments, so a golf-ball-sized portion becomes as much as you want with a little time. Here is how to multiply it on purpose.</p>
+
+      <h2>The basic principle</h2>
+      <p>Every trim is propagation. Cut a clump of Java moss, Christmas moss or the like and each fragment can grow into a new plant, so the clippings are not waste, they are your next batch. The two things that decide success are spreading it thin and keeping it clean.</p>
+
+      <h2>Spread it thin</h2>
+      <p>The commonest mistake is piling moss on in a thick wad. The inside of a thick clump gets no light or water flow, browns and rots, while only the surface grows. Tease your moss into a thin layer over wood, rock or mesh, tie or glue it down lightly (cotton thread or a dab of cyanoacrylate gel), and it spreads outward into a clean carpet far faster than a heap ever would. See <a href="aquarium-moss.html">aquarium mosses</a> for attaching.</p>
+
+      <h2>The mesh mat method</h2>
+      <p>For a moss carpet or wall, sandwich a thin scatter of fragments between two pieces of plastic mesh, or tie it to a single flat mesh panel, and lay it where you want cover. The moss grows through the mesh and knits into an even mat you can lift, trim or split. Trimmings from the mat start the next one.</p>
+
+      <h2>Emersed and dry-start growing</h2>
+      <p>Moss often bulks up faster grown emersed, that is out of the water but in saturated, humid air, than fully submerged. Lay fragments on a damp surface in a covered, humid container with bright indirect light, much like a <a href="terrariums.html">terrarium</a>, and let it carpet up before transferring it to the tank. Aquascapers use the same idea as a dry start: plant the moss on damp hardscape in a sealed, misted tank, grow it in emersed for a few weeks, then flood. It is the quickest way to a dense carpet.</p>
+
+      <h2>Keep it clean and lit</h2>
+      <p>Moss grows faster with decent light and gentle flow, and CO2 helps if you run it, but the bigger issue is cleanliness: detritus and algae settling in the strands choke it. Gentle flow keeps it clear, and a shrimp or two will happily pick it over. Trim to shape whenever it gets shaggy, and pass the clippings to another fishkeeper; moss is the friendly currency of the hobby. For why it is slow at first, see <a href="how-fast-does-moss-grow.html">how fast does moss grow</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
     "moss-in-paving", "watering-moss", "moss-pole", "spraying-moss",
     "sphagnum-moss", "aquarium-moss", "aquarium-moss-real-or-not",
-    "best-moss-for-terrariums", "moss-indoors", "moss-terrarium-troubleshooting",
-    "how-to-identify-moss", "telling-moss-apart", "collecting-moss",
-    "growing-moss-from-spores", "how-fast-does-moss-grow", "peat-and-peat-free",
-    "moss-and-wildlife", "life-in-moss", "moss-and-air-quality",
-    "moss-in-history", "moss-myths",
+    "propagating-aquarium-moss", "best-moss-for-terrariums", "moss-indoors",
+    "moss-terrarium-troubleshooting", "how-to-identify-moss", "telling-moss-apart",
+    "collecting-moss", "growing-moss-from-spores", "how-fast-does-moss-grow",
+    "peat-and-peat-free", "moss-and-wildlife", "life-in-moss",
+    "moss-and-air-quality", "moss-in-history", "moss-myths",
 ]
 
 
