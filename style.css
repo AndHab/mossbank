@@ -43,6 +43,8 @@ img{max-width:100%}
 .hero--page{min-height:34vh;background-size:cover;background-position:center;padding:48px 0}
 .hero--page h1{color:#fff;font-size:clamp(2rem,4.5vw,3.2rem);margin:0}
 .hero-inner{max-width:var(--max);margin:0 auto;width:100%;padding:0 24px}
+.page-head{background:var(--paper-alt);border-bottom:1px solid var(--line);padding:38px 0 30px}
+.page-head h1{margin:0;color:var(--green-deep);font-size:clamp(1.9rem,4vw,2.9rem)}
 .eyebrow{text-transform:uppercase;letter-spacing:.22em;font-size:.78rem;color:#bcd0b3;margin:0 0 14px}
 .hero--home h1{color:#fff;font-size:clamp(2.3rem,5.5vw,3.9rem);margin:0 0 18px;max-width:15ch}
 .lede{font-size:1.18rem;color:#34402f;max-width:60ch}

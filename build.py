@@ -26,6 +26,8 @@ IMAGE_CREDITS = [
     ("sundew-sphagnum.jpg", "Drosera rotundifolia among Sphagnum", "Geoff Gallice", "CC BY 2.0"),
     ("monstera-pole.jpg", "Monstera climbing a coir and moss pole", "Secretlondon", "CC BY-SA 4.0"),
     ("kokedama.jpg", "Kokedama of ornamental plants", "Wee Hong", "CC BY-SA 4.0"),
+    ("paludarium.jpg", "Paludarium, Grand Aquarium Saint-Malo", "Kev22", "CC BY-SA 4.0"),
+    ("kusamono.jpg", "Kusamono with fern and strawberry", "Sage Ross", "CC BY-SA 3.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -88,13 +90,19 @@ def page(slug, title, description, body, hero=None, active=None):
   <meta name="twitter:description" content="{html.escape(description)}">
   <meta name="twitter:image" content="{img}">
   <script type="application/ld+json">{ldjson}</script>'''
-    hero_block = ""
     if hero:
         hero_block = f'''
   <header class="hero hero--page" style="background-image:linear-gradient(rgba(20,32,18,.55),rgba(20,32,18,.7)),url('assets/{hero}')">
     <div class="wrap">
       <h1>{html.escape(title)}</h1>
     </div>
+  </header>'''
+    elif slug == "index":
+        hero_block = ""  # index renders its own h1 in the hero-home section
+    else:
+        hero_block = f'''
+  <header class="page-head">
+    <div class="wrap"><h1>{html.escape(title)}</h1></div>
   </header>'''
     return f'''<!DOCTYPE html>
 <html lang="en-GB">
@@ -106,8 +114,9 @@ def page(slug, title, description, body, hero=None, active=None):
   {meta}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
   {ANALYTICS}
 </head>
 <body>
@@ -2034,10 +2043,289 @@ PAGES["moss-for-carnivorous-plants"] = dict(
 ''',
 )
 
+PAGES["moss-and-pets"] = dict(
+    title="Is moss safe for pets?",
+    description="Whether moss is safe around cats, dogs, reptiles and aquarium animals: which mosses are non-toxic, the real cautions with preserved and decorative moss, and using moss safely in vivariums and tanks.",
+    active="guides",
+    blurb="Cats, dogs, reptiles and fish: which moss is safe, what to watch for, and the preserved-moss caution.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss turns up around a lot of animals, in vivariums, aquariums, on a houseplant the cat chews, so it is reasonable to ask whether it is safe. For living moss the short answer is reassuring; the cautions lie elsewhere.</p>
+
+      <h2>Living moss</h2>
+      <p>The true mosses are not toxic. A cat that nibbles a terrarium, a dog that noses at a mossy log, a tortoise grazing a patch, none are poisoned by the moss itself. It has no toxins to speak of and passes through as roughage. The realistic worry is not the plant but what might be on or in it: a wild-collected clump can carry slug pellets, lawn chemicals, fertiliser or parasites, so anything destined for a pet's enclosure should be cleaned, rinsed and ideally quarantined first, or bought from a supplier who grows it clean.</p>
+
+      <h2>The preserved-moss caution</h2>
+      <p>Preserved and decorative moss is a different matter. To stay soft and green it is treated with glycerine and often dyed, and those dyes and preservatives are not meant to be eaten. It is not classed as highly poisonous, but a pet that chews a preserved moss wall or a craft arrangement can get an upset stomach from the chemicals, and loose fibres are a choking and blockage risk. Keep preserved pieces out of reach of animals inclined to chew, and treat reindeer moss decorations the same way.</p>
+
+      <h2>In vivariums and aquariums</h2>
+      <p>Living moss is a positive for the animals it shares a tank or vivarium with. Dart frogs, geckos and the cleanup-crew invertebrates of a bioactive setup all benefit from the cover and humidity it provides, and aquarium fish and shrimp graze and shelter in it. The one rule that matters here is what touches the water: shrimp and other invertebrates are acutely sensitive to copper, so never introduce moss treated with any pesticide or copper-containing product, and quarantine new moss for hitchhikers. Those points are covered in <a href="moss-for-shrimp.html">moss for shrimp</a> and <a href="moss-in-vivariums.html">moss in a bioactive vivarium</a>.</p>
+
+      <h2>The sensible line</h2>
+      <p>Treat living moss as the harmless plant it is, clean anything wild before it goes near an animal, and keep dyed and preserved moss away from chewers. Do that and moss is one of the safer green things to have around pets, which is part of why it features so often in the enclosures we build for them.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-paludarium"] = dict(
+    title="Moss in a paludarium",
+    description="Using moss in a paludarium, the half-water half-land tank: where moss thrives on the emersed banks and hardscape, which species suit the humid air above the waterline, and how to establish and maintain it.",
+    active="guides",
+    hero="paludarium.jpg",
+    blurb="The half-land, half-water tank is ideal moss country. Where it thrives, which species, and how to grow it in.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A paludarium, part aquarium and part terrarium, with water below and land and air above, is close to perfect moss country. The humid air over the waterline gives moss exactly the damp, sheltered conditions it craves, and the result can be a vertical green landscape running from the water up the back wall.</p>
+
+      <h2>Where moss thrives in a paludarium</h2>
+      <p>The sweet spot is the emersed zone: the banks, rocks, wood and background that sit just above the water in saturated air. There the moss stays constantly moist without being drowned, and grows lush. Moss fully underwater behaves as an aquatic plant, while moss high and dry near a vent will struggle, so the band around and above the waterline is where it does best. Many keepers run moss from a little below the surface up the hardscape, blending the aquatic and emersed forms.</p>
+
+      <h2>Which mosses</h2>
+      <p>The aquarium mosses double brilliantly here, since species like Java, Christmas and weeping moss grow happily both submerged and emersed, which suits a tank that straddles both. For the purely land portions, the resilient terrestrial cushion and carpet mosses used in vivariums also work in the high humidity. Java moss is the reliable workhorse to start with, spreading over wood and rock with little fuss.</p>
+
+      <h2>Establishing and maintaining it</h2>
+      <p>Attach moss thinly to the hardscape exactly as in an aquarium, tying or gluing a light layer over wood and rock, since a thick wad rots in the middle. Keep the emersed sections misted or within reach of the splash from a trickle or waterfall feature, which is why paludariums so often include moving water. Bright but indirect light and a humid, lidded environment do the rest. Trim to shape as it fills in, and the clippings will seed new growth wherever they land. For attaching technique and species detail see <a href="aquarium-moss.html">aquarium mosses</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["wabi-kusa"] = dict(
+    title="Wabi-kusa: moss and emersed planting balls",
+    description="Wabi-kusa explained: the Japanese aquascaping style of a ball or mound of substrate planted with aquatics and moss and grown emersed, how moss fits, making one, and growing it on before flooding.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="The aquascaping ball of emersed plants and moss. What wabi-kusa is, how moss fits, and how to grow one.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Wabi-kusa is a quietly beautiful corner of the aquascaping world: a mound or ball of substrate planted with aquatic plants and moss, grown emersed, out of the water, as a living arrangement that can sit in a shallow dish or be dropped into a tank later. Moss is one of its natural ingredients.</p>
+
+      <h2>What it is</h2>
+      <p>The name nods to the wabi-sabi aesthetic of rustic, imperfect simplicity. In practice a wabi-kusa is a free-standing ball or low mound of soil, often bound with a little mesh or simply shaped by hand, planted with a mix of aquarium plants and moss and kept in humid air rather than underwater. The plants grow in their emersed forms, flowering and spreading in ways they never do submerged, and the whole thing reads as a miniature meadow.</p>
+
+      <h2>Where moss comes in</h2>
+      <p>Moss clothes the wabi-kusa as it does any hardscape, softening the base, knitting the planting together and holding moisture at the surface. The same aquarium mosses used elsewhere, Java and its relatives, take to emersed life readily and spread over the mound. Because the arrangement lives in damp air, moss thrives on it far more easily than it would on a dry surface indoors.</p>
+
+      <h2>Making and growing one</h2>
+      <p>Shape a ball of aquatic soil, sometimes around a core to hold its form, press in your chosen plants and a thin scatter of moss fragments, and stand it in a shallow dish with a little water and under a cover or in a humid spot with good light. Mist it, crack the cover daily for air to keep mould down, and let it grow in over several weeks; the technique is the same emersed growing described in <a href="dry-start-method.html">the dry start method</a>. Kept as a display it is an arrangement in its own right; dropped into a flooded tank, it becomes an instant planted scape.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["aquarium-moss-types"] = dict(
+    title="Aquarium mosses compared: Java, Christmas, flame and weeping",
+    description="A comparison of the common aquarium mosses: Java, Christmas, flame, weeping, Taiwan and phoenix moss, how they differ in shape, difficulty and growth habit, and which to choose for your scape.",
+    active="guides",
+    hero="thuidium.jpg",
+    blurb="Java, Christmas, flame, weeping and the rest, side by side. How they differ and which to pick for your tank.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Once you go looking, the aquarium trade offers a surprising spread of mosses, and they are not interchangeable. They differ in shape, speed, fuss and the look they give a scape, so it pays to know one from another before you tie it to your wood.</p>
+
+      <h2>Java moss</h2>
+      <p>The default, and rightly so. Nearly indestructible, tolerant of low light and a wide temperature range, fast to establish and forgiving of neglect. The trade-off is tidiness: left alone it grows shaggy and shapeless, so it rewards regular trimming. For a beginner, a shrimp tank or a low-tech setup, it is the obvious starting point.</p>
+
+      <h2>Christmas and Taiwan moss</h2>
+      <p>A step up in looks. Christmas moss grows in tiered, drooping fronds that genuinely resemble little fir branches, giving a denser, more deliberate texture than Java. Taiwan moss is similar, with neat layered growth. Both are a little slower and a little more demanding than Java, preferring decent light and gentle flow, and both look superb draped over wood.</p>
+
+      <h2>Flame and weeping moss</h2>
+      <p>These two earn their keep through their unusual habit. Flame moss grows upward in twisting, vertical columns that really do suggest green flames, useful for height and movement in a scape. Weeping moss does the opposite, trailing downward in soft curtains that look wonderful flowing off a branch or an overhang. Neither is difficult, though both reward stable conditions.</p>
+
+      <h2>Phoenix moss, and choosing</h2>
+      <p>Phoenix moss (a <em>Fissidens</em>) is a compact, slow, fern-like moss prized for foreground detail and for staying small and tidy. As a rough guide: pick Java for ease and shrimp, Christmas or Taiwan for a fuller draped look, flame for vertical accents, weeping for curtains, and phoenix for fine detailed work. They all attach and grow the same way, covered in <a href="aquarium-moss.html">aquarium mosses</a> and <a href="propagating-aquarium-moss.html">propagating aquarium moss</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-for-orchids"] = dict(
+    title="Moss for orchids",
+    description="Using sphagnum moss for orchids: why it suits epiphytes like Phalaenopsis, potting in moss versus bark, mounting orchids with a moss pad, the watering balance, and avoiding rot.",
+    active="guides",
+    hero="sphagnum.jpg",
+    blurb="Why sphagnum suits Phalaenopsis and friends, potting and mounting with it, and the watering balance to avoid rot.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Many orchids grow in the wild as epiphytes, perched on tree branches with their roots in the air, taking water from rain and humidity rather than soil. Sphagnum moss suits that life well, which is why it is a staple of orchid growing, especially for the popular Phalaenopsis.</p>
+
+      <h2>Why sphagnum works</h2>
+      <p>Orchid roots want two things that seem to pull against each other: moisture and air. Long-fibre sphagnum delivers both, holding water while staying open and springy enough for air to reach the roots. It is also low in nutrients and gently acidic, which suits plants adapted to a sparse, airy perch rather than rich earth. Packed loosely around the roots, it keeps them evenly damp without the suffocating wetness of ordinary compost.</p>
+
+      <h2>Moss or bark</h2>
+      <p>The two common orchid media are sphagnum and bark, and the choice shapes how you water. Moss holds far more water and dries slowly, so it suits drier homes and growers who water less often, but it is less forgiving of a heavy hand. Bark drains fast and dries quickly, suiting those who tend to overwater. Many growers use moss for young plants and seedlings, which like steadier moisture, and move to bark as the plant matures.</p>
+
+      <h2>Mounting and the watering balance</h2>
+      <p>For the epiphytic look, an orchid can be mounted on a slab of cork or wood with a pad of sphagnum tucked under its roots to hold moisture; this needs frequent misting but mimics the wild beautifully. Whether mounted or potted, the key is the watering balance: sphagnum should be moist, never sodden, and should be allowed to approach dryness before rewetting. Constant saturation is the usual cause of root rot, so err towards letting it breathe between waterings, and use rainwater or low-mineral water where you can.</p>
+
+      <h2>When to refresh it</h2>
+      <p>Sphagnum breaks down in the pot over a year or two, growing dense and sour and holding too much water as it does. Repot into fresh moss when it starts to look matted and stays wet, usually every one to two years, checking the roots over as you go. The wider uses of the moss are gathered in <a href="sphagnum-moss.html">sphagnum moss and its many uses</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["fairy-gardens"] = dict(
+    title="Moss fairy gardens and miniature landscapes",
+    description="Making a moss fairy garden or miniature landscape: using moss as the lawn of a tiny world, choosing a container, building hills and paths, keeping it alive, and ideas for a project with children.",
+    active="guides",
+    hero="hero.jpg",
+    blurb="Moss as the lawn of a tiny world. Building a miniature landscape or fairy garden, and keeping it green.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss is the natural turf of any miniature world. At a small scale its fine texture reads convincingly as rolling lawn, woodland floor or hillside, which is why it is the heart of fairy gardens and model landscapes alike, and a lovely project to build with children.</p>
+
+      <h2>Moss as the lawn of a tiny world</h2>
+      <p>The trick of a miniature landscape is scale, and moss gets the scale right where grass or ordinary plants would tower absurdly over a little scene. A cushion moss becomes a hill, a flat carpet moss becomes a meadow, and a fern moss becomes a stand of miniature trees. Around those, small stones turn into boulders and a saucer of water into a pond, so the moss does most of the work of suggesting a whole landscape.</p>
+
+      <h2>Choosing the container</h2>
+      <p>A shallow bowl, an old drawer, a wooden tray or a large saucer all work, and a clear glass dish or a lidded jar holds humidity best and keeps the moss greener with less effort. Whatever you use wants a little drainage material in the base if it is open, since moss dislikes standing water, and bright but indirect light. A covered container behaves like a terrarium and is the easiest to keep alive indoors.</p>
+
+      <h2>Building the scene</h2>
+      <p>Lay a thin base of free-draining substrate, then press in your moss as the ground layer, butting pieces together and using cushions for high ground and carpets for the flats. Add the features, a pebble path, a piece of bark, a small ornament or fairy door, before the moss knits in, so it settles around them naturally. Keep the planting sparse and let the moss carry the composition; an overcrowded scene loses the calm that makes these little worlds appealing.</p>
+
+      <h2>Keeping it alive</h2>
+      <p>Mist it to keep the moss damp, stand it out of direct sun, and use rainwater if your tap is hard. In an open dish it will need misting every few days; under glass it can go a fortnight or more between sprays. Treat it as you would a <a href="terrariums.html">terrarium</a>, and the green lawn of your tiny world will hold for a long time, which is part of what makes it such a rewarding thing to make with a child.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["reviving-dried-moss"] = dict(
+    title="How to revive dried-out moss",
+    description="Reviving dried-out or brown moss: why moss goes dormant rather than dying when it dries, how to rehydrate a brown patch, when it is genuinely dead, and reviving moss bought dried.",
+    active="guides",
+    blurb="Brown and crispy is usually dormant, not dead. How to bring dried moss back, and when it has really gone.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A patch of moss gone brown and crisp looks finished, and people dig it out or throw it away. Most of the time that is a mistake, because moss does not die when it dries; it shuts down and waits, and a good soaking brings it back.</p>
+
+      <h2>Why brown moss is usually just dormant</h2>
+      <p>Moss has the ability to let its water content fall to almost nothing, going dormant in a desiccated state and resuming life when moisture returns. In that state it looks dead, brown and brittle, but the cells are intact and merely paused. This is how it survives drought on a wall or a roof, and it is why a summer-scorched patch greens up again after autumn rain. The default assumption with brown moss should be that it is resting.</p>
+
+      <h2>Bringing it back</h2>
+      <p>Rehydration is simple. Give the moss a thorough wetting with rainwater or low-mineral water and keep it damp, by misting daily or, for a detached piece, by soaking it in a bowl for a quarter of an hour. Within a day or two living moss starts to swell, soften and green from the tips. Set it somewhere shaded and humid while it recovers rather than back in the sun that dried it, and be patient over a week or so; a badly desiccated cushion can be slow to wake fully.</p>
+
+      <h2>When it really is dead</h2>
+      <p>Moss does have limits. Prolonged drought, baking heat, being smothered under wet leaves until it rots, or a dose of mosskiller will genuinely kill it, and dead moss stays brown, goes slimy or simply crumbles away without ever greening after repeated wetting. If a fortnight of consistent moisture brings no flush of green anywhere in the patch, accept that it has gone and start fresh, as in the <a href="growing.html">growing guide</a>.</p>
+
+      <h2>Reviving moss bought dried</h2>
+      <p>Dried sphagnum and some dried sheet mosses sold for crafts and orchids can sometimes be coaxed back to life, since fragments may still be viable, but it is hit and miss; preserved moss, treated with glycerine, is dead for good and will never grow. If you want living moss, start with living moss or fresh fragments rather than counting on reviving a bag of the dried stuff.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["kusamono"] = dict(
+    title="Kusamono: moss and accent plantings",
+    description="Kusamono, the Japanese art of accent plantings displayed alongside bonsai: what they are, the place of moss, choosing plants and pots, and caring for these small seasonal arrangements.",
+    active="guides",
+    hero="kusamono.jpg",
+    blurb="The little seasonal plantings shown beside bonsai, where moss is the finishing ground. What they are and how to grow one.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Kusamono are the small plantings of grasses, wildflowers and herbs grown and displayed in their own right, often alongside bonsai to set a season and a mood. Moss is their usual finishing ground, the green skin that ties the planting to its pot and makes it look settled and complete.</p>
+
+      <h2>What kusamono are</h2>
+      <p>The word means "grass thing", and that captures the spirit: humble, seasonal plants rather than grand specimens, arranged to evoke a particular time of year or kind of place, a damp meadow, an autumn bank, a patch of spring woodland. Shown beside a bonsai they provide context and contrast; shown alone they are a quiet art of their own. The closely related accent plantings used specifically to complement a bonsai display are sometimes called shitakusa.</p>
+
+      <h2>The place of moss</h2>
+      <p>Moss does for a kusamono what it does for a bonsai: it covers the soil, keeps it cool and damp, stops it washing out, and finishes the composition with a natural, aged look. Beyond the practical, it belongs to the aesthetic, suggesting the mossy ground these little plants would grow on in the wild. A fine, flat carpet moss over the surface, with the chosen plants rising from it, is the typical treatment.</p>
+
+      <h2>Plants and pots</h2>
+      <p>Choose modest, seasonal material: ferns, sedges, grasses, small wildflowers, miniature hostas, anything that reads as a scrap of wild ground rather than a showy garden plant. The pot matters as much as the planting, usually a small, understated, often handmade ceramic or a simple slab, chosen to suit the plant and the season rather than to dominate. Restraint is the whole point.</p>
+
+      <h2>Care</h2>
+      <p>These are small, shallow plantings, so they dry quickly and want regular watering and a position out of harsh sun, much like the moss that dresses them. Many are treated as seasonal, brought to their best for a display when their plant is at its peak and rested afterwards. Keep the moss damp with rainwater, clear debris, and divide or replant as the material grows, and a kusamono can be kept and refined for years. The moss side of it follows the same principles as <a href="bonsai-moss.html">moss for bonsai</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-biophilic-design"] = dict(
+    title="Moss walls and biophilic design",
+    description="Moss in biophilic design: why moss walls appear in offices and homes, the wellbeing and acoustic case, living versus preserved moss for interiors, and an honest look at the claimed benefits.",
+    active="guides",
+    blurb="Why moss walls turn up in offices and lobbies, the wellbeing and acoustic case, and living versus preserved.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss walls have become a fixture of offices, lobbies and smart interiors, and they sit under the banner of biophilic design, the idea that bringing nature indoors makes the spaces we live and work in healthier and more pleasant. Moss is a natural fit for the look; it helps to be clear about what it does and does not deliver.</p>
+
+      <h2>Why moss, and the wellbeing case</h2>
+      <p>Biophilic design rests on a simple, well-supported observation: people generally feel calmer, focus better and report lower stress in spaces with greenery, daylight and natural materials than in bare ones. Moss appeals to designers because it provides that green, textured, natural presence on a wall with no soil, no irrigation in the preserved form, and very little weight. A moss wall reads instantly as nature in a way a flat painted surface never will.</p>
+
+      <h2>The acoustic angle</h2>
+      <p>One benefit is more concrete than the rest. A deep, soft moss surface absorbs sound, taking the edge off the echo and chatter of hard-surfaced open-plan rooms. This acoustic softening is a genuine, measurable effect and a real part of why moss panels are specified in busy offices, quite apart from how they look.</p>
+
+      <h2>Living or preserved indoors</h2>
+      <p>Most interior moss walls are preserved rather than living, and for good reason: a heated, dry, often dimly lit office is hostile to living moss, which needs humidity and light to stay green. Preserved moss gives the look and the acoustic benefit with no upkeep, which is covered in <a href="preserved-moss-wall.html">preserved moss walls</a>. A living wall indoors is possible but demands humidity, light and tending, as set out in <a href="moss-walls.html">living moss walls</a>; one honest caveat is that a preserved wall, being no longer alive, does not purify air or do the other things a living plant might.</p>
+
+      <h2>An honest view</h2>
+      <p>Taken for what it is, a moss wall is a sound piece of biophilic design: it brings a convincing scrap of nature indoors, softens noise, and asks little. Taken as a health device or an air purifier, the claims often run ahead of the evidence, a point looked at in <a href="moss-and-air-quality.html">moss and air quality</a>. Specify it for the calm and the quiet it genuinely brings, and it earns its place on the wall.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["ageing-with-moss"] = dict(
+    title="Ageing pots, stone and ornaments with moss",
+    description="How to age pots, statues, stone and garden ornaments with moss for an instant weathered look: the buttermilk and moss slurry method, where it works, and how to keep the patina going.",
+    active="guides",
+    blurb="Give a new pot or ornament a weathered, decades-old look. The slurry method for ageing stone and terracotta.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A new terracotta pot or a freshly cast stone ornament announces its newness, all sharp edges and bright clean surfaces. A skin of moss is the quickest way to take the edge off and lend the weathered, long-settled look that otherwise takes years of weather to earn.</p>
+
+      <h2>The slurry method</h2>
+      <p>The technique is the same moss milkshake used for graffiti and walls. Blend a couple of handfuls of clean moss with enough buttermilk or natural yoghurt, thinned with water, to make a paint, then brush it over the surfaces you want aged. The dairy helps it cling and feeds the moss a little while it takes hold. Paint it into crevices, around rims and over textured areas where moss would naturally settle, rather than evenly all over, for a believable result.</p>
+
+      <h2>What it works on</h2>
+      <p>Porous, rough materials take moss best: terracotta, unglazed ceramic, natural stone, concrete and cast reconstituted stone all give the moss something to grip. Smooth, glazed or sealed surfaces are far harder, since there is nothing for the rhizoids to hold and the slurry simply slides off. Pick a piece destined for shade and damp, because the same conditions that grow moss anywhere apply here; an ornament in full sun will stay stubbornly clean.</p>
+
+      <h2>Keeping the patina</h2>
+      <p>Once painted, keep the piece in shade and mist it regularly for the first few weeks while the moss establishes, exactly as for any new moss. After that, a position that stays cool and damp will maintain the patina with little help, while a dry spell will send it dormant and dull until the moisture returns. Over a season or two the moss thickens and the piece looks as though it has stood in the garden for decades, which is the whole idea. The underlying method is set out in the <a href="spraying-moss.html">slurry and spraying guide</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
-    "bun-moss", "moss-for-carnivorous-plants", "marimo-moss-balls", "reindeer-moss",
+    "ageing-with-moss", "bun-moss", "moss-for-carnivorous-plants", "moss-for-orchids",
+    "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
+    "moss-and-pets", "reviving-dried-moss", "kusamono",
     "removing-moss",
     "moss-on-roofs", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
     "moss-pole", "spraying-moss", "sphagnum-moss", "aquarium-moss",
