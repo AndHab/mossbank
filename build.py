@@ -209,7 +209,7 @@ PAGES["biology"] = dict(
       <p>When a capsule ripens it dries, opens, and releases dust-fine spores to the wind. A spore that lands somewhere damp and shaded germinates into a fine green thread, the protonema, which in turn buds into a new cushion. The cycle begins again. Moss also spreads the lazy way, simply by fragments: a broken-off piece that lands somewhere suitable regrows into a whole new plant, which is the trick gardeners exploit when they propagate it.</p>
 
       <h2>The two growth forms</h2>
-      <p>Look at a few mosses and they sort into two camps, a split worth knowing because it decides how a moss behaves. Some grow upright in tufts and tight cushions, staying compact and slow-spreading; these are the acrocarpous mosses, the bun-like domes on a wall top. Others creep and branch sideways into flat, spreading carpets and wefts; these are the pleurocarpous mosses, the feathery mats over logs and soil. Cushion-formers give shape and texture, carpet-formers give fast continuous cover, and knowing which you are looking at is the single most practical piece of moss knowledge. It has its own guide in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+      <p>Look at a few mosses and they sort into two camps, a split worth knowing because it decides how a moss behaves. Some grow upright in tufts and tight cushions, staying compact and slow-spreading; these are the acrocarpous mosses, the bun-like domes on a wall top. Others creep and branch sideways into flat, spreading carpets and wefts; these are the pleurocarpous mosses, the feathery mats over logs and soil. Cushion-formers give shape and texture, carpet-formers give fast continuous cover, and knowing which you are looking at is about the most useful thing you can know about them. It has its own guide in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
 
       <h2>Where mosses grow</h2>
       <p>Because a moss feeds from the air and only needs something to cling to, it grows where rooted plants cannot: bare rock, tree bark, brick and mortar, roof tiles, the compacted ground under trees, the splash zone by streams. What it cannot abide is the combination of strong sun and dry wind, which strips its moisture faster than it can take it up, so you find it on the cool, shaded, damp side of things. That same independence is why moss is one of the first life to colonise bare ground after disturbance, slowly building the conditions other plants then move into.</p>
@@ -598,6 +598,12 @@ PAGES["kokedama"] = dict(
       <h2>Watering and care</h2>
       <p>You water a kokedama by soaking, not pouring. When the ball feels light, sit it in a bowl of water (rainwater for preference) for ten to twenty minutes until it stops bubbling and feels heavy again, then let it drain. How often depends on your room, but once or twice a week is typical. Keep it out of direct sun and away from radiators, mist the moss between soakings if your air is dry, and feed the plant occasionally in summer by adding a weak feed to the soak water.</p>
 
+      <h2>Choosing the plant</h2>
+      <p>The plant matters more than the wrapping. Pick something that tolerates shade and likes its roots evenly moist, since that is the life a kokedama offers. Ferns are the natural fit, and ivy, pothos, peace lily, asparagus fern, spider plant and many small foliage houseplants all settle in happily. Avoid succulents and cacti, which want to dry right out and will rot in a damp ball, and skip anything that grows into a heavy specimen the wrapping cannot support. A small, slow plant is easier to keep looking right than a vigorous one straining at the moss.</p>
+
+      <h2>When it goes wrong, and how long it lasts</h2>
+      <p>Two faults account for most trouble. A ball left to dry hard sheds its moss and stresses the plant, so weigh it in your hand and soak before it gets light. A ball kept sodden, sitting in a saucer of water, rots the roots from the inside; let it drain fully after each soak and never leave it standing. The moss itself wants the humidity and indirect light described above, and will brown on a hot dry windowsill. Looked after, a kokedama lasts a year or two before the plant outgrows the ball, at which point you simply unwrap it, pot it on or split it, and start again with a fresh sphere.</p>
+
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
     </div>
   </section>
@@ -626,6 +632,12 @@ PAGES["terrariums"] = dict(
       <h2>Planting and care</h2>
       <p>Press each piece of moss firmly onto the substrate so it makes full contact, then mist lightly. Stand the terrarium in bright, indirect light, never direct sun, which cooks the inside in minutes. A closed jar should show a light mist on the glass; clear it for a while if it streams with water, and add a spray if it dries out. That is more or less the entire job.</p>
 
+      <h2>Hardscape and arrangement</h2>
+      <p>A jar of flat moss is pleasant; a little landscaping makes it absorbing. A couple of stones, a knot of driftwood or a piece of cork bark give the eye somewhere to rest and the moss something to climb. Set the taller cushions towards the back and let a carpet run forward to the glass, so there is a sense of depth rather than a flat lawn. Odd numbers of features tend to look more natural than even, and a single bold stone usually beats a scatter of small ones. Tweezers and a long spoon help you place things in a narrow-necked vessel.</p>
+
+      <h2>The long game</h2>
+      <p>A sealed moss terrarium is one of the few planted things that genuinely thrives on neglect, since the water cycles round inside it and the moss asks for almost nothing. Months can pass between sprays. The usual reasons one fails are a sunny windowsill, which overheats it, and too much rich soil or buried leaf litter, which feeds mould in the still air. Keep it bright but shaded, keep the substrate lean, pull out anything that starts to fur over, and a good terrarium will hold its looks for years. For diagnosing the wobbles, there is a dedicated <a href="moss-terrarium-troubleshooting.html">troubleshooting guide</a>.</p>
+
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
     </div>
   </section>
@@ -650,6 +662,12 @@ PAGES["bonsai-moss"] = dict(
 
       <h2>Do not let it work against you</h2>
       <p>Moss holds water, which is the point, but on a tree that likes to dry between waterings it can keep the surface too wet and hide what the soil is doing. Keep an eye on watering, lift a corner now and then to check the soil beneath, and trim the moss back if it starts creeping up the trunk. On the show bench, a neat moss surface is the finishing touch; off-season, give the tree normal airflow.</p>
+
+      <h2>Matching the moss to the tree</h2>
+      <p>The moss should sit beneath the tree in scale and in feeling, never compete with it. On a small shohin bonsai a coarse, shaggy moss looks absurd, like long grass round a model; choose the finest, tightest carpet you can find. On a larger, rugged tree a slightly bolder moss reads well. Aim for variation too: a single flawless green sheet can look artificial, whereas a mix of tones and a hint of bare, mossy soil at the edges looks like ground that has simply aged. Many growers keep a tray of spare moss going so there is always a patch to lift from before a show.</p>
+
+      <h2>Through the year</h2>
+      <p>Moss on bonsai is best treated as a seasonal dressing rather than a permanent fixture. It looks its part in the cool, damp growing season and for display, but a tree sealed under moss through a wet winter can stay soggy at the worst time. Many keepers lift or thin the moss off-season to let the soil breathe and to watch the surface, then re-dress before the tree goes on show. That rhythm also lets you correct watering habits the moss would otherwise mask.</p>
 
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
     </div>
@@ -676,6 +694,12 @@ PAGES["moss-walls"] = dict(
       <h2>Building one</h2>
       <p>The usual approach is a shallow framed panel backed with a moisture-holding medium such as a felt mat or a fine substrate, onto which moss is pressed or grown in. Keep the panel evenly damp while the moss grips, using rainwater if you can. The slurry method works for covering an awkward shape: paint blended moss onto the backing and keep it misted until it knits. Once it has taken, the wall largely looks after itself in the right spot.</p>
 
+      <h2>Indoors, and the humidity question</h2>
+      <p>A living wall indoors lives or dies on humidity. Ordinary heated rooms sit too dry for moss to stay green, so an indoor living wall realistically needs either a naturally humid spot, a bright bathroom being the classic, or some help: regular misting, a nearby humidifier, or a sealed glass-fronted frame that holds moisture like a vertical terrarium. A room hovering around the upper half of the humidity range gives moss a fighting chance; a dry lounge does not. If you simply want green on the wall and not a maintenance habit, preserved moss is the practical answer, covered in <a href="preserved-moss-wall.html">preserved moss walls</a>.</p>
+
+      <h2>Watering without a flood</h2>
+      <p>The trick with any vertical planting is wetting it evenly without water sheeting straight to the floor. Mist by hand for a small panel, or for a larger one fit a simple drip line along the top and let gravity carry moisture down through the backing. Whatever the method, the backing wants to stay damp like a wrung-out cloth, never running, and a waterproof tray or channel at the base catches the surplus. Rainwater keeps the moss greener and spares the wall the limescale that hard tap water leaves.</p>
+
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
     </div>
   </section>
@@ -701,6 +725,12 @@ PAGES["japanese-moss-gardens"] = dict(
       <h2>Bringing the idea home</h2>
       <p>You do not need a temple. A shaded, damp corner, a few good stones, a simple path and patience will carry the feeling. Prepare the ground as in the <a href="growing.html">growing guide</a>, keep grass and weeds out, clear fallen leaves in autumn, and let the moss thicken year on year. The discipline is mostly in what you leave out.</p>
 
+      <h2>The idea behind it</h2>
+      <p>These gardens are not merely lawns of moss; the restraint carries meaning. The even green surface is meant to calm the eye and suggest age, stillness and the slow passage of time, qualities tied to the Zen Buddhist temples where many of the famous examples grew. Moss reads as something that has always been there, that arrived on its own and was allowed to stay, and that quietness is the whole point. Understanding that helps when you plan your own: the aim is not to fill the space but to compose a few elements and let the moss hold them together.</p>
+
+      <h2>Stone, water and the planting around it</h2>
+      <p>In the traditional palette the moss is the ground and a handful of other elements sit within it: weathered rocks placed as if they grew there, a stone lantern or basin, raked gravel or a small pool, and a few trees, often maples and pines, for shade and seasonal change. A maple over moss is a particularly happy pairing, the autumn colour set against the steady green. Keep the planting sparse and the maintenance gentle, sweeping debris and trimming back anything that threatens to shade the moss into decline, and the composition deepens rather than fades as the years pass.</p>
+
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
     </div>
   </section>
@@ -725,6 +755,12 @@ PAGES["moss-graffiti"] = dict(
 
       <h2>Where, and whose wall</h2>
       <p>This is lovely on your own damp north wall, a shaded fence or a back yard. On anyone else's property it is criminal damage however green and gentle it looks, so ask first, and do not do it on listed or historic stonework where even moss can be unwelcome. Your wall, your rules; someone else's wall, their permission.</p>
+
+      <h2>Designing the lettering</h2>
+      <p>Moss spreads and softens as it grows, so fine detail blurs. Keep shapes bold and strokes thick, the way a stencil or a chunky display typeface reads, rather than attempting thin script that will smudge into an illegible green smear within weeks. A simple word, a number or a clean graphic holds up far better than anything fiddly. It helps to chalk the outline on the wall first, or cut a card stencil and paint the slurry through it, which keeps edges crisp while the moss is establishing.</p>
+
+      <h2>Why it often fails, and how to improve the odds</h2>
+      <p>Most disappointments come down to the wall and the watering. A sunny, smooth or painted surface will not hold moss however good the slurry, whereas rough, porous masonry in steady shade gives it a real chance. The other half is moisture: the design needs to stay damp for weeks while the fragments root, and a spell of neglect in dry weather undoes the lot. People who get good results either pick a wall that stays naturally damp or rig a way to keep it misted, and they accept that the design takes a month or two to come through rather than appearing overnight.</p>
 
       <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
     </div>
@@ -759,7 +795,13 @@ PAGES["preserved-moss-wall"] = dict(
       <p>Preserved moss is simply glued to a backing board. Cut a board to size, lay out your moss to plan the texture and colour, then fix each piece down with a hot-melt glue gun or a strong craft adhesive, packing the pieces tight so no backing shows at the edges. Mount the finished panel like a picture. There is no blending, no slurry and no yoghurt; those are living-moss techniques and have no place here.</p>
 
       <h2>If you want it living instead</h2>
-      <p>At 55 to 60 per cent humidity a living wall is borderline rather than impossible. It would need a genuinely shaded position out of direct sun, a small grow light, regular misting, and hardy cushion or sheet mosses rather than bog moss. That is a real ongoing project. If you want green on the wall and your time back, preserved is the sane choice; see the <a href="moss-walls.html">living moss walls</a> guide for the other path.</p>
+      <p>At 55 to 60 per cent humidity a living wall is borderline rather than impossible. It would need a genuinely shaded position out of direct sun, a small grow light, regular misting, and hardy cushion or sheet mosses rather than bog moss. That is a real ongoing project. If you want green on the wall and your time back, preserved is the sane choice; the <a href="moss-walls.html">living moss walls</a> guide covers the other path.</p>
+
+      <h2>How long it lasts</h2>
+      <p>A preserved wall holds its look for years rather than months, often quoted at five to ten years indoors before the colour dulls and it wants refreshing. What shortens that is mistreatment rather than age: direct sunlight bleaches the green, dry air near a vent or radiator makes it brittle and shed, and damp lets it spoil. Keep it out of those three and it ages gracefully. There is no watering, no feeding and no pruning in between; an occasional gentle dusting with a soft brush or a puff of air is the entire maintenance routine.</p>
+
+      <h2>Cost, and making your own</h2>
+      <p>Bought ready-made, preserved panels are priced as decor and add up quickly for a large area. Making your own is far cheaper and not difficult: preserved moss is sold loose by weight, and you simply glue it to a board as described above, which also lets you mix textures and shapes to taste. Buying the moss loose and building the panel yourself typically costs a fraction of a finished commission, and a weekend of gluing covers a sizeable wall. It is a satisfying job, and forgiving, since gaps are easily filled and the eye reads the overall texture rather than any single piece.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -786,8 +828,14 @@ PAGES["removing-moss"] = dict(
       <h2>Patios, paths and decking</h2>
       <p>For paving and stone, a stiff brush and a bucket of hot water shift most of it; a patio cleaner or a weak solution does the rest. On decking, scrub along the grain and rinse. Keep these surfaces clear afterwards by improving drainage and cutting back overhanging growth so they dry out between downpours. On steps, treat moss as a slip hazard and stay on top of it.</p>
 
+      <h2>Chemical mosskillers, and when to skip them</h2>
+      <p>The common chemical treatments are based on ferrous sulphate (iron), the active part of most lawn sands and path mosskillers. They work fast, blackening moss within a day or two, and on a lawn they have the side benefit of greening the grass. The catch is that they kill the existing moss without touching the reasons it grew, so on a shaded, damp surface you are signing up to repeat the dose every season. They also stain paving and concrete with rust marks, so on a patio or path a brush and hot water are usually the better tool. Bleach and harsh cleaners shift moss too but harm surrounding plants and soil life, and are best avoided outdoors.</p>
+
+      <h2>Prevention that actually holds</h2>
+      <p>Clearing moss is the easy half; keeping it gone is the half that lasts. Everything that helps comes down to letting the surface dry and see daylight: cut back overhanging branches and shrubs, clear leaf litter and debris that hold damp, improve drainage so water does not sit, and on roofs fit zinc or copper strips whose run-off discourages regrowth. None of this is dramatic, but a surface that dries out between downpours grows far less moss than one that stays perpetually shaded and wet.</p>
+
       <h2>The honest caveat</h2>
-      <p>If a surface is permanently shaded and damp, moss will keep coming. At that point you are choosing between regular clearing and accepting a little green. Where it is not a safety issue, the second option is a great deal less work.</p>
+      <p>If a surface is permanently shaded and damp, moss will keep coming whatever you do. At that point the real choice is between clearing it on a schedule and simply accepting a little green. Away from steps and other places where a slippery film is a hazard, living with it is far less work and arguably better looking than a constant chemical battle.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -818,6 +866,12 @@ PAGES["moss-lawn"] = dict(
       <h2>Establish and keep it</h2>
       <p>Mist daily for the first three or four weeks, ideally with rainwater, while the moss grips. After that, rainfall and shade do most of the work. The only routine job is clearing fallen leaves in autumn so the moss is not smothered. Walk on it lightly while young; once thick it takes gentle use. It improves every year.</p>
 
+      <h2>What to expect, year by year</h2>
+      <p>Temper your expectations on timing and a moss lawn is a delight; expect an instant carpet and you will be disappointed. In the first few months the patches or slurry green up and begin to spread, looking patchy and unconvincing while they do. Across the first full year they knit together into more or less continuous cover. By the second and third years the lawn has thickened into the deep, even, springy surface people picture, and from then on it simply improves, deepening and filling as the seasons pass. The slow start is the price of a surface that then needs almost nothing.</p>
+
+      <h2>Honest comparison with grass</h2>
+      <p>A moss lawn is not a like-for-like swap for turf, and it helps to know the trade in advance. Against grass it wins on shade tolerance, winter colour, drought resilience and upkeep, no mowing, no feeding, little watering. It loses on hard wear: it will not take football, a running dog or daily heavy footfall the way a sports lawn does, though it copes with normal garden use and stepping stones. So the honest summary is that moss suits a shaded, gently used garden beautifully and a sunny, child-and-ball-battered one poorly. Choose it for the right spot and it outperforms grass; force it into the wrong one and it struggles.</p>
+
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
   </section>
@@ -842,6 +896,12 @@ PAGES["moss-pole"] = dict(
 
       <h2>Making and using one</h2>
       <p>Form a tube of plastic mesh, pack it firmly with pre-soaked sphagnum, and stand it in the pot behind the plant, anchored into the soil. Tie the stems in loosely to start, guiding the nodes against the moss. Then keep the pole damp: mist it daily or pour water down the top, and the aerial roots will grow into it and grip on their own. Extend the pole as the plant climbs.</p>
+
+      <h2>Keeping it damp without the bother</h2>
+      <p>The whole benefit rests on the pole staying moist, and a dry pole is the usual reason aerial roots refuse to attach. Daily misting works but is easily forgotten; growers with several plants tend to rig something steadier. A length of capillary wick run from a small reservoir at the top, a self-watering pole with a hollow core you simply top up, or a weekly thorough soak of the whole pole in the shower all keep the sphagnum damp with less fuss than hand-misting. Warm, humid air helps too, which is why these plants and their poles do well in a steamy bathroom.</p>
+
+      <h2>Extending and the usual mistakes</h2>
+      <p>Add to the pole before the plant overtops it rather than after, since a stem that has grown past its support flops and is awkward to retrain. Most problems come from two habits: letting the pole dry out, so roots never grip, and tying stems so tightly that they are throttled or snapped. Tie loosely, guide rather than force, and let the plant do the climbing itself. A pole that stays damp and is extended in good time turns a sprawling, leggy aroid into an upright specimen with markedly larger leaves.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -872,6 +932,12 @@ PAGES["aquarium-moss"] = dict(
 
       <h2>Light, flow and trimming</h2>
       <p>Most aquarium mosses are content in low to moderate light and do not need added carbon dioxide, though brighter light and CO2 give denser, neater growth. Gentle flow keeps debris from settling in the strands, which otherwise traps muck and starves the moss. Trim with scissors to keep the shape; the clippings will start new patches wherever they settle.</p>
+
+      <h2>What moss does for the tank</h2>
+      <p>Beyond looking good, moss pulls real weight in a planted tank. Its dense tangle grows the biofilm that shrimp and young fish graze, and it gives fry and shrimplets both food and cover at the moment they are most vulnerable, which is why breeders treat it as close to essential. It also offers a surface for beneficial bacteria, mops up a little excess nutrient, and shelters the small invertebrates that round out a tank's ecology. For dwarf shrimp in particular there is a dedicated piece on <a href="moss-for-shrimp.html">how moss benefits Caridina and Neocaridina</a>.</p>
+
+      <h2>Aquascaping with moss</h2>
+      <p>Aquascapers prize moss because it does what almost nothing else underwater will: clothe hardscape. Tied thin over branching wood it reads as foliage on a miniature tree; bound to a flat stone it makes a mossy boulder; grown on a mesh panel it becomes a wall or a lawn. The look depends on trimming, since an untrimmed clump turns shapeless and shades out its own base, so regular light scissoring keeps it crisp and healthy. Growing the carpet in emersed first, by the dry start method, gives the densest, most even result; both that and bulk-growing are covered in <a href="propagating-aquarium-moss.html">how to propagate aquarium moss</a>.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -904,6 +970,12 @@ PAGES["telling-moss-apart"] = dict(
       <h2>Clubmosses</h2>
       <p>These look mossy but are larger, with tougher, scaly stems, and belong to an ancient vascular group quite separate from the true mosses. Mostly you meet them on heath and hill rather than in the garden.</p>
 
+      <h2>A quick field test</h2>
+      <p>Faced with a patch of green and unsure what it is, a few seconds of looking usually settles it. Is it soft and leafy, made of tiny shoots you could tease apart, often with fine stalks standing above it? That is moss. Is it flat, lobed and pressed to the surface with no upright shoots? Liverwort. Is it crusty, leathery or shrubby, dry to the touch and a colour other than fresh green? Lichen. Is it a structureless film or slime you can wipe away in one smear? Algae. A hand lens turns these hunches into certainties, and once you have checked a dozen patches the answer comes at a glance.</p>
+
+      <h2>Why the distinction is worth making</h2>
+      <p>It is not mere pedantry. The four groups want different conditions and respond differently to whatever you do about them, so misidentifying the green is the first step to mistreating it. Algae signals a surface that is simply too wet and shaded and will wipe off; lichen is slow-growing and harmless and generally best left; liverwort on pot compost points to overwatering; and moss, depending on where it is, may be a welcome carpet or a slip hazard to manage. Knowing which you have tells you whether to leave it, encourage it or clear it.</p>
+
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
   </section>
@@ -929,6 +1001,12 @@ PAGES["life-in-moss"] = dict(
       <h2>Why moss is such good habitat</h2>
       <p>Moss does for these animals what it does for itself: it holds water, buffers the swings of temperature and humidity, and provides endless sheltered surface in a small space. Lose the moss from a wall or a wood and you lose this whole layer of life, and the larger creatures that feed on it. It is a reminder that the quiet green is doing more than it appears.</p>
 
+      <h2>Look for yourself</h2>
+      <p>Finding this world takes almost nothing. Collect a dry cushion of moss, drop it into a jar of water and leave it to soak for an hour or two, then squeeze the water out into a shallow dish or onto a glass slide. Under a basic microscope, even a cheap one or a clip-on phone lens at decent magnification, the drop comes alive: tumbling rotifers, scuttling mites, the unmistakable plodding gait of a tardigrade. Children find it spellbinding, and it costs the price of a jam jar. A drop from different mosses, or from a wall versus a wood, turns up noticeably different casts of characters.</p>
+
+      <h2>A measure of a healthy place</h2>
+      <p>The richness of that hidden community is also a quiet indicator. A moss cushion teeming with varied life sits in clean, undisturbed surroundings; a thin, sparse one often reflects pollution or disturbance nearby. Researchers lean on this, sampling the animals in moss as one read on the health of a habitat. For the gardener the lesson is gentler: a mossy, undisturbed corner is not a sign of neglect but a small reservoir of biodiversity, and leaving it be supports far more than the moss itself.</p>
+
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
   </section>
@@ -953,6 +1031,12 @@ PAGES["growing-moss-from-spores"] = dict(
 
       <h2>If you really want to start from spores</h2>
       <p>Scatter the contents of ripe capsules, or lay whole capsules, onto a firm, damp, low-nutrient surface in shade, and keep it constantly moist and undisturbed for weeks to months. Results are erratic; whatever moss spores happen to be in your air may colonise the patch before your chosen species does. Treat it as an experiment rather than a reliable way to cover ground.</p>
+
+      <h2>The protonema, and why patience is everything</h2>
+      <p>It helps to know what is going on during the long wait. A germinating spore does not turn straight into a recognisable moss; first it grows a sprawling mat of fine green threads called the protonema, which can look like little more than a green algal film for weeks before the upright leafy shoots, the part you would call moss, finally bud from it. Many people give up at the film stage, assuming nothing is happening or that algae have taken over. The threads are fragile and depend utterly on the surface never drying, so the slightest neglect sets the whole thing back. This is the real reason spores are a poor way to cover ground: the vulnerable phase is long.</p>
+
+      <h2>Where growing from spores does make sense</h2>
+      <p>For covering an area, fragments win every time. But sowing spores has its place. It is how laboratories and serious enthusiasts raise particular species that are hard to source as living material, and it is a genuinely rewarding thing to watch under controlled, sterile-ish conditions on agar or a sterilised substrate, where competing spores from the air are excluded. Approached as a patient experiment rather than a quick way to green a path, it is a window into a part of the plant's life most people never see.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -1182,22 +1266,31 @@ PAGES["moss-myths"] = dict(
       <p class="lede">Moss attracts more folklore than most plants. A few of the common claims, and what is actually true.</p>
 
       <h2>"Moss is killing my lawn"</h2>
-      <p>No. Moss moves in where grass is already failing through shade, compaction or poor drainage. It is the symptom, not the cause. Kill it without fixing the conditions and it returns. See <a href="lawn.html">moss and lawns</a>.</p>
+      <p>It is the other way round. Moss moves in where grass has already weakened through shade, compaction or poor drainage, taking the space the grass has vacated rather than driving it out. Clear the moss and leave those conditions unchanged and it simply returns, which is why the <a href="lawn.html">moss and lawns</a> guide spends its time on the conditions rather than the moss.</p>
 
       <h2>"Moss damages trees"</h2>
-      <p>No. Moss on bark simply uses the trunk as a surface and takes nothing from the tree. It is a sign of clean, damp air, not of a sick tree.</p>
+      <p>It does not. Moss on bark uses the trunk only as a perch and draws nothing from it. If anything its presence speaks well of the air, since moss favours clean, damp conditions. A mossy old tree is a healthy sight, not a warning.</p>
 
       <h2>"Moss only grows on the north side"</h2>
-      <p>Mostly a half-truth. Moss favours the cooler, damper, shadier side of a tree or wall, which in the northern hemisphere is usually the north side, but it is following shade and moisture, not a compass. In a damp wood it grows on every side. Useful as a rough guide, not a reliable one.</p>
+      <p>A half-truth worth understanding. Moss prefers the cooler, damper, shadier face of a tree or wall, and in the northern hemisphere that is most often the north side, so the old navigation lore holds up loosely. What the moss is actually tracking is shade and moisture, though, not a compass bearing. In a damp wood it grows merrily on every side, so treat it as a hint rather than a reliable direction-finder.</p>
 
-      <h2>"You have to pressure-wash moss off"</h2>
-      <p>Please do not, at least not on a roof. Pressure-washing strips the protective surface off tiles and slates and shortens their life far more than moss does. A dry brush is the tool. See <a href="moss-on-roofs.html">moss on roofs</a>.</p>
+      <h2>"You have to pressure-wash it off"</h2>
+      <p>Please do not, least of all on a roof, where the jet strips the weatherproof surface from tiles and slates and costs you far more than the moss ever would. A dry brush does the job without the harm. The <a href="moss-on-roofs.html">roof guide</a> goes into why.</p>
 
       <h2>"Marimo balls are moss"</h2>
-      <p>No. The marimo "moss ball" is a green alga, not a moss at all. Java moss, on the other hand, genuinely is a moss. See <a href="aquarium-moss-real-or-not.html">which aquarium mosses are really moss</a>.</p>
+      <p>A common one in the aquarium hobby, and wrong: the marimo "moss ball" is a green alga that happens to grow into a velvety sphere. Confusingly, Java moss really is a moss, so the trade gets it both ways round. The full sorting is in <a href="aquarium-moss-real-or-not.html">which aquarium mosses are really moss</a>.</p>
 
-      <h2>"Moss has no roots, so it must feed off whatever it grows on"</h2>
-      <p>No. Those fine threads are rhizoids, and they only anchor the plant. Moss feeds itself from rain, mist and dust through its leaves, which is why it can live on bare rock, glass or a roof tile and harm none of them. See <a href="biology.html">what a moss actually is</a>.</p>
+      <h2>"It has no roots, so it must feed off what it grows on"</h2>
+      <p>No. The fine threads underneath are rhizoids, and their only job is to hold the plant in place. A moss feeds itself from rain, mist and airborne dust through its leaves, which is exactly why it can sit on bare rock, glass or a roof tile and take nothing from any of them.</p>
+
+      <h2>"Moss is a fungus"</h2>
+      <p>It is a plant, green and photosynthesising like any other, just an unusually simple one without roots, flowers or internal plumbing. The confusion may come from moss often keeping company with fungi and lichens in damp, shady places, but biologically they are far apart.</p>
+
+      <h2>"Moss means a damp problem in the house"</h2>
+      <p>Moss growing on an outside wall reflects shade and moisture on that wall, nothing more, and does not by itself indicate damp indoors. It does not bore into sound masonry or "spread" through a wall to the inside. Persistent damp inside has its own causes worth investigating, but a green north wall is not the diagnosis.</p>
+
+      <h2>"You cannot grow moss on purpose"</h2>
+      <p>You very much can, and people have for centuries; it just asks for the opposite of normal gardening. Give it shade, damp, poor firm ground and time, and it spreads readily from transplanted patches or a blended slurry. The whole of the <a href="growing.html">growing guide</a> is about doing it deliberately.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -1216,7 +1309,7 @@ PAGES["how-to-identify-moss"] = dict(
       <p class="lede">Telling a moss from a lichen or liverwort is one thing; naming the actual species is another, and it is where a lot of people stall. You do not need a laboratory, but you do need a hand lens and a few habits.</p>
 
       <h2>Get a hand lens</h2>
-      <p>A simple folding lens at ten or twenty times magnification is the single most useful tool, and it changes everything. Mosses are small and the features that separate species, the shape of a leaf, whether it has a midrib, the form of the little capsule, are simply invisible to the naked eye. Hold the lens close to your eye and bring the moss up to it, in good light.</p>
+      <p>A simple folding lens at ten or twenty times magnification is far and away the most useful tool, and it changes everything. Mosses are small and the features that separate species, the shape of a leaf, whether it has a midrib, the form of the little capsule, are simply invisible to the naked eye. Hold the lens close to your eye and bring the moss up to it, in good light.</p>
 
       <h2>The features that matter</h2>
       <ul class="loose">
@@ -1701,7 +1794,7 @@ PAGES["acrocarpous-vs-pleurocarpous"] = dict(
       <p>Pleurocarps are the carpet-makers. Their creeping, branching habit lets them knit quickly into a continuous mat, which makes them the right choice for a moss lawn, a green wall or covering ground fast. They are generally more tolerant of being walked on and handled, and they fragment and regrow readily, which is why most slurry and propagation work uses them. The trade-off is that they look like a carpet rather than a collection of jewel-like cushions.</p>
 
       <h2>Why it matters for your project</h2>
-      <p>Match the form to the job. For a lawn, a wall or any fast continuous cover, reach for pleurocarpous carpet mosses. For a terrarium, a moss garden or anywhere you want shape and texture, choose acrocarpous cushions, or mix the two, cushions for the hills and a pleurocarp to knit the floor between them. Knowing which is which turns "buy some moss" into choosing the right tool, and it is the single most practical piece of moss botany there is. See the <a href="species.html">species page</a> for common examples of each.</p>
+      <p>Match the form to the job. For a lawn, a wall or any fast continuous cover, reach for pleurocarpous carpet mosses. For a terrarium, a moss garden or anywhere you want shape and texture, choose acrocarpous cushions, or mix the two, cushions for the hills and a pleurocarp to knit the floor between them. Knowing which is which turns "buy some moss" into choosing the right tool, and it is the most practical scrap of botany the whole subject offers. See the <a href="species.html">species page</a> for common examples of each.</p>
 
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
@@ -1776,9 +1869,42 @@ PAGES["moss-through-the-seasons"] = dict(
 ''',
 )
 
+PAGES["moss-as-living-mulch"] = dict(
+    title="Moss as living mulch",
+    description="Using moss as a living mulch in shade: how it retains moisture, suppresses weeds, cools roots and protects soil, how it differs from bark and gravel, where it works, and the catch with seedlings.",
+    active="guides",
+    hero="thuidium.jpg",
+    blurb="It does mulch's job and never needs topping up. How moss retains moisture, smothers weeds and protects soil.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">It is a fair way to think of it. A skin of moss over the ground does much of what a layer of bark or gravel does, except that it is alive, renews itself, and looks like a small green landscape rather than a dressing. In a shady bed, moss is mulch that gardens itself.</p>
+
+      <h2>What mulch does, and how moss matches it</h2>
+      <p>Mulch earns its keep in a few plain ways, and moss covers most of them. It keeps moisture in, since a moss layer slows evaporation from the soil beneath and holds water like a sponge after rain. It suppresses weeds, because a dense carpet leaves bare ground little chance to seed. It buffers temperature, keeping roots cooler in heat and a touch more sheltered in cold. And it shields the surface from the battering of heavy rain, which on bare soil drives compaction and run-off. A bark or gravel mulch does these things passively as it sits there; moss does them while quietly growing.</p>
+
+      <h2>Where it shines, and where it does not</h2>
+      <p>The catch is the same one that governs moss everywhere: it wants shade and damp. As mulch it comes into its own in shaded borders, around the feet of ferns, hostas and woodland perennials, beneath trees and shrubs, and over the soil of containers and bonsai, where it keeps the root zone cool and finished. It is no use as mulch on a hot, sunny vegetable bed, where bark, straw or compost serve far better. So it suits the shady, ornamental parts of a garden and leaves the productive sunny ones to conventional materials.</p>
+
+      <h2>How it differs from bark and gravel</h2>
+      <p>Two differences are worth weighing. The first is feeding: a bark or compost mulch rots down over time and improves the soil, whereas moss adds very little nutrient and does not break down into the ground, so it protects the soil without enriching it. The second cuts in moss's favour: a conventional mulch needs topping up every year or two as it rots or scatters, while an established moss carpet renews itself and, if anything, thickens with age. Moss also takes nothing from the soil, having no roots to compete with the plants it surrounds.</p>
+
+      <h2>The catch with seedlings</h2>
+      <p>One genuine drawback follows from moss being such good ground cover: it is as happy to smother your seeds as the weeds you wanted gone. A dense moss layer makes a poor seedbed, and it can also hold damp against the soft stems of low plants in a wet spell. So use moss as mulch around established plants, and keep it off ground where you intend to sow or where you are raising seedlings. Treated that way, around the things already growing, it is one of the lowest-effort, longest-lasting mulches there is.</p>
+
+      <h2>Putting it down</h2>
+      <p>You establish mulch moss exactly as you would any moss: clear and firm the ground, press in transplanted patches or paint on a slurry, and keep it damp while it grips. The creeping carpet-forming kinds knit fastest into continuous cover, and the <a href="moss-ground-cover.html">ground cover guide</a> and the <a href="growing.html">growing guide</a> both cover the method in full. Once down, it asks for nothing but the autumn leaf-clearing every moss surface wants.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
-    "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "removing-moss",
+    "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
+    "removing-moss",
     "moss-on-roofs", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
     "moss-pole", "spraying-moss", "sphagnum-moss", "aquarium-moss",
     "aquarium-moss-real-or-not", "propagating-aquarium-moss",
