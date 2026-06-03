@@ -1499,12 +1499,47 @@ PAGES["moss-propagation-machine"] = dict(
 ''',
 )
 
+PAGES["moss-for-shrimp"] = dict(
+    title="How moss benefits Caridina and Neocaridina shrimp",
+    description="Why moss is the best plant for a dwarf shrimp tank: biofilm grazing, cover and moulting safety, shrimplet survival, and what it offers Neocaridina and Caridina, plus shrimp-safe cautions.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="Biofilm, cover, and far higher baby survival: why moss is the one plant a cherry or crystal shrimp tank should have.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Ask experienced shrimp keepers for the one plant to put in a tank and most will say moss. For both Neocaridina, the cherry shrimp and their colour forms, and the fussier Caridina such as crystal reds and Taiwan bees, a clump of moss does more good than almost anything else you can add.</p>
+
+      <h2>It grows their food</h2>
+      <p>Dwarf shrimp graze biofilm, the living film of bacteria, algae and microbes that coats every surface, more or less constantly. Moss has an enormous surface area for its size, all of it fine, sheltered and slow-flowing, which makes it a biofilm factory. A shrimp tank with plenty of moss is a tank where the shrimp are never short of something to pick at, and you will see them working through it all day.</p>
+
+      <h2>Cover, and safe moulting</h2>
+      <p>Shrimp are prey animals and feel it. Dense moss gives them somewhere to retreat, which lowers stress and brings them out into the open more, not less, once they trust the tank. It matters most just after a moult, when a shrimp is soft and defenceless for a few hours; moss to hide in during that window reduces losses, whether the threat is a tankmate or just a nervous shrimp.</p>
+
+      <h2>It is what saves the babies</h2>
+      <p>This is the big one for breeding. Newly hatched shrimplets are tiny, weak grazers that cannot travel far for food or escape open water. A thick moss tangle gives them both: endless biofilm and microfauna to eat right where they sit, and dense cover from anything that might pick them off. The single biggest jump most keepers see in shrimplet survival comes from adding moss. If you want a colony to take off, moss is not optional.</p>
+
+      <h2>Neocaridina and Caridina</h2>
+      <p>Both benefit equally from the food, cover and breeding support; the difference is the water around the moss, not the moss itself. Neocaridina are hardy and tolerate a wide, harder, more neutral-to-alkaline range, which is why they are the beginner's shrimp. Caridina want soft, acidic water, usually over an active buffering substrate, and are less forgiving. Moss is happy across that whole span, so it suits either; set the water for your shrimp and the moss will cope.</p>
+
+      <h2>Which moss</h2>
+      <p>Java moss is the usual first choice: hardy, dense, biofilm-rich and nearly impossible to kill. Christmas, weeping and flame moss work just as well and look tidier. Whichever you pick, let it grow into a generous tangle rather than a neat sprig; for the shrimp, more moss is simply more food and more safety. See <a href="aquarium-moss.html">aquarium mosses</a> and <a href="propagating-aquarium-moss.html">how to propagate it</a>.</p>
+
+      <h2>Shrimp-safe cautions</h2>
+      <p>Shrimp, and Caridina especially, are extremely sensitive to <strong>copper</strong>, so never add moss that has been treated with anything, and be wary of plant fertilisers and snail treatments that contain it. Bought moss can also carry pesticide residue that is lethal to inverts, or hitchhikers like planaria, hydra and dragonfly larvae, so quarantine and rinse new moss, or buy from a shrimp keeper, before it goes in with a colony. Given that, moss is as close to a free win as a shrimp tank has.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
     "moss-in-paving", "watering-moss", "moss-pole", "spraying-moss",
     "sphagnum-moss", "aquarium-moss", "aquarium-moss-real-or-not",
-    "propagating-aquarium-moss", "moss-propagation-machine",
+    "propagating-aquarium-moss", "moss-propagation-machine", "moss-for-shrimp",
     "best-moss-for-terrariums", "moss-indoors",
     "moss-terrarium-troubleshooting", "how-to-identify-moss", "telling-moss-apart",
     "collecting-moss", "growing-moss-from-spores", "how-fast-does-moss-grow",
