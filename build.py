@@ -858,10 +858,49 @@ PAGES["growing-moss-from-spores"] = dict(
 ''',
 )
 
+PAGES["spraying-moss"] = dict(
+    title="Spraying moss slurry at scale",
+    description="Applying moss slurry with a sprayer to cover a whole wall: why an airless sprayer is the wrong tool, which low-pressure hopper and hydroseeding kit works, slurry consistency, and keeping the fragments alive.",
+    active="guides",
+    hero="thuidium.jpg",
+    blurb="Cover a whole wall in an afternoon. Why airless sprayers fail, which gear works, and how to keep the moss alive.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">The slurry method works beautifully painted on by hand, but for a whole wall you will want to spray it. The trick is choosing a tool that suits a lumpy, fibrous, living mix, which rules out the obvious one.</p>
+
+      <h2>Why not an airless sprayer</h2>
+      <p>An airless rig atomises at very high pressure, often 1,500 to 3,000 psi, through a tiny tip around 0.013 to 0.021 inch. Two things go wrong. The tip clogs almost at once on the fibres and fragments in a moss mix, so you spend the job unblocking it. Worse, the only way to pass that tip is to blend the moss to a fine puree, and the shredding plus the pressure destroy most of the living cells. Moss regrows from viable fragments, so a fine, high-shear spray paints the wall green with material that will not grow.</p>
+
+      <h2>The tools that do work</h2>
+      <p>Think low pressure and a big orifice instead:</p>
+      <ul class="loose">
+        <li><strong>Texture or hopper gun</strong> (the drywall and render type, fed by a compressor), set to its largest nozzle. Cheap, and built for lumpy mixes.</li>
+        <li><strong>Render or tyrolean sprayer</strong> for masonry coatings.</li>
+        <li><strong>Hydroseeding kit</strong>, the industrial analogue, which sprays a seed-and-mulch slurry through wide nozzles at low pressure. A moss slurry is the same principle.</li>
+        <li><strong>A coarse pump or garden sprayer with the tip removed</strong>, for a small wall, giving a usable splatter.</li>
+      </ul>
+
+      <h2>Mixing for the gun</h2>
+      <p>Blend in short pulses to a coarse, just-pourable consistency, not a smoothie; you want the largest fragments the nozzle will pass, because bigger pieces hold more living tissue. Thin with rainwater rather than loading it with thick buttermilk, which clogs and adds unwanted nutrients. A spoonful of water-retaining gel helps it cling to a vertical surface. Strain out only the coarsest woody bits that would jam the nozzle, and no more.</p>
+
+      <h2>Keep the pressure and the losses down</h2>
+      <p>Run the lowest pressure that will throw the mix. Every increase in pressure and every reduction in fragment size costs you viability, so the gentle, coarse, low-pressure end of the range gives the best take even though it feels less like "spraying paint". Expect to lose some of the moss to the process and apply a little more thickly to compensate.</p>
+
+      <h2>After spraying</h2>
+      <p>Nothing about the gun changes what moss needs. The wall must be shaded, damp and porous, and you must keep the sprayed area misted daily for the first few weeks while the fragments establish. Done on the right wall, you can green a large area in an afternoon that would take days by brush. See <a href="moss-graffiti.html">moss graffiti</a> for the hand method and <a href="moss-walls.html">living moss walls</a> for the conditions.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-pole",
-    "aquarium-moss", "telling-moss-apart", "growing-moss-from-spores", "life-in-moss",
+    "spraying-moss", "aquarium-moss", "telling-moss-apart",
+    "growing-moss-from-spores", "life-in-moss",
 ]
 
 
