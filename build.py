@@ -1270,14 +1270,159 @@ PAGES["watering-moss"] = dict(
 ''',
 )
 
+PAGES["sphagnum-moss"] = dict(
+    title="Sphagnum moss and its many uses",
+    description="Sphagnum, the bog moss: what it is, why it holds so much water, and its uses for orchids and carnivorous plants, kokedama, moss poles, propagation, and historically wound dressing.",
+    active="guides",
+    hero="sphagnum.jpg",
+    blurb="The bog moss that holds many times its weight in water. Its uses for orchids, carnivorous plants, kokedama and more.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Sphagnum is the one moss most growers handle by name, usually dried in a bag. It is the bog moss, the peat-builder, and its trick of holding many times its own weight in water makes it useful in ways no other moss is.</p>
+
+      <h2>What it is</h2>
+      <p>Sphagnum is a group of mosses adapted to waterlogged, acidic, nutrient-poor bogs. Its leaves are built with large dead cells that act as reservoirs, which is why it soaks up so much water and why, over millennia, its undecayed remains build peat. See <a href="peat-and-peat-free.html">sphagnum, peat and why peat-free matters</a> for that side of the story.</p>
+
+      <h2>In horticulture</h2>
+      <ul class="loose">
+        <li><strong>Orchids</strong>: long-fibre sphagnum is a classic potting medium, holding moisture around roots that still want air.</li>
+        <li><strong>Carnivorous plants</strong>: its acidity and low nutrients suit sundews, pitchers and Venus flytraps, which hate rich compost.</li>
+        <li><strong>Kokedama</strong>: it binds and holds water around the root ball; see the <a href="kokedama.html">kokedama guide</a>.</li>
+        <li><strong>Moss poles</strong>: damp sphagnum packed into a pole gives climbing aroids the wet, grippy surface their aerial roots want; see <a href="moss-pole.html">moss poles</a>.</li>
+        <li><strong>Propagation</strong>: damp sphagnum is excellent for air-layering and rooting cuttings.</li>
+      </ul>
+
+      <h2>Live, dried and milled</h2>
+      <p>Live sphagnum can be grown on the surface of carnivorous plant pots and in bog gardens. Most sold is dried long-fibre moss, which rehydrates for the uses above. Milled sphagnum, ground fine, is used as a seed-sowing medium because its mild acidity discourages the fungus that causes damping-off.</p>
+
+      <h2>Source it with care</h2>
+      <p>Sphagnum and the peat it forms come from bogs that are slow to form and important to leave intact, so look for sustainably harvested or cultivated sources rather than moss stripped from sensitive ground. Its long history as an absorbent, antiseptic wound dressing, most famously in the First World War, is covered in <a href="moss-in-history.html">moss through history</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-in-paving"] = dict(
+    title="Moss in paving, patios and gravel",
+    description="Moss between paving slabs, on patios and in gravel: why it grows there, when to clear it as a slip hazard, and how to encourage it for the soft stepping-stone look.",
+    active="guides",
+    hero="hypnum.jpg",
+    blurb="Moss in the joints: when to clear it as a slip risk, and when to encourage it for that soft stepping-stone look.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss in paving divides people sharply. To some it is a slippery nuisance; to others it is the soft green seam that makes old stone look settled and right. Both are correct, in the right place.</p>
+
+      <h2>Why it grows there</h2>
+      <p>Paving joints and gravel collect grit, organic dust and moisture, and in shade they stay damp long enough for moss to take hold, especially where drainage is poor and the surface rarely dries. The mortar between slabs is often slightly alkaline at first, but as it weathers and grime builds up, moss moves in.</p>
+
+      <h2>When to clear it</h2>
+      <p>On steps and well-used paths, moss is a genuine slip hazard when wet and worth keeping down. A stiff brush and hot water shift most of it; a patio cleaner does the rest. The lasting fix is to dry the surface out: improve drainage and cut back overhanging growth so it gets light and air between downpours. Avoid pressure-washing soft or old stone, which it pits and erodes.</p>
+
+      <h2>When to encourage it</h2>
+      <p>On a quiet, shaded path, a terrace edge or between stepping stones, moss in the joints is a feature people work hard to fake. To encourage it, leave the joints alone, keep the area shaded and damp, and brush a little moss slurry into the gaps as in the <a href="spraying-moss.html">slurry method</a>. The Japanese stepping-stone look, stone set into a soft moss field, is exactly this, deliberately.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-terrarium-troubleshooting"] = dict(
+    title="Why is my terrarium moss dying?",
+    description="Troubleshooting a moss terrarium: browning, white fuzzy mould, streaming condensation, leggy pale growth and fungus gnats, with the cause and fix for each.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="Browning, white mould, fogged-up glass, leggy growth: the common terrarium problems, each with a cause and fix.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A moss terrarium should be near-effortless, so when it goes wrong it is usually one of a handful of causes. Match the symptom and fix the cause.</p>
+
+      <h2>Browning or crisping</h2>
+      <p>Almost always too dry, too hot, or too much direct sun. A closed jar in a sunny window cooks in minutes. Move it to bright, indirect light, mist with rainwater (hard tap water also browns moss over time), and make sure a closed lid is actually holding humidity.</p>
+
+      <h2>White fuzzy mould</h2>
+      <p>Too wet, too still, and usually too much decaying organic matter. Remove the affected pieces, take the lid off for a few days to dry and air it out, cut back on watering, and remove dead leaves and debris that feed the mould. A little airflow now and then prevents it.</p>
+
+      <h2>Glass streaming with water</h2>
+      <p>A light mist on the glass is healthy; water running down it means it is too wet. Leave the lid off until the inside is merely damp, then close it again. Persistent heavy condensation breeds mould.</p>
+
+      <h2>Pale, leggy, stretched growth</h2>
+      <p>Too little light. Moss does not want strong light, but in deep gloom it weakens and stretches and algae take over. Move it somewhere brighter but out of direct sun, or add a low grow light.</p>
+
+      <h2>Fungus gnats</h2>
+      <p>Little black flies usually mean the substrate is too wet and rich. Let it dry back, improve drainage, and they generally fade. Bought-in moss laden with soil is a common way to import them; a rinse first helps. See the <a href="terrariums.html">terrarium guide</a> for getting the setup right from the start.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["how-fast-does-moss-grow"] = dict(
+    title="How fast does moss grow?",
+    description="How quickly moss grows and spreads: realistic timescales for a slurry to green up, a lawn or wall to establish and a deep cushion to mature, what speeds it up, and why it sometimes seems to stop.",
+    active="guides",
+    blurb="Slower than you hope, faster than you fear. Realistic timelines, what speeds it up, and why it seems to stall.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss is not a fast plant, and that is worth knowing before you start, so you neither give up too early nor expect a carpet by next month. Here is what to actually expect.</p>
+
+      <h2>Realistic timescales</h2>
+      <p>Kept constantly damp and shaded, a slurry or fresh transplant usually starts to green up and grip within a few weeks. A patch knits into continuous cover over a few months. A convincing moss lawn or wall takes a full season or two to look established, and the deep, springy cushions of an old moss garden are the work of years. None of it is quick, but most of it is steady.</p>
+
+      <h2>What speeds it up</h2>
+      <p>Three things, mostly: constant moisture, deep shade, and firm contact with the surface. Mild temperatures help, which is why moss does much of its visible growing in the cool, damp shoulders of the year, spring and autumn, rather than high summer. Soft rainwater, a humid spot and protection from drying wind all push it along.</p>
+
+      <h2>Why it seems to stop</h2>
+      <p>Moss switches off when it dries out, shrivelling and going dormant until the next wetting, so a patch that looks dead or static in a dry spell is usually just waiting. It has not failed; it is paused. Resume the moisture and it resumes growing. The single biggest mistake is deciding it has died and giving up during a dry fortnight. Patience is most of the technique; see the <a href="growing.html">growing guide</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-and-air-quality"] = dict(
+    title="Moss and air quality",
+    description="Moss and air pollution: how mosses work as bioindicators of air quality, the claims about moss walls cleaning city air, and an honest look at what moss can and cannot do.",
+    active="guides",
+    blurb="Moss as a pollution monitor, and the truth about those 'moss walls clean city air' claims.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss and air pollution come up together a lot, partly for good reasons and partly for hype. Here is what moss genuinely does, and where the claims run ahead of the evidence.</p>
+
+      <h2>Moss as a pollution monitor</h2>
+      <p>This part is solid. Because moss has no roots and feeds straight from the air and rain, it accumulates whatever is in them, including heavy metals and nitrogen compounds. Scientists exploit this directly, sampling moss across a region to map airborne pollution cheaply and over wide areas, a technique called biomonitoring. As a sensor of air quality, moss is genuinely useful.</p>
+
+      <h2>The moss wall claims</h2>
+      <p>You will have seen installations marketed as moss walls that "clean the air of a city" or do the work of many trees. Treat these carefully. Moss does take up some particulates and gases, and a large damp moss surface has a real if modest effect on its immediate surroundings. But the headline figures are often generous, the units do not always survive scrutiny, and the walls usually need careful watering and upkeep to stay alive and effective at all. The honest position is that moss helps a little, locally, and is not a substitute for cutting pollution at source.</p>
+
+      <h2>What moss can really offer in a city</h2>
+      <p>Set aside the strongest claims and there is still a genuine case: moss surfaces cool their surroundings, hold rainwater, add habitat, and yes, monitor and modestly absorb pollution, all with very little weight or upkeep compared with planting. As one tool among many for greener, cooler streets, moss earns its place. As a magic air filter, it does not. See <a href="uses.html">what moss is good for</a> for the wider picture.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
-    "watering-moss", "moss-pole", "spraying-moss", "aquarium-moss",
-    "aquarium-moss-real-or-not", "best-moss-for-terrariums", "moss-indoors",
+    "moss-in-paving", "watering-moss", "moss-pole", "spraying-moss",
+    "sphagnum-moss", "aquarium-moss", "aquarium-moss-real-or-not",
+    "best-moss-for-terrariums", "moss-indoors", "moss-terrarium-troubleshooting",
     "how-to-identify-moss", "telling-moss-apart", "collecting-moss",
-    "growing-moss-from-spores", "peat-and-peat-free", "moss-and-wildlife",
-    "life-in-moss", "moss-in-history", "moss-myths",
+    "growing-moss-from-spores", "how-fast-does-moss-grow", "peat-and-peat-free",
+    "moss-and-wildlife", "life-in-moss", "moss-and-air-quality",
+    "moss-in-history", "moss-myths",
 ]
 
 
