@@ -898,9 +898,9 @@ PAGES["spraying-moss"] = dict(
 
 PAGES["aquarium-moss-real-or-not"] = dict(
     title="Which aquarium “mosses” are really moss",
-    description="Java moss is a true moss, and so are most named aquarium mosses. But marimo balls are algae, Riccia and Pellia are liverworts, and Subwassertang is a fern. A guide to the real and the impostors.",
+    description="Java moss is a true moss, and so are most named aquarium mosses. But marimo balls are algae, Riccia and Pellia are liverworts, and Süsswassertang is a fern. A guide to the real and the impostors.",
     active="guides",
-    blurb="Java moss is the real thing. Marimo balls, Riccia and Subwassertang are not. Sorting the true mosses from the impostors.",
+    blurb="Java moss is the real thing. Marimo balls, Riccia and Süsswassertang are not. Sorting the true mosses from the impostors.",
     body='''
   <section class="section">
     <div class="wrap prose">
@@ -924,7 +924,7 @@ PAGES["aquarium-moss-real-or-not"] = dict(
         <li><strong>Marimo "moss balls"</strong> (<em>Aegagropila linnaei</em>) are not moss and not even a plant in the usual sense. They are a green <strong>alga</strong> that happens to grow into a velvety sphere.</li>
         <li><strong>Riccia or crystalwort</strong> (<em>Riccia fluitans</em>) is a <strong>liverwort</strong>, a bryophyte cousin of moss but a separate lineage.</li>
         <li><strong>Monosolenium</strong>, often sold as "Pellia", is also a <strong>liverwort</strong>.</li>
-        <li><strong>Subwassertang</strong>, sometimes called round pellia, is stranger still: it is the gametophyte stage of a <strong>fern</strong>, with no true leaves or stems at all.</li>
+        <li><strong>Süsswassertang</strong>, sometimes called round pellia, is stranger still: it is the gametophyte stage of a <strong>fern</strong>, with no true leaves or stems at all.</li>
       </ul>
 
       <h2>Does it matter?</h2>
