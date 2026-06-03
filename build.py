@@ -41,6 +41,7 @@ NAV = [
     ("biology", "What is moss"),
     ("species", "Species"),
     ("growing", "Growing"),
+    ("will-it-grow", "Will it grow?"),
     ("projects", "Projects"),
     ("guides", "Guides"),
     ("uses", "Uses"),
@@ -2317,6 +2318,114 @@ PAGES["ageing-with-moss"] = dict(
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
   </section>
+''',
+)
+
+PAGES["will-it-grow"] = dict(
+    title="Will moss grow in my spot?",
+    description="A quick interactive check: answer four questions about your spot, light, moisture, surface and foot traffic, and find out how well moss is likely to do there and which kind to use.",
+    active="will-it-grow",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss lives or dies by a few simple conditions. Answer these four questions about the place you have in mind and you will get an honest sense of how it is likely to do, and which sort of moss to reach for. Nothing is sent anywhere; it all works in your browser.</p>
+
+      <style>
+        .checker label{display:block;font-weight:600;color:var(--green-deep);margin:16px 0 5px}
+        .checker select{width:100%;max-width:520px;padding:10px 12px;border:1px solid var(--line);border-radius:9px;font-size:1rem;background:#fff;font-family:inherit}
+        .checker button{margin-top:22px;background:var(--green);color:#fff;border:0;border-radius:999px;padding:13px 28px;font-size:1rem;font-weight:600;cursor:pointer}
+        .checker button:hover{background:var(--green-deep)}
+        #verdict{display:none;margin-top:28px;border:1px solid var(--line);border-radius:14px;padding:22px 24px;background:#fff}
+        #verdict h2{margin:0 0 6px}
+        #verdict .score{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+        #verdict ul{margin:14px 0 0;padding-left:20px}
+        #verdict li{margin:0 0 10px;color:#34402f}
+      </style>
+
+      <div class="checker">
+        <label for="ck-light">How much light does the spot get?</label>
+        <select id="ck-light">
+          <option value="2">Deep shade most of the day</option>
+          <option value="1" selected>Partial or dappled shade</option>
+          <option value="-2">Full sun for much of the day</option>
+        </select>
+
+        <label for="ck-moist">How damp does it stay?</label>
+        <select id="ck-moist">
+          <option value="2">Usually damp, slow to dry</option>
+          <option value="1" selected>Average, dries between rain</option>
+          <option value="-2">Dries out fast, bakes in summer</option>
+        </select>
+
+        <label for="ck-surface">What is the surface?</label>
+        <select id="ck-surface">
+          <option value="ground" selected>Bare soil or ground</option>
+          <option value="stone">Stone, brick or concrete</option>
+          <option value="paving">Joints between paving</option>
+          <option value="pot">A pot, bonsai or container</option>
+          <option value="wall">A wall or vertical panel</option>
+        </select>
+
+        <label for="ck-traffic">Will it be walked on?</label>
+        <select id="ck-traffic">
+          <option value="1">No, it is just to look at</option>
+          <option value="0" selected>The odd footstep, light use</option>
+          <option value="-3">Yes, regular or heavy traffic</option>
+        </select>
+
+        <button id="ck-go">Check my spot</button>
+      </div>
+
+      <div id="verdict">
+        <p class="score" id="ck-band"></p>
+        <h2 id="ck-head"></h2>
+        <p id="ck-lead"></p>
+        <ul id="ck-notes"></ul>
+      </div>
+
+      <p class="next" style="margin-top:28px">Whatever the verdict, the method is in the <a href="growing.html">growing guide</a>. For a lawn see <a href="moss-lawn.html">how to make a moss lawn</a>, and for the cushion-versus-carpet question, <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+    </div>
+  </section>
+
+  <script>
+  (function(){
+    var $=function(id){return document.getElementById(id);};
+    $("ck-go").addEventListener("click",function(){
+      var light=parseInt($("ck-light").value,10);
+      var moist=parseInt($("ck-moist").value,10);
+      var traffic=parseInt($("ck-traffic").value,10);
+      var surface=$("ck-surface").value;
+      var score=light+moist+traffic;
+      if(surface==="wall")score-=1;
+      var notes=[];
+      if(light<0)notes.push("Sun is the hardest thing to work around. Moss wants shade, so unless you can cast some over the spot, this is the factor most likely to defeat it.");
+      if(light>1)notes.push("Deep shade is a gift here. This is exactly where grass and most plants give up and moss takes over.");
+      if(moist<0)notes.push("It dries out, which moss hates. You will need to water it, ideally with rainwater, especially while it establishes, or it will sit brown and dormant.");
+      if(moist>1)notes.push("Reliable damp is half the battle won.");
+      if(traffic<0)notes.push("Moss will not take regular footfall or play. If the area is walked daily, set stepping stones through it and let the moss grow around them rather than under boots.");
+      // surface-specific
+      if(surface==="ground")notes.push("On bare ground, clear the grass and weeds, firm the surface, and press in patches or paint on a slurry. Carpet-forming mosses knit fastest.");
+      if(surface==="stone")notes.push("On stone, brick or concrete the slurry method works best: blend moss with rainwater or buttermilk and paint it on in the shade.");
+      if(surface==="paving")notes.push("In paving joints, leave them be and brush a little moss slurry into the gaps. The stepping-stone-in-moss look is exactly this.");
+      if(surface==="pot")notes.push("For a pot, bonsai or container, a cushion moss pressed onto the firmed surface keeps its shape and looks settled.");
+      if(surface==="wall")notes.push("A wall is the trickiest, needing a moisture-holding backing and patience. Worth reading the living moss walls guide before you start.");
+      // recommend type
+      if(surface==="pot")notes.push("Reach for a cushion (acrocarpous) moss here for shape.");
+      else if(surface==="ground"||surface==="wall"||surface==="paving")notes.push("Reach for a creeping, carpet-forming (pleurocarpous) moss for continuous cover.");
+      var band,head,lead;
+      if(score>=3){band="Good prospects";head="This is a strong spot for moss";lead="The basics are in your favour. With a little preparation and patience, moss should establish and thicken here nicely.";}
+      else if(score>=0){band="Workable";head="Workable, with some effort";lead="It can be done, but one or two conditions are against you. Address the notes below and keep your expectations to a season or two for full cover.";}
+      else{band="Uphill";head="An uphill battle, honestly";lead="The conditions here lean against moss. You can try, but unless you can change the light or the moisture, it may never really take. The notes below show what would have to give.";}
+      $("ck-band").textContent=band;
+      $("ck-head").textContent=head;
+      $("ck-lead").textContent=lead;
+      var ul=$("ck-notes");ul.innerHTML="";
+      notes.forEach(function(n){var li=document.createElement("li");li.textContent=n;ul.appendChild(li);});
+      $("verdict").style.display="block";
+      $("verdict").scrollIntoView({behavior:"smooth",block:"nearest"});
+    });
+  })();
+  </script>
 ''',
 )
 
