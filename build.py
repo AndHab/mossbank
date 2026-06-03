@@ -1721,11 +1721,6 @@ GUIDES_ORDER = [
     "moss-and-wildlife", "life-in-moss", "moss-and-air-quality",
     "moss-in-history", "moss-myths",
 ]
-    "moss-terrarium-troubleshooting", "how-to-identify-moss", "telling-moss-apart",
-    "collecting-moss", "growing-moss-from-spores", "how-fast-does-moss-grow",
-    "peat-and-peat-free", "moss-and-wildlife", "life-in-moss",
-    "moss-and-air-quality", "moss-in-history", "moss-myths",
-]
 
 
 def _guide_tile(slug):
