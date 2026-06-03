@@ -206,7 +206,16 @@ PAGES["biology"] = dict(
 
       <h2>Two plants in one life cycle</h2>
       <p>A moss lives in two stages that look quite different. The soft green cushion or carpet you recognise is the gametophyte, the long-lived stage. After fertilisation, which needs a film of water for the sperm to swim through, the gametophyte raises slender stalks tipped with capsules. These stalks and capsules are the sporophyte, the second stage, and they exist mainly to make and scatter spores.</p>
-      <p>When a capsule ripens it dries, opens, and releases dust-fine spores to the wind. A spore that lands somewhere damp and shaded germinates into a fine green thread, the protonema, which in turn buds into a new cushion. The cycle begins again.</p>
+      <p>When a capsule ripens it dries, opens, and releases dust-fine spores to the wind. A spore that lands somewhere damp and shaded germinates into a fine green thread, the protonema, which in turn buds into a new cushion. The cycle begins again. Moss also spreads the lazy way, simply by fragments: a broken-off piece that lands somewhere suitable regrows into a whole new plant, which is the trick gardeners exploit when they propagate it.</p>
+
+      <h2>The two growth forms</h2>
+      <p>Look at a few mosses and they sort into two camps, a split worth knowing because it decides how a moss behaves. Some grow upright in tufts and tight cushions, staying compact and slow-spreading; these are the acrocarpous mosses, the bun-like domes on a wall top. Others creep and branch sideways into flat, spreading carpets and wefts; these are the pleurocarpous mosses, the feathery mats over logs and soil. Cushion-formers give shape and texture, carpet-formers give fast continuous cover, and knowing which you are looking at is the single most practical piece of moss knowledge. It has its own guide in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>Where mosses grow</h2>
+      <p>Because a moss feeds from the air and only needs something to cling to, it grows where rooted plants cannot: bare rock, tree bark, brick and mortar, roof tiles, the compacted ground under trees, the splash zone by streams. What it cannot abide is the combination of strong sun and dry wind, which strips its moisture faster than it can take it up, so you find it on the cool, shaded, damp side of things. That same independence is why moss is one of the first life to colonise bare ground after disturbance, slowly building the conditions other plants then move into.</p>
+
+      <h2>An ancient and successful design</h2>
+      <p>Mosses are among the oldest land plants, with a lineage going back something like 450 million years, long before flowers, before dinosaurs, close to the time plants first left the water at all. That they are still here, in their thousands of species, on every continent including Antarctica, says how well the simple, rootless, dry-out-and-wait design works. A moss is not a primitive failure that never invented roots; it is a different and very durable answer to the problem of living on land.</p>
 
       <h2>How to tell a moss from a lookalike</h2>
       <p>Three plants are often mistaken for moss. Liverworts are flat and ribbon-like or have rounded lobes, and lie closer to the surface. Lichens are not plants at all but a partnership of fungus and alga, usually crusty, leafy or shrubby and often grey or yellow. Clubmosses and spikemosses look mossy but are larger, with tougher stems, and belong to an entirely different, vascular group. A true moss has the soft, leafy-stemmed, cushion-or-carpet form, and very often those fine stalked capsules standing above it.</p>
@@ -455,7 +464,25 @@ PAGES["faq"] = dict(
       <p>Only where you do not want it. The same plant is a nuisance in a bowling green and the entire point of a Kyoto moss garden. It is all a matter of place.</p>
 
       <h2>Will moss grow indoors?</h2>
-      <p>In a closed terrarium, very happily, because the humidity stays high. Out in a dry, centrally heated room it will not last; it needs that damp, still air.</p>
+      <p>In a closed terrarium, very happily, because the humidity stays high. Out in a dry, centrally heated room it will not last; it needs that damp, still air. The full picture is in <a href="moss-indoors.html">can you keep moss as a houseplant</a>.</p>
+
+      <h2>Is moss a plant?</h2>
+      <p>Yes. Moss is a true plant, one of the bryophytes, a group of non-vascular plants that also includes liverworts and hornworts. What makes it unusual is what it lacks: no roots, no flowers, no seeds and no internal plumbing. It is a plant stripped back to fundamentals, which is exactly why it can live where other plants cannot. See <a href="biology.html">what a moss actually is</a>.</p>
+
+      <h2>Does moss flower or have seeds?</h2>
+      <p>No to both. Moss reproduces by spores, not seeds, and it has nothing like a flower. Instead it raises slender stalks tipped with capsules that release dust-fine spores to the wind, and it also spreads from broken fragments. The little stalked capsules standing above a moss cushion are the nearest thing it has to "going to seed".</p>
+
+      <h2>How long does moss live?</h2>
+      <p>Individual cushions can persist and slowly expand for many years, and a moss colony on an undisturbed bank or wall may be effectively decades old, thickening season on season. Moss also survives drying out by going dormant, so a patch can sit lifeless-looking through a drought and revive years' worth of growth intact when the rain returns.</p>
+
+      <h2>Is moss poisonous, or safe around pets and children?</h2>
+      <p>Garden and woodland mosses are not poisonous and are not a meaningful hazard to pets or children, who in any case rarely show interest in eating it. The sensible cautions are the ordinary ones: anything growing outdoors may carry whatever has landed on it, and a wet moss surface on steps or stone is slippery. Preserved decorative moss is treated with glycerine and dye and is for looking at, not handling food with, but it is not toxic to have in the house.</p>
+
+      <h2>Why has my moss gone brown?</h2>
+      <p>Almost always because it has dried out. Brown moss is usually dormant rather than dead, and a good soaking will tell you which within a day or two as it greens back up. Persistent browning means the spot is too dry or too sunny for it; add shade and moisture, and water with rainwater rather than hard tap water, which it dislikes. See <a href="watering-moss.html">water for moss</a>.</p>
+
+      <h2>Can I walk on a moss lawn?</h2>
+      <p>Gently, yes, once it is well established. Moss does not take the heavy, repeated traffic a grass sports lawn does, but a settled moss lawn handles normal garden use and stepping stones perfectly well, and is soft underfoot. Keep off it while it is young and still gripping. See <a href="moss-lawn.html">how to make a moss lawn</a>.</p>
     </div>
   </section>
 ''',
