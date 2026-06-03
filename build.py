@@ -1444,12 +1444,68 @@ PAGES["propagating-aquarium-moss"] = dict(
 ''',
 )
 
+PAGES["moss-propagation-machine"] = dict(
+    title="Build an aquarium moss propagation box",
+    description="A detailed DIY guide to building an emersed moss propagation box for aquarium moss: parts list, the reservoir and platform, lighting and humidity, an automated version, running it and harvesting.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="A step-by-step DIY emersed grow-box that turns a scrap of Java moss into trays of it. Parts, build, automation, harvest.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">If you want a lot of aquarium moss rather than a little, the fastest route is to grow it emersed, out of the water but in saturated, humid air, in a dedicated box. Moss bulks up faster and denser this way than submerged, and a simple sealed chamber turns a scrap of Java moss into trays of it. Here is how to build one, from a five-minute version to an automated one.</p>
+
+      <h2>How it works</h2>
+      <p>The box is just a humid chamber: a shallow reservoir of clean water, a platform that holds the moss saturated but not drowned, bright soft light, and enough air exchange to keep mould away. Get those four things right and the moss does the rest. Everything below is in service of them.</p>
+
+      <h2>Parts list</h2>
+      <ul class="loose">
+        <li>A clear plastic storage box with a lid (a 10 to 30 litre tote is ideal), or any tank you can cover.</li>
+        <li>A platform to lift the moss above the water: plastic egg-crate (light-diffuser grid), a section of plastic mesh on feet, or capillary matting that wicks from the reservoir.</li>
+        <li>Rainwater, RO or dechlorinated water. Hard tap water leaves scale and is the main avoidable killer.</li>
+        <li>A small LED grow light, or a bright cool-white LED, plus a mains timer plug.</li>
+        <li>A spray bottle.</li>
+        <li>Optional: a cheap thermo-hygrometer, a small 5V USB fan, and an ultrasonic mist maker (fogger).</li>
+        <li>Your starter moss: Java, Christmas, flame, weeping, chopped into fragments.</li>
+      </ul>
+
+      <h2>Build it (the simple version)</h2>
+      <ol>
+        <li>Put 1 to 2 cm of clean water in the bottom of the box as a reservoir.</li>
+        <li>Set the platform in so its top sits just above the waterline. If you are using capillary matting, drape it so one end dips in the water and wicks it up; the moss goes on the damp matting. With egg-crate or mesh, the moss sits on top and you keep it misted.</li>
+        <li>Spread the moss fragments in a thin, even layer over the platform. Thin is the whole secret: a thick wad rots in the middle. You can also tie fragments to flat mesh tiles for liftable mats.</li>
+        <li>Mist everything, put the lid on, and stand it somewhere warm-ish and out of direct sun.</li>
+        <li>Crack the lid for a few minutes once a day for fresh air, and mist if the surface looks less than glistening.</li>
+      </ol>
+
+      <h2>Light and conditions</h2>
+      <p>Give it bright, indirect light, not blazing sun, on a timer for ten to twelve hours a day. Keep the temperature moderate, roughly 18 to 24 degrees; warm speeds growth but too warm with high humidity invites mould. Aim for humidity above 80 per cent, which a closed box with a little standing water holds easily. A hygrometer takes the guesswork out.</p>
+
+      <h2>The automated version</h2>
+      <p>To make it genuinely a machine rather than a box you tend, automate the three variables:</p>
+      <ul class="loose">
+        <li><strong>Light</strong> on the mains timer plug, ten to twelve hours.</li>
+        <li><strong>Humidity</strong> from an ultrasonic fogger sitting in the reservoir, run in short bursts on a cheap cycle timer (a couple of minutes per hour is plenty); it also tops the air up as water evaporates.</li>
+        <li><strong>Air exchange</strong> from a small USB fan on its own timer, run briefly a few times a day to clear stale, mould-friendly air. A couple of small vent holes let it breathe.</li>
+      </ul>
+      <p>That is as far as most people need to go. If you like a project, the fogger and fan are easy to drive from a microcontroller with a temperature and humidity sensor, but honest truth, two timer plugs and a fan do the same job for less fuss.</p>
+
+      <h2>Running it and harvesting</h2>
+      <p>The enemies are mould and scale, and both have easy answers: keep the air moving a little, and use rainwater or RO, not hard tap. Pull out any fuzzy patch the moment you see it and air the box for a day. Top up the reservoir as it drops. In a few weeks the moss carpets the platform; lift the mats, trim what you want for the tank, and leave a portion behind to reseed the box. Run like that, it is a perpetual moss supply, and far more than one tank needs, which makes it the friendliest thing to trade with other fishkeepers. See <a href="propagating-aquarium-moss.html">how to propagate aquarium moss</a> for the underlying method and <a href="aquarium-moss.html">aquarium mosses</a> for the species.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
     "moss-in-paving", "watering-moss", "moss-pole", "spraying-moss",
     "sphagnum-moss", "aquarium-moss", "aquarium-moss-real-or-not",
-    "propagating-aquarium-moss", "best-moss-for-terrariums", "moss-indoors",
+    "propagating-aquarium-moss", "moss-propagation-machine",
+    "best-moss-for-terrariums", "moss-indoors",
     "moss-terrarium-troubleshooting", "how-to-identify-moss", "telling-moss-apart",
     "collecting-moss", "growing-moss-from-spores", "how-fast-does-moss-grow",
     "peat-and-peat-free", "moss-and-wildlife", "life-in-moss",
