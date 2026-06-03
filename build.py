@@ -28,6 +28,7 @@ IMAGE_CREDITS = [
     ("kokedama.jpg", "Kokedama of ornamental plants", "Wee Hong", "CC BY-SA 4.0"),
     ("paludarium.jpg", "Paludarium, Grand Aquarium Saint-Malo", "Kev22", "CC BY-SA 4.0"),
     ("kusamono.jpg", "Kusamono with fern and strawberry", "Sage Ross", "CC BY-SA 3.0"),
+    ("polytrichum.jpg", "Polytrichum commune, common haircap moss", "Hans Hillewaert", "CC BY-SA 4.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2430,9 +2431,74 @@ PAGES["will-it-grow"] = dict(
 )
 
 # Guides hub: auto-built from the list below so new articles only need adding here.
+PAGES["plait-moss"] = dict(
+    title="Plait moss (Hypnum cupressiforme)",
+    description="Plait moss or cypress-leaved feather moss (Hypnum cupressiforme): how to recognise the commonest temperate moss, where it grows, why it is the sheet moss of terrariums and walls, and how to grow it.",
+    active="guides",
+    hero="hypnum.jpg",
+    blurb="The glossy creeping mat on every fence post and tree trunk, and the sheet moss behind countless terrariums and living walls.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Few plants are as quietly everywhere as <em>Hypnum cupressiforme</em>. Glance along a fence rail, a churchyard wall or the shaded side of an old apple tree, and the flat green mat pressed against the wood or stone is very often this single species, reckoned the commonest moss across much of the temperate world.</p>
+
+      <h2>Recognising it</h2>
+      <p>Plait moss creeps. Its shoots run along the surface and branch as they go, so it builds a flat, trailing mat rather than a standing dome. Each shoot is clothed in small curved leaves that all hook over to one side, like teeth on a comb or the foliage of a cypress, which is where the older name cypress-leaved comes from. The mat takes on a faint gloss as it dries, brighter than most mosses, and shades from fresh green in deep shade to a bronzed yellow-green out in the open. It sits squarely among the creeping, branching mosses, the group set out in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>The moss that grows almost anywhere</h2>
+      <p>Tolerance is its whole trick. You will find it on bark, dead wood, fence posts, roof tiles, brick, bare rock, gravestones and packed soil, coping with sun or shade and with ground that is acid or limey, in clean country air and in town. Hardly any other moss spans so many situations, which is exactly why it turns up so reliably. Botanists have long divided it into several varieties and look-alike segregates according to the surface it grows on, so the plait moss on a tree trunk may not be quite the same plant as the one on a rock; for anyone gardening with it, though, they behave as one.</p>
+
+      <h2>The sheet moss of terrariums and walls</h2>
+      <p>When a supplier sells "sheet moss" for terrariums, floristry or a living wall, a <em>Hypnum</em> is very often what is in the bag. The flat growth lifts away in coherent sheets, drapes obediently over a curved surface and knits back down wherever it meets damp bark or soil, which makes it ideal for lining a <a href="moss-walls.html">living moss wall</a> or carpeting the floor of a glass case. That same low, even habit is why it features so heavily in the <a href="best-moss-for-terrariums.html">terrarium species roundup</a>, usually as the carpet that runs between the cushion mosses. Living or preserved, it is one of the staples of the moss trade.</p>
+
+      <h2>Growing and keeping it</h2>
+      <p>Because it asks for so little, plait moss is among the easiest mosses to establish. Lay a sheet moss-side up on firm, weeded ground, press it into close contact and keep it damp with rainwater, and it will usually take hold and start creeping outward within a season. Behind glass it revels in the steady humidity and wants only soft light and the odd misting. The conditions it dislikes are few: stagnant deep shade with no moving air, where it thins and grows leggy, and a thick sodden wad of itself, which rots from the middle as any moss eventually will. Thin it, give it a little light and air, and it largely sees to itself.</p>
+
+      <h2>Worth learning first</h2>
+      <p>For all its commonness, plait moss repays a close look. It is the species that trains you to read a surface, because once you can name it on sight you begin to notice the scarcer mosses growing in among it. Anyone learning to <a href="telling-moss-apart.html">tell mosses from their look-alikes</a> could do worse than start here, using its familiar glossy mat as the green against which everything less ordinary stands out.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["haircap-moss"] = dict(
+    title="Common haircap (Polytrichum commune)",
+    description="Common haircap moss (Polytrichum commune): recognising one of the world's tallest mosses, its surprising internal plumbing, where it grows on acid bog and heath, its long history of human use, and how to grow it.",
+    active="guides",
+    hero="polytrichum.jpg",
+    blurb="One of the tallest mosses, a forest of green spires on wet acid ground, with real internal plumbing and a long human history.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Most mosses keep their heads down; the common haircap stands up. On a wet heath or the floor of a sodden wood it raises what looks like a miniature pine forest, ankle-deep and sometimes deeper, every shoot a stiff stem set with narrow dark leaves. It ranks among the tallest mosses on earth, and it is one of the more satisfying to learn by sight.</p>
+
+      <h2>A forest in miniature</h2>
+      <p><em>Polytrichum commune</em> grows as unbranched upright stems, often a hand-span high and, in a really wet bog, taller still, each one crowned in its prime by a spreading star of leaves. Run a finger along a leaf and it feels faintly rough; the upper surface carries rows of tiny green plates called lamellae, which deepen the colour and do much of the plant's photosynthesis. Dry weather folds the leaves in tight against the stem, and a shower throws them open again into that characteristic star. The English name points to the spore capsules, lifted high on reddish stalks through summer, each wearing a shaggy golden cap of hairs.</p>
+
+      <h2>Plumbing inside the stem</h2>
+      <p>What really sets the haircaps apart is hidden in the stem. A typical moss drinks over its whole surface and has next to no internal transport, but <em>Polytrichum</em> runs a central core of stretched, specialised cells, hydroids and leptoids, that carry water up and sugars down in much the way the veins of a larger plant do. That inner plumbing is a good part of why it can afford to grow so tall and stand so stiffly where flatter mosses would flop. It offers a glimpse of the very problem, lifting water against gravity, that the flowering plants would later answer on a far grander scale, which is why this humble moss turns up so often in botany classes.</p>
+
+      <h2>Where it grows</h2>
+      <p>Seek common haircap on wet, acid, peaty ground: bogs, the margins of moorland pools, damp heath and the boggy floors of acid woodland. It is a plant of the sour and the saturated, intolerant of lime, and where the ground suits it can sheet over wide stretches. On drier banks you are more likely to meet its shorter cousins, the juniper and bristly haircaps, which take more sun; true <em>commune</em> wants its feet in the wet. As an upright, dome-forming moss it is a textbook acrocarp, the contrasting habit described in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>A long record of use</h2>
+      <p>Haircap has served people for centuries, which wins it a place in any account of <a href="moss-in-history.html">moss through human history</a>. The wiry, durable stems were bundled into besoms, the old twig brooms used to sweep yards and hearths. In parts of Scotland and Scandinavia the same toughness saw it twisted into ropes and woven into baskets and mats, and gathered by the sackful to stuff mattresses and pillows, where its springiness and slight water-resistance made a serviceable filling. Households on the northern moors are recorded sleeping the winter through on beds of it.</p>
+
+      <h2>Growing it</h2>
+      <p>In the garden, common haircap is less obliging than the creeping carpet mosses, since it insists on the acid, perpetually damp conditions of its native bog. Meet those, in a boggy corner, at a pond margin or in a lime-free terrarium kept good and humid, and it lends a height and forest-floor character the flat mosses cannot. Move it as intact clumps carrying their own pad of peaty substrate rather than as loose fragments, water it only with rainwater, and never lime it. Whether it will settle for you comes down almost entirely to acidity and wetness, the sort of judgement worth making before you start, as weighed up in <a href="will-it-grow.html">will moss grow where I want it?</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
-    "ageing-with-moss", "bun-moss", "moss-for-carnivorous-plants", "moss-for-orchids",
+    "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss",
+    "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
     "moss-and-pets", "reviving-dried-moss", "kusamono",
     "removing-moss",
