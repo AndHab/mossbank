@@ -274,6 +274,16 @@ PAGES["species"] = dict(
           <li><strong>Common feather-moss (<em>Kindbergia praelonga</em>)</strong>: fine, much-branched carpets over soil, logs and the base of walls in shade.</li>
         </ul>
         <p>Identifying mosses to species often needs a hand lens and patience with leaf shape and capsule detail. Do not let that put you off. Knowing a moss as "a plait moss" or "a haircap" is plenty to start gardening with, and the names come with familiarity.</p>
+
+        <h2>What surface tells you what to expect</h2>
+        <p>Once your eye is in, the surface a moss is growing on is a strong clue to which it is. The tops of walls and the mortar between bricks tend to host tight grey-green cushions like wall screw-moss, hardy things that cope with sun and drying. Tree bark and fence posts carry the flat, trailing mats of plait moss and its relatives. Shaded woodland soil and acid banks grow the deep cushions of broom fork-moss and the fern-like fronds of tamarisk moss. Pavement cracks and trampled ground in towns belong to the tough silvery thread-moss. Knowing the typical residents of each surface means you are half way to a name before you have even reached for the lens.</p>
+
+        <h2>Cushions or carpets</h2>
+        <p>Beyond individual names, every moss here falls into one of two groups that decide how it behaves. The cushion-formers, the acrocarpous mosses such as the screw-mosses and haircaps, grow as upright domes and stay compact. The carpet-formers, the pleurocarpous mosses such as the plait and feather mosses, creep and branch into spreading mats. It is the most useful single distinction in the whole subject, because it tells you at a glance whether a moss will sit as a neat cushion or knit into continuous cover. It has its own guide in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+        <h2>A note on the names</h2>
+        <p>Mosses carry both Latin names and, increasingly, English ones, and the English names are often charmingly descriptive once you know the plant: plait moss for the braided look of its shoots, fork-moss for its divided leaf tips, feather-moss for its frond-like branching. You do not need the Latin to garden with moss, but it is worth noting because the same English name is sometimes used loosely for several species, so when buying or recording it the Latin name is what pins down exactly which moss you mean.</p>
+
         <p class="next"><a href="growing.html">Next: growing moss on purpose &rarr;</a></p>
       </div>
     </div>
@@ -319,6 +329,22 @@ PAGES["growing"] = dict(
         <h3 class="mt">Water sense</h3>
         <p>Rainwater is kinder than hard tap water, which is alkaline and leaves limescale that moss dislikes. If you can water from a butt, do.</p>
       </aside>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="wrap prose">
+      <h2>Choosing the right moss to start with</h2>
+      <p>Match the moss to the job. For fast, continuous cover over ground or a wall, use the creeping carpet-formers, the pleurocarpous mosses such as the plait and feather mosses, which knit together quickly and fragment readily for slurry. For cushiony texture in a terrarium or a moss garden, use the upright acrocarpous mosses such as bun moss and the fork-mosses, which hold a domed shape but spread slowly. The easiest moss to start with is whatever already grows happily in your own garden, because it is proven to suit your conditions; lift a little and propagate from that rather than importing something that may sulk. See <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a> for the distinction.</p>
+
+      <h2>Growing on different surfaces</h2>
+      <p>The method shifts a little with the surface. On <strong>soil</strong>, clear competition, firm it hard and press moss into good contact. On <strong>stone, brick and concrete</strong>, the slurry method works best, painting blended moss onto the porous surface in shade. In <strong>pots and on bonsai</strong>, a thin pressed layer keeps the surface cool and finished; see <a href="bonsai-moss.html">moss for bonsai</a>. On a <strong>wall or vertical panel</strong>, you need a moisture-holding backing and patience, as in <a href="moss-walls.html">living moss walls</a>. The constants across all of them are shade, damp and firm contact; the rest is detail.</p>
+
+      <h2>The slurry method in more detail</h2>
+      <p>The slurry, or "moss milkshake", is the workhorse for covering an area or an awkward shape. Blend two or three handfuls of clean moss with enough liquid to make a thin, brushable paint. The classic binder is buttermilk or natural yoghurt, which helps it cling and feeds the moss a little, though plain rainwater works and avoids the faint smell while it establishes. Brush or pour it where you want growth, keep the fragments coarse rather than pureed so more of them survive, and mist daily. It looks unpromising for a few weeks, then greens up as the fragments regenerate. For a whole wall, the same mix can be sprayed, as in <a href="spraying-moss.html">spraying moss slurry at scale</a>.</p>
+
+      <h2>The common mistakes</h2>
+      <p>Three errors account for most failures. The first is choosing too sunny or dry a spot, which no amount of care overcomes; shade and moisture are not optional. The second is enriching the ground, since compost and feed help the competition, not the moss, which wants poor, firm, slightly acidic ground. The third is giving up too soon: moss is slow, and a patch that browns in a dry spell is almost always dormant rather than dead, so water it and wait rather than digging it out. Get the spot right and resist fussing, and moss is one of the most self-sufficient things you can grow.</p>
     </div>
   </section>
 ''',
@@ -409,6 +435,19 @@ PAGES["uses"] = dict(
       </div>
     </div>
   </section>
+
+  <section class="section alt">
+    <div class="wrap prose">
+      <h2>The long view: peat and climate</h2>
+      <p>The grandest thing moss does happens over thousands of years and out of sight. In waterlogged bogs, sphagnum grows at the surface while its older growth beneath fails to rot in the airless, acidic conditions, and that half-preserved material piles up as peat. The result is one of the planet's great carbon stores, holding more per hectare than woodland, alongside an enormous capacity to soak up and slowly release water. Drain a bog or cut it for fuel and that carbon escapes to the air; keep it wet and it goes on quietly banking the stuff. Much of the modern argument for peat-free compost rests on this, and there is a fuller account in <a href="peat-and-peat-free.html">sphagnum, peat and why peat-free matters</a>.</p>
+
+      <h2>A history of practical use</h2>
+      <p>People worked out the useful properties of moss long before they understood the biology. Its springiness and water-holding made it a packing material for everything from shipped bulbs to crockery, and a stuffing for mattresses and pillows. Dried and rammed between logs, it sealed cabins against the weather. The most striking use was medical: sphagnum's acidity and absorbency make it hostile to bacteria, and when surgical cotton ran short in the First World War, volunteers gathered bog moss by the cartload to dress wounds. There is more of this story in <a href="moss-in-history.html">moss through history</a>.</p>
+
+      <h2>Moss in modern hands</h2>
+      <p>Today the interest runs in two directions. Scientists read moss as an instrument: because it takes everything from the air and rain, a moss sample records the heavy metals and nitrogen drifting over a place, which makes for cheap, wide-area pollution mapping. Designers, meanwhile, treat it as lightweight green infrastructure, carpeting roofs and walls that could never carry a conventional planting, cooling buildings and catching rainwater for almost no structural load. And in the ordinary garden it remains what it has always been, a living mulch that keeps roots cool, smothers weeds and quietly finishes a planting.</p>
+    </div>
+  </section>
 ''',
 )
 
@@ -418,19 +457,22 @@ PAGES["lawn"] = dict(
     body='''
   <section class="section">
     <div class="wrap prose">
-      <p class="lede">More people meet moss as a lawn problem than in any other way. Before you reach for the iron sulphate, it is worth understanding what the moss is telling you.</p>
+      <p class="lede">More people meet moss as a lawn complaint than in any other way. Before reaching for the iron sulphate, it pays to read what its arrival is telling you about the ground.</p>
 
-      <h2>Moss is a symptom, not the disease</h2>
-      <p>Grass struggles and moss moves in for clear reasons: too much shade, poor drainage, compaction, mowing too low, or thin, acidic, hungry soil. The moss is not attacking the grass. It is simply better suited to those conditions than the grass is. Kill the moss without changing the conditions and it will be back within a season.</p>
+      <h2>Why the moss is there</h2>
+      <p>Moss colonises turf wherever grass is already losing its grip. Shade, compacted soil, poor drainage, scalping the lawn with a low mower and thin, acidic, hungry ground all weaken grass and happen to be the conditions moss prefers. So the green carpet creeping through the lawn is really a reading of the site. Clear it off and leave those conditions untouched, and it will be back inside a season.</p>
 
-      <h2>If you want the grass back</h2>
-      <p>Treat the cause. Reduce shade where you can, spike or aerate to relieve compaction, improve drainage, raise the mowing height, and feed the grass so it can compete. Scarifying, raking out the dead moss, helps in the short term, and on lawns where the issue is genuinely acidity a measured liming can shift the balance. None of it lasts without fixing the underlying shade and drainage.</p>
+      <h2>Reading the signs</h2>
+      <p>Each cause leaves a clue. Worst under trees or along a fence line, and shade is your answer. Worst where the lawn squelches underfoot or sits on heavy clay, and the trouble is drainage and compaction. A thin general invasion across an old, hungry, close-mown lawn points instead to low fertility and cutting too hard. Working out which one you have matters, because some of these yield to effort and others, deep shade above all, simply will not.</p>
 
-      <h2>The case for giving in</h2>
-      <p>There is another option, and a growing number of gardeners take it: stop fighting and let the moss lawn happen. In a shaded, damp garden a moss lawn is soft underfoot, stays green through drought and winter, needs no mowing, no feeding and no watering once established, and asks only that leaves be cleared off in autumn. It is the lower-effort, lower-input, more drought-resilient surface, and in deep shade it is often the only thing that will look good at all.</p>
-      <p>Put plainly: if your "moss problem" is in a spot where grass will always struggle, the moss is not the problem. It is the solution, and it arrived on its own.</p>
+      <h2>Getting the grass back</h2>
+      <p>Where the cause can be addressed, go for the cause rather than the moss itself. Thin overhead growth to let in light, spike or hollow-tine to relieve compaction, sort out drainage, raise the cutting height, and feed so the grass can muscle back in. Scarifying drags out the loose moss and opens room for grass to thicken, and on a truly acidic lawn a measured dose of lime shifts the balance. Iron-based mosskillers blacken it within days, which feels like progress but lasts only until the same conditions grow it back.</p>
 
-      <p class="next"><a href="growing.html">If you are leaning in: how to encourage a moss lawn &rarr;</a></p>
+      <h2>Living with a moss lawn</h2>
+      <p>The alternative is to stop fighting. In a shaded, damp garden a moss lawn is a real pleasure underfoot, green right through winter and drought, and free of mowing, feeding and watering once it has settled in. Clearing the leaves in autumn is about all it asks. Where grass has never properly taken, this tends to be both the better-looking surface and far the less demanding, and plenty of gardeners now choose it on purpose rather than inheriting it by defeat. There is a full how-to in <a href="moss-lawn.html">how to make a moss lawn</a>.</p>
+
+      <h2>Which moss makes a lawn</h2>
+      <p>If you are encouraging it rather than evicting it, lean towards the creeping, carpet-forming kinds over tight cushions, because they spread into continuous, walkable cover. The springy turf-moss already colonising many lawns is one of them; the feather mosses are another. Cushion-formers look marvellous in a moss garden but spread too slowly and lumpily to make a lawn.</p>
     </div>
   </section>
 ''',
