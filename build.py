@@ -36,8 +36,9 @@ def nav_html(active):
     return "\n        ".join(items)
 
 
-def page(slug, title, description, body, hero=None):
+def page(slug, title, description, body, hero=None, active=None):
     full_title = title if slug == "index" else f"{title} | {SITE}"
+    active = active or slug
     hero_block = ""
     if hero:
         hero_block = f'''
@@ -66,7 +67,7 @@ def page(slug, title, description, body, hero=None):
       <input type="checkbox" id="navtoggle" class="navtoggle">
       <label for="navtoggle" class="navburger" aria-label="Menu">≡</label>
       <ul>
-        {nav_html(slug)}
+        {nav_html(active)}
       </ul>
     </div>
   </nav>
@@ -90,7 +91,7 @@ def page(slug, title, description, body, hero=None):
         <a href="about.html">About</a>
       </p>
       <p class="credits">Photographs from Wikimedia Commons under their respective licences: forest moss by W. Carter (CC0); <em>Sphagnum capillifolium</em> by Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0); <em>Hypnum cupressiforme</em> by Robert Flogaus-Faust (CC BY 4.0); <em>Dicranum scoparium</em> by Rafael Medina (CC BY 4.0); <em>Thuidium tamariscinum</em> by Michael Becker (CC BY-SA 3.0).</p>
-      <p class="copy">&copy; <span>{YEAR}</span> Mossbank. Text free to share under CC BY-SA 4.0. Analytics are cookieless and self-hosted; see the <a href="privacy.html">privacy page</a>.</p>
+      <p class="copy">&copy; <span>{YEAR}</span> Mossbank. Text licensed CC BY-NC-SA 4.0. Analytics are cookieless and self-hosted; see the <a href="privacy.html">privacy page</a>.</p>
     </div>
   </footer>
 </body>
@@ -286,32 +287,32 @@ PAGES["projects"] = dict(
     body='''
   <section class="section">
     <div class="wrap">
-      <p class="lede">Once you can keep moss alive, it becomes a material. A few of the things people make with it.</p>
+      <p class="lede">Once you can keep moss alive, it becomes a material. Six things people make with it, each with its own guide.</p>
       <div class="grid-cards">
-        <div class="tile static">
+        <a class="tile" href="kokedama.html">
           <h3>Kokedama</h3>
-          <p>The Japanese "moss ball": a plant whose roots are wrapped in a ball of soil, bound with moss and string, and hung or set on a dish. Soak to water. A good first project, and forgiving.</p>
-        </div>
-        <div class="tile static">
+          <p>The Japanese "moss ball": a plant whose roots are wrapped in soil, bound with moss and string, and hung or set on a dish. A forgiving first project.</p>
+        </a>
+        <a class="tile" href="terrariums.html">
           <h3>Terrariums</h3>
-          <p>A closed glass jar makes a near-perfect moss home: high humidity, soft light, no drying wind. Cushion mosses such as <em>Leucobryum</em> and broom fork-moss keep their shape beautifully under glass for years.</p>
-        </div>
-        <div class="tile static">
+          <p>A closed glass jar is a near-perfect moss home: high humidity, soft light, no drying wind. Cushion mosses keep their shape under glass for years.</p>
+        </a>
+        <a class="tile" href="bonsai-moss.html">
           <h3>Bonsai carpets</h3>
-          <p>A skin of moss over the soil of a bonsai keeps the roots cool and damp, stops the surface washing out, and finishes the tree with a settled, aged look. Choose a fine, flat-growing species.</p>
-        </div>
-        <div class="tile static">
+          <p>A skin of moss over a bonsai's soil keeps roots cool and damp, stops the surface washing out, and finishes the tree with a settled, aged look.</p>
+        </a>
+        <a class="tile" href="moss-walls.html">
           <h3>Living walls</h3>
-          <p>Moss panels green a shaded wall with almost no weight and no irrigation once established, soaking up rain and cooling the surface. They want shade and occasional misting, not full sun.</p>
-        </div>
-        <div class="tile static">
+          <p>Moss panels green a shaded wall with almost no weight and no irrigation once established, soaking up rain and cooling the surface.</p>
+        </a>
+        <a class="tile" href="japanese-moss-gardens.html">
           <h3>Japanese moss gardens</h3>
-          <p>The moss gardens of Kyoto treat the carpet itself as the planting, with stone, water and a few trees for structure. The effect is quiet and deep, and it rewards the same shade-and-damp conditions described in the growing guide.</p>
-        </div>
-        <div class="tile static">
+          <p>The moss gardens of Kyoto treat the carpet itself as the planting, with stone, water and a few trees for structure. Quiet, and deep.</p>
+        </a>
+        <a class="tile" href="moss-graffiti.html">
           <h3>Moss graffiti</h3>
-          <p>Paint a moss slurry onto a shaded wall in a shape or letters, keep it misted, and it grows into a living design. Lovely on your own damp north wall; ask first on anyone else's.</p>
-        </div>
+          <p>Paint a moss slurry onto a shaded wall in a shape or letters, keep it misted, and it grows into a living design.</p>
+        </a>
       </div>
       <div class="prose">
         <p class="next"><a href="growing.html">You will need the basics first: the growing guide &rarr;</a></p>
@@ -435,7 +436,7 @@ PAGES["about"] = dict(
       <p class="lede">Mossbank is a small, independent field guide to the bryophytes, written for anyone who has ever crouched down to look closely at the green stuff on a wall.</p>
       <p>It started, as these things do, with noticing. Once you see one moss properly you start seeing all of them, and it turns out the soft green carpet you walked past for years is a whole quiet kingdom: older than the dinosaurs, living without roots, surviving drought by switching itself off, and holding more of the world together than its size suggests.</p>
       <p>The aim here is plain and practical. What is moss, which ones will you meet, how do you grow it, what is it good for. No jargon for its own sake, and British names alongside the Latin so you can actually use them.</p>
-      <p>The photographs are from Wikimedia Commons under their respective licences, credited in the footer. The words are free to share under CC BY-SA 4.0. Corrections and additions are welcome.</p>
+      <p>The photographs are from Wikimedia Commons under their respective licences, credited in the footer. The words are licensed CC BY-NC-SA 4.0, free to share and adapt non-commercially with credit. Corrections and additions are welcome.</p>
       <p class="next"><a href="index.html">&larr; Back to the start</a></p>
     </div>
   </section>
@@ -470,12 +471,171 @@ PAGES["privacy"] = dict(
 )
 
 
+PAGES["kokedama"] = dict(
+    title="Kokedama: the moss ball",
+    description="How to make and care for kokedama, the Japanese moss ball: choosing a plant, mixing the soil, binding with moss and string, watering by soaking, and keeping it alive.",
+    active="projects",
+    hero="sphagnum.jpg",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Kokedama, literally "moss ball", is a plant grown with its roots in a ball of soil that is wrapped in living moss and bound with string. No pot, just a green sphere you hang or rest on a dish. It is the friendliest way into growing with moss.</p>
+
+      <h2>What you need</h2>
+      <ul class="loose">
+        <li>A small shade-tolerant plant: ferns, ivy, peace lily, asparagus fern and many houseplants all take to it.</li>
+        <li>A soil mix that holds together: the classic is roughly seven parts akadama (a Japanese clay soil) to three parts peat-free compost, but any heavy, slightly clayey mix that binds when damp will do.</li>
+        <li>Sheet moss to wrap the outside.</li>
+        <li>Cotton or jute twine, and a bucket of water.</li>
+      </ul>
+
+      <h2>Making it</h2>
+      <p>Ease the plant from its pot and tease most of the loose compost off the roots. Dampen your soil mix until it holds a shape like modelling clay, and press it around the root ball into a firm sphere. Wrap the moss around the outside, green side out, covering the ball completely, then wind twine around it in every direction until the moss is held snug. Tie off and tidy the loose ends.</p>
+
+      <h2>Watering and care</h2>
+      <p>You water a kokedama by soaking, not pouring. When the ball feels light, sit it in a bowl of water (rainwater for preference) for ten to twenty minutes until it stops bubbling and feels heavy again, then let it drain. How often depends on your room, but once or twice a week is typical. Keep it out of direct sun and away from radiators, mist the moss between soakings if your air is dry, and feed the plant occasionally in summer by adding a weak feed to the soak water.</p>
+
+      <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["terrariums"] = dict(
+    title="Moss terrariums",
+    description="Building a moss terrarium: choosing a closed or open vessel, drainage and substrate layers, which cushion mosses suit glass, planting, and the light and watering they need.",
+    active="projects",
+    hero="dicranum.jpg",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A glass vessel gives moss exactly what it likes and we struggle to provide indoors: high humidity, soft even light and still air. A closed terrarium can keep a moss landscape fresh for years with almost no attention.</p>
+
+      <h2>Open or closed</h2>
+      <p>A closed jar or bottle traps moisture and recycles it, so it suits mosses and other damp-lovers and needs watering only rarely. An open bowl dries faster, wants more frequent misting, and suits plants that dislike constant wet. For moss, closed is the easier and more reliable choice.</p>
+
+      <h2>The layers</h2>
+      <p>Build from the bottom up: a layer of gravel or clay pebbles for drainage, a thin layer of activated charcoal to keep the water sweet, a mesh or fibre divider if you like, then a few centimetres of substrate. A free-draining, low-nutrient mix is best; rich compost encourages mould under glass.</p>
+
+      <h2>Which mosses</h2>
+      <p>Cushion species hold their shape beautifully behind glass. Bun moss and the broom fork-moss keep their domed, combed look for a long time. Carpet-forming feather mosses spread to fill gaps and soften the floor. Avoid bog mosses unless you are running things very wet.</p>
+
+      <h2>Planting and care</h2>
+      <p>Press each piece of moss firmly onto the substrate so it makes full contact, then mist lightly. Stand the terrarium in bright, indirect light, never direct sun, which cooks the inside in minutes. A closed jar should show a light mist on the glass; clear it for a while if it streams with water, and add a spray if it dries out. That is more or less the entire job.</p>
+
+      <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["bonsai-moss"] = dict(
+    title="Moss for bonsai",
+    description="Using moss on bonsai: why a moss surface helps, choosing a fine flat-growing species, applying it as patches or a slurry, and avoiding the moss harming the tree.",
+    active="projects",
+    hero="hypnum.jpg",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A skin of moss over the soil of a bonsai does real work as well as looking right. It keeps the root zone cool and evenly damp, stops the surface washing out when you water, and gives the planting that settled, long-established look that takes years to fake otherwise.</p>
+
+      <h2>Choose the right moss</h2>
+      <p>You want a fine, flat, tight-growing species that hugs the soil, not a tall or shaggy one that competes for the eye with the tree. Low feather mosses and the flat plait mosses are ideal. Collect small amounts from paths, walls and pots rather than stripping a single patch.</p>
+
+      <h2>Applying it</h2>
+      <p>The simplest method is to press small pieces of fresh moss firmly onto the dampened soil surface, butting them together with no gaps, then water gently. The slurry method also works well on bonsai: blend moss with a little water or buttermilk and paint it over the soil, where it regenerates over a few weeks.</p>
+
+      <h2>Do not let it work against you</h2>
+      <p>Moss holds water, which is the point, but on a tree that likes to dry between waterings it can keep the surface too wet and hide what the soil is doing. Keep an eye on watering, lift a corner now and then to check the soil beneath, and trim the moss back if it starts creeping up the trunk. On the show bench, a neat moss surface is the finishing touch; off-season, give the tree normal airflow.</p>
+
+      <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-walls"] = dict(
+    title="Living moss walls",
+    description="Making a living moss wall: why moss suits vertical greening, framed panels versus direct growing, the shade and humidity it needs, and the difference from preserved moss.",
+    active="projects",
+    hero="thuidium.jpg",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss is close to the perfect material for greening a wall. It is light, needs no soil to speak of, asks for no feeding, and once established lives on shade, humidity and the occasional misting rather than a pumped irrigation system.</p>
+
+      <h2>Living, not preserved</h2>
+      <p>Be clear which you want. Much of what is sold as a "moss wall" is preserved moss: real moss treated so it stays soft and green but is no longer alive, used purely as decoration indoors. A living moss wall is a different thing, a genuine growing surface that needs the right conditions. This guide is about the living kind.</p>
+
+      <h2>What it needs</h2>
+      <p>Shade and humidity are everything. A living moss wall wants a spot out of direct sun, ideally north-facing or well shaded, with still, damp air. A bright bathroom, a shaded courtyard or a north wall all suit it; a sunny living room does not. Without enough humidity it browns and you are back to misting daily.</p>
+
+      <h2>Building one</h2>
+      <p>The usual approach is a shallow framed panel backed with a moisture-holding medium such as a felt mat or a fine substrate, onto which moss is pressed or grown in. Keep the panel evenly damp while the moss grips, using rainwater if you can. The slurry method works for covering an awkward shape: paint blended moss onto the backing and keep it misted until it knits. Once it has taken, the wall largely looks after itself in the right spot.</p>
+
+      <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["japanese-moss-gardens"] = dict(
+    title="Japanese moss gardens",
+    description="The Japanese moss garden tradition: the famous Kyoto gardens, why moss became central, the conditions that make a moss garden work, and how to bring the idea home.",
+    active="projects",
+    hero="hero.jpg",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">In the Japanese moss garden the carpet itself is the planting. Where a Western garden fills beds with flowers, these gardens use moss as the ground, with stone, water and a few carefully placed trees for structure. The effect is quiet, even and deep.</p>
+
+      <h2>Kyoto and the moss tradition</h2>
+      <p>Kyoto is the home of the form, and Saiho-ji, the temple known simply as Koke-dera or "the moss temple", is its most famous example, its grounds carpeted in well over a hundred kinds of moss. The look was not entirely planned: in a damp, shaded climate, moss spread of its own accord over older gardens, and gardeners came to value rather than fight it. The restraint we admire grew partly out of letting the moss have its way.</p>
+
+      <h2>Why it works there</h2>
+      <p>Kyoto's humid summers and shaded temple grounds are close to ideal for moss. That is the real lesson for anyone wanting the effect elsewhere: a moss garden is not a style you impose but a response to a place. Give moss the shade and damp it needs and it thrives; deny them and no amount of design will hold it.</p>
+
+      <h2>Bringing the idea home</h2>
+      <p>You do not need a temple. A shaded, damp corner, a few good stones, a simple path and patience will carry the feeling. Prepare the ground as in the <a href="growing.html">growing guide</a>, keep grass and weeds out, clear fallen leaves in autumn, and let the moss thicken year on year. The discipline is mostly in what you leave out.</p>
+
+      <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-graffiti"] = dict(
+    title="Moss graffiti",
+    description="How to make moss graffiti: blending a moss slurry, painting a design onto a shaded wall, keeping it misted until it takes, and the etiquette of where to do it.",
+    active="projects",
+    hero="hypnum.jpg",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss graffiti is a living design: a shape, word or pattern painted onto a wall as a moss slurry, which then grows into the real thing. Done in the right spot it is one of the most satisfying things you can do with moss.</p>
+
+      <h2>The slurry</h2>
+      <p>Blend a couple of handfuls of clean moss with enough liquid to make a thick paint. The traditional binder is buttermilk or natural yoghurt, which helps it cling and feeds the moss a little; plain water works too. Some people add a spoonful of sugar or a little water-retaining gel. You want a mix you can apply with a brush without it running off.</p>
+
+      <h2>Applying it</h2>
+      <p>Pick a shaded, damp, porous surface: rough brick, stone or bare concrete in shade takes moss far better than a smooth, sunny, painted wall. Paint your design on with a brush, keep the edges crisp, and then comes the only hard part, which is keeping it damp. Mist it daily for the first few weeks while the moss establishes. In a genuinely shaded, humid spot it greens up and fills in; in sun it simply dries and fails.</p>
+
+      <h2>Where, and whose wall</h2>
+      <p>This is lovely on your own damp north wall, a shaded fence or a back yard. On anyone else's property it is criminal damage however green and gentle it looks, so ask first, and do not do it on listed or historic stonework where even moss can be unwelcome. Your wall, your rules; someone else's wall, their permission.</p>
+
+      <p class="next"><a href="projects.html">&larr; Back to projects</a></p>
+    </div>
+  </section>
+''',
+)
+
+
 def main():
     import os
     here = os.path.dirname(os.path.abspath(__file__))
     written = []
     for slug, p in PAGES.items():
-        out = page(slug, p["title"], p["description"], p["body"], p.get("hero"))
+        out = page(slug, p["title"], p["description"], p["body"], p.get("hero"), p.get("active"))
         path = os.path.join(here, f"{slug}.html")
         with open(path, "w", encoding="utf-8") as f:
             f.write(out)
