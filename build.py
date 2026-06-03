@@ -7,7 +7,9 @@ import html
 from datetime import date
 
 SITE = "Mossbank"
+BASE = "https://mossbank.de"
 YEAR = date.today().year
+LAUNCH = "2026-06-03"
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
 ANALYTICS = (
@@ -38,8 +40,37 @@ def nav_html(active):
 
 
 def page(slug, title, description, body, hero=None, active=None):
+    import json as _json
     full_title = title if slug == "index" else f"{title} | {SITE}"
     active = active or slug
+    url = BASE + ("/" if slug == "index" else f"/{slug}.html")
+    img = f"{BASE}/assets/{hero or 'hero.jpg'}"
+    ogtype = "website" if slug == "index" else "article"
+    if slug == "index":
+        ld = {"@context": "https://schema.org", "@type": "WebSite",
+              "name": SITE, "url": BASE + "/", "description": description}
+    else:
+        ld = {"@context": "https://schema.org", "@type": "Article",
+              "headline": title, "description": description, "image": img,
+              "datePublished": LAUNCH, "dateModified": date.today().isoformat(),
+              "inLanguage": "en-GB", "mainEntityOfPage": url,
+              "author": {"@type": "Organization", "name": SITE},
+              "publisher": {"@type": "Organization", "name": SITE}}
+    ldjson = _json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
+    meta = f'''<link rel="canonical" href="{url}">
+  <meta name="robots" content="index, follow">
+  <meta property="og:site_name" content="{SITE}">
+  <meta property="og:type" content="{ogtype}">
+  <meta property="og:title" content="{html.escape(full_title)}">
+  <meta property="og:description" content="{html.escape(description)}">
+  <meta property="og:url" content="{url}">
+  <meta property="og:image" content="{img}">
+  <meta property="og:locale" content="en_GB">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{html.escape(full_title)}">
+  <meta name="twitter:description" content="{html.escape(description)}">
+  <meta name="twitter:image" content="{img}">
+  <script type="application/ld+json">{ldjson}</script>'''
     hero_block = ""
     if hero:
         hero_block = f'''
@@ -55,6 +86,7 @@ def page(slug, title, description, body, hero=None, active=None):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{html.escape(full_title)}</title>
   <meta name="description" content="{html.escape(description)}">
+  {meta}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -965,6 +997,12 @@ PAGES["moss-on-roofs"] = dict(
       <p>Moss is one of the lightest living coverings there is. A moss mat over a thin layer of growing medium weighs far less than a sedum-and-substrate build, which sometimes makes a living roof possible on a structure that could never carry the conventional kind. Two cautions, though. First, moss holds a lot of water, so always reckon on the <em>saturated</em> weight plus any snow load, not the dry weight, when you or an engineer check the roof. Second, a light mat catches the wind, so it needs securing and good edge detailing against uplift.</p>
       <p>It is not a free pass: you still need sound waterproofing beneath it, a shaded or north-facing aspect and a low pitch suit moss best, and anything you deliberately install should have its loading checked rather than assumed. But where a traditional green roof is simply too heavy, a moss roof is often the version that can actually go ahead.</p>
 
+      <h2>What it does to rainwater collection</h2>
+      <p>If you harvest rainwater into a butt or tank, a moss or green roof works against you, on both quantity and quality. It is the same water-holding that makes moss useful elsewhere, turned into a drawback here.</p>
+      <p><strong>Quantity.</strong> Moss is a sponge. A moss roof soaks up a large share of the rain that lands on it and evaporates much of it straight back to the air, so light showers can produce almost no run-off until the moss is saturated. Over a year an extensive green roof commonly retains something like half the rainfall, which means your tank sees far less than the same area of plain tile or metal would deliver.</p>
+      <p><strong>Quality.</strong> The water that does run off a living roof carries organic matter, tannins that stain it brown, nutrients, and fine particles from the moss and any growing medium. That is fine for watering the garden, but it discolours stored water, feeds algae in the butt, and clogs fine filters faster, so it is poorly suited to clean or drinking use without good filtration and a first-flush diverter.</p>
+      <p><strong>The flip side.</strong> That same retention is a real benefit for stormwater: it slows and reduces run-off and eases the load on drains in a downpour. So it is a genuine trade-off. If your aim is to fill a tank with as much clean water as possible, keep moss off the collecting roof and run a hard tile or metal surface to the gutter. If slowing run-off and cooling the building matter more to you, the green roof wins, but expect less water in the butt and browner water at that.</p>
+
       <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
     </div>
   </section>
@@ -1097,12 +1135,149 @@ PAGES["moss-myths"] = dict(
 ''',
 )
 
+PAGES["how-to-identify-moss"] = dict(
+    title="How to identify moss",
+    description="A beginner's approach to identifying mosses to species: using a hand lens, the features that matter (leaf shape, midrib, capsule), acrocarps versus pleurocarps, and recording your finds.",
+    active="guides",
+    blurb="Get past 'it's a moss'. A hand lens, the features that matter, and how to start naming what you find.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Telling a moss from a lichen or liverwort is one thing; naming the actual species is another, and it is where a lot of people stall. You do not need a laboratory, but you do need a hand lens and a few habits.</p>
+
+      <h2>Get a hand lens</h2>
+      <p>A simple folding lens at ten or twenty times magnification is the single most useful tool, and it changes everything. Mosses are small and the features that separate species, the shape of a leaf, whether it has a midrib, the form of the little capsule, are simply invisible to the naked eye. Hold the lens close to your eye and bring the moss up to it, in good light.</p>
+
+      <h2>The features that matter</h2>
+      <ul class="loose">
+        <li><strong>Growth form</strong>: does it grow in upright tufts and cushions (acrocarps) or trailing, branching mats (pleurocarps)? This first split narrows things enormously.</li>
+        <li><strong>Leaf shape and arrangement</strong>: long and narrow, oval, pointed, blunt, swept to one side, spirally arranged or in ranks.</li>
+        <li><strong>The midrib (nerve)</strong>: a single vein running up the leaf, present or absent, single or double, reaching the tip or stopping short.</li>
+        <li><strong>The capsule</strong>: upright or nodding, round or cylindrical, on a long or short stalk, with what kind of lid. When present, capsules are full of clues.</li>
+      </ul>
+
+      <h2>Use a key and record it</h2>
+      <p>With those observations you can work through a moss field guide or key, which leads you by yes-or-no questions to a name. Photograph your finds, note where and on what they grew, and consider logging them with a recording scheme or a naturalist app; verified records are genuinely useful to science, and the feedback sharpens your eye. Start with the common species on the <a href="species.html">species page</a> and build from there.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["collecting-moss"] = dict(
+    title="Collecting moss responsibly",
+    description="How to collect moss without harm: taking small amounts from many places, where you may and may not collect, protected sites and landowner permission, and why never to strip wild ground.",
+    active="guides",
+    blurb="Where you may gather moss, how much is fair, and the sites and rules to respect so you do no harm.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Most moss projects start with collecting a little, and done thoughtfully that is fine. Done carelessly it scars a place that took years to grow. A few simple principles keep you on the right side.</p>
+
+      <h2>Little and often, from many places</h2>
+      <p>Take small pieces from several spots rather than lifting one patch whole. Moss regrows from fragments and from the edges of what is left, so a light, scattered take recovers quickly, whereas a bare scrape can stay bare for years. Your own garden, walls, paths and pots are the easiest and most guilt-free source, and they usually have more than you think.</p>
+
+      <h2>Where you may, and may not</h2>
+      <p>On your own land, collect freely. On other land you need the owner's permission, and in many places removing plants from the wild without it is not allowed. Nature reserves, protected sites and designated areas are off limits; some rare mosses and their habitats are specifically protected by law, and a casual handful can be a serious matter on the wrong ground. Pavements, old walls and waste ground in towns are far less sensitive than ancient woodland or bog.</p>
+
+      <h2>Do no lasting harm</h2>
+      <p>Avoid stripping banks, boulders and tree bases that hold a place together and shelter other life; that moss is habitat as well as scenery. Take what you will actually use, clean off soil and creatures before bringing it home, and leave the spot looking as though you were never there. Treated that way, collecting moss is a gentle thing. The wild does not owe you a moss lawn; grow most of it on from a modest start, as in the <a href="growing.html">growing guide</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-and-wildlife"] = dict(
+    title="Moss and wildlife",
+    description="Why moss matters for wildlife: nesting material for birds, shelter and hunting ground for invertebrates, a humid refuge in dry spells, and how a mossy patch supports the wider garden.",
+    active="guides",
+    hero="thuidium.jpg",
+    blurb="Nesting material, invertebrate shelter, a damp refuge: how a mossy patch quietly feeds the rest of the garden.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A patch of moss is doing more for the life around it than it looks. It is food, shelter, building material and a damp refuge all at once, and the garden is poorer without it.</p>
+
+      <h2>Birds build with it</h2>
+      <p>Many birds line their nests with moss, prized for being soft, insulating and water-holding. Wrens, robins, chaffinches, long-tailed tits and others gather it every spring. A garden with moss to hand makes nest-building easier, which is one good reason not to scour every last scrap off the lawn in March.</p>
+
+      <h2>A world for invertebrates</h2>
+      <p>The damp, sheltered spaces in a moss cushion hold springtails, mites, beetles, spiders and a host of smaller creatures, and the things that eat them come looking. Moss is hunting ground as much as habitat. For the truly tiny end of that community, including the famous water bears, see <a href="life-in-moss.html">the hidden world in a moss cushion</a>.</p>
+
+      <h2>A refuge when it is dry</h2>
+      <p>Because moss buffers humidity and temperature, it gives small animals somewhere to ride out a dry, hot spell that would see them off on bare ground. In a warming climate that buffering matters more, not less. A mossy log, wall base or shady corner is a little reservoir of cool and damp the rest of the garden can draw on.</p>
+
+      <h2>Leaning into it</h2>
+      <p>You do not have to do much: leave some moss rather than removing all of it, keep a shady damp corner, and resist the urge for a sterile, scrubbed surface everywhere. A garden that tolerates moss supports more life, with no extra work. See <a href="uses.html">what moss is good for</a> for the wider picture.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-in-history"] = dict(
+    title="Moss through history",
+    description="Historical uses of moss: chinking log cabins, stuffing and packing, Ötzi the Iceman, and sphagnum wound dressings in the First World War. How a humble plant has served for millennia.",
+    active="guides",
+    hero="hero.jpg",
+    blurb="Cabin chinking, packing, the Iceman, and wartime wound dressings: how moss has served people for millennia.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss is so ordinary that it is easy to forget how long and how usefully people have relied on it. A short tour of the humble plant's working past.</p>
+
+      <h2>Building and packing</h2>
+      <p>For centuries moss chinked the gaps between the logs of cabins and the planks of boats, sealing out draughts and damp because it packs tight, holds a little moisture and resists rot. Dried moss stuffed mattresses, pillows and cushions, and padded all manner of goods in transit, including plants and bulbs sent long distances. Light, springy and free, it was the obvious material to hand.</p>
+
+      <h2>The Iceman's moss</h2>
+      <p>When the 5,000-year-old body known as Ötzi was found in the Alps, mosses were among the plant remains with him, including pieces that had no business growing where he died. They had been carried, used for packing or wrapping, and they help researchers trace where he had been. Even a Copper Age traveller had moss about his person.</p>
+
+      <h2>Sphagnum and the wars</h2>
+      <p>The best-known chapter is medical. Sphagnum, the bog moss, is highly absorbent and slightly acidic, which discourages bacteria, and it had been used on wounds for a very long time. When the First World War outran the supply of cotton dressings, sphagnum was gathered from bogs by the sackful, cleaned and sewn into dressings, and it genuinely saved lives. It is a striking thing to remember while looking at a patch of moss on a wall.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["watering-moss"] = dict(
+    title="Water for moss: rainwater or tap?",
+    description="The best water for moss: why rainwater suits it and hard tap water does not, the problem with lime and chlorine, and practical watering for moss lawns, walls and terrariums.",
+    active="guides",
+    blurb="Why rainwater beats hard tap water for moss, what lime and chlorine do, and how to water without overdoing it.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss takes its water in across its whole surface, so what is in that water matters more than it would for a rooted plant. The short version: rainwater is kinder than the tap, especially where the tap is hard.</p>
+
+      <h2>Why rainwater suits it</h2>
+      <p>Rainwater is soft, slightly acidic and free of additives, which is close to what most mosses meet in nature. Hard tap water is alkaline and full of dissolved lime, and over time that lime raises the surface pH and leaves a chalky scale that many mosses dislike, slowly turning a healthy patch tired and grey. Chlorine and chloramine, added to tap water to keep it safe, do moss no favours either.</p>
+
+      <h2>When the tap is fine</h2>
+      <p>If your water is naturally soft, the tap is perfectly usable. Where it is hard, save rainwater for the moss if you can; a water butt is more than enough for a lawn, a wall or a clutch of terrariums. Letting tap water stand overnight lets some chlorine off but does nothing about hardness.</p>
+
+      <h2>How to water</h2>
+      <p>Little and often beats an occasional soaking. Misting keeps the surface damp without waterlogging, which is what moss wants; standing wet with no air encourages algae and rot instead. Early morning or evening is best, so it is not drying in the midday sun. For establishing new moss, mist daily for the first few weeks, as in the <a href="growing.html">growing guide</a>; after that, in a shaded spot, the weather does much of the job.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "removing-moss", "moss-on-roofs",
-    "moss-pole", "spraying-moss", "aquarium-moss", "aquarium-moss-real-or-not",
-    "best-moss-for-terrariums", "moss-indoors", "telling-moss-apart",
-    "growing-moss-from-spores", "peat-and-peat-free", "life-in-moss", "moss-myths",
+    "watering-moss", "moss-pole", "spraying-moss", "aquarium-moss",
+    "aquarium-moss-real-or-not", "best-moss-for-terrariums", "moss-indoors",
+    "how-to-identify-moss", "telling-moss-apart", "collecting-moss",
+    "growing-moss-from-spores", "peat-and-peat-free", "moss-and-wildlife",
+    "life-in-moss", "moss-in-history", "moss-myths",
 ]
 
 
@@ -1139,7 +1314,28 @@ def main():
         with open(path, "w", encoding="utf-8") as f:
             f.write(out)
         written.append(f"{slug}.html")
-    print("built:", ", ".join(written))
+
+    # sitemap.xml
+    today = date.today().isoformat()
+    urls = []
+    for slug in PAGES:
+        loc = BASE + ("/" if slug == "index" else f"/{slug}.html")
+        prio = "1.0" if slug == "index" else ("0.8" if slug in ("guides", "projects", "species", "growing") else "0.6")
+        urls.append(f"  <url><loc>{loc}</loc><lastmod>{today}</lastmod><changefreq>weekly</changefreq><priority>{prio}</priority></url>")
+    sitemap = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+               + "\n".join(urls) + "\n</urlset>\n")
+    with open(os.path.join(here, "sitemap.xml"), "w", encoding="utf-8") as f:
+        f.write(sitemap)
+
+    # robots.txt
+    robots = ("User-agent: *\n"
+              "Allow: /\n\n"
+              f"Sitemap: {BASE}/sitemap.xml\n")
+    with open(os.path.join(here, "robots.txt"), "w", encoding="utf-8") as f:
+        f.write(robots)
+
+    print("built:", len(written), "pages + sitemap.xml + robots.txt")
 
 
 if __name__ == "__main__":
