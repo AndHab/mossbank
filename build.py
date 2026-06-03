@@ -10,6 +10,7 @@ SITE = "Mossbank"
 BASE = "https://mossbank.de"
 YEAR = date.today().year
 LAUNCH = "2026-06-03"
+INDEXNOW_KEY = "d8673e1556bb458288ac3b759652d297"
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
 ANALYTICS = (
@@ -1602,7 +1603,11 @@ def main():
     with open(os.path.join(here, "robots.txt"), "w", encoding="utf-8") as f:
         f.write(robots)
 
-    print("built:", len(written), "pages + sitemap.xml + robots.txt")
+    # IndexNow key file (Bing/Yandex instant indexing)
+    with open(os.path.join(here, INDEXNOW_KEY + ".txt"), "w", encoding="utf-8") as f:
+        f.write(INDEXNOW_KEY)
+
+    print("built:", len(written), "pages + sitemap.xml + robots.txt + IndexNow key")
 
 
 if __name__ == "__main__":
