@@ -110,6 +110,12 @@ a.tile:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(44,68,41,.12)
 .copy{font-size:.8rem;color:#9fb094;margin:0}
 .footer em{font-style:italic}
 
+/* image credits table */
+.credits-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.93rem}
+.credits-table th,.credits-table td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.credits-table th{font-family:"Inter",sans-serif;font-weight:600;color:var(--green-deep)}
+.credits-table td:first-child{width:90px}
+
 @media (max-width:860px){
   .two-col{grid-template-columns:1fr;gap:32px}
   .grid-cards{grid-template-columns:repeat(2,1fr)}

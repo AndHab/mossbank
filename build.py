@@ -12,6 +12,22 @@ YEAR = date.today().year
 LAUNCH = "2026-06-03"
 INDEXNOW_KEY = "d8673e1556bb458288ac3b759652d297"
 
+# (filename, what it shows, author, licence). All from Wikimedia Commons, served
+# from /assets, credited on credits.html. Add a row when adding an image.
+IMAGE_CREDITS = [
+    ("hero.jpg", "Forest moss, Gullmarsskogen ravine", "W. Carter", "CC0"),
+    ("sphagnum.jpg", "Sphagnum capillifolium, bog moss", "Krzysztof Ziarnek, Kenraiz", "CC BY-SA 4.0"),
+    ("hypnum.jpg", "Hypnum cupressiforme, plait moss", "Robert Flogaus-Faust", "CC BY 4.0"),
+    ("dicranum.jpg", "Dicranum scoparium, broom fork-moss", "Rafael Medina", "CC BY 4.0"),
+    ("thuidium.jpg", "Thuidium tamariscinum, tamarisk moss", "Michael Becker", "CC BY-SA 3.0"),
+    ("marimo.jpg", "Aegagropila linnaei, a marimo, Hokkaido", "bryan, Taipei", "CC BY-SA 2.0"),
+    ("reindeer.jpg", "Cladonia rangiferina, reindeer lichen", "Tomas P.", "CC0"),
+    ("leucobryum.jpg", "Leucobryum glaucum, bun moss", "Krzysztof Ziarnek, Kenraiz", "CC BY-SA 4.0"),
+    ("sundew-sphagnum.jpg", "Drosera rotundifolia among Sphagnum", "Geoff Gallice", "CC BY 2.0"),
+    ("monstera-pole.jpg", "Monstera climbing a coir and moss pole", "Secretlondon", "CC BY-SA 4.0"),
+    ("kokedama.jpg", "Kokedama of ornamental plants", "Wee Hong", "CC BY-SA 4.0"),
+]
+
 # GoatCounter: cookieless, self-hosted. One line, every page.
 ANALYTICS = (
     '<script data-goatcounter="https://stats.mossbank.de/count" '
@@ -124,7 +140,7 @@ def page(slug, title, description, body, hero=None, active=None):
         <a href="privacy.html">Privacy</a> ·
         <a href="about.html">About</a>
       </p>
-      <p class="credits">Photographs from Wikimedia Commons under their respective licences: forest moss by W. Carter (CC0); <em>Sphagnum capillifolium</em> by Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0); <em>Hypnum cupressiforme</em> by Robert Flogaus-Faust (CC BY 4.0); <em>Dicranum scoparium</em> by Rafael Medina (CC BY 4.0); <em>Thuidium tamariscinum</em> by Michael Becker (CC BY-SA 3.0).</p>
+      <p class="credits">Photographs are from Wikimedia Commons, used under their respective licences and served from this site. Full <a href="credits.html">image credits</a>.</p>
       <p class="copy">&copy; <span>{YEAR}</span> Mossbank. Text licensed CC BY-NC-SA 4.0. Analytics are cookieless and self-hosted; see the <a href="privacy.html">privacy page</a>.</p>
     </div>
   </footer>
@@ -578,7 +594,7 @@ PAGES["kokedama"] = dict(
     title="Kokedama: the moss ball",
     description="How to make and care for kokedama, the Japanese moss ball: choosing a plant, mixing the soil, binding with moss and string, watering by soaking, and keeping it alive.",
     active="projects",
-    hero="sphagnum.jpg",
+    hero="kokedama.jpg",
     body='''
   <section class="section">
     <div class="wrap prose">
@@ -882,6 +898,7 @@ PAGES["moss-pole"] = dict(
     title="Moss poles for climbing houseplants",
     description="Moss poles explained: why climbing aroids like monstera and pothos benefit, sphagnum versus coir poles, how to make and mount one, and keeping it damp so aerial roots grip.",
     active="guides",
+    hero="monstera-pole.jpg",
     blurb="Why monstera and other climbers love them, how to make one, and how to keep it damp so aerial roots grip.",
     body='''
   <section class="section">
@@ -1901,9 +1918,126 @@ PAGES["moss-as-living-mulch"] = dict(
 ''',
 )
 
+PAGES["marimo-moss-balls"] = dict(
+    title="Marimo balls: care, and the truth about them",
+    description="Marimo moss ball care and what they really are: not a moss but a rare ball-forming green alga, how to keep one healthy for decades, keeping its shape and colour, and using them with shrimp.",
+    active="guides",
+    hero="marimo.jpg",
+    blurb="Not a moss at all, but a charming green alga. How to keep one alive for decades, and keep it round and green.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">The marimo is the friendliest oddity in the aquarium trade: a soft green velvet ball that asks almost nothing and can outlive the keeper. The first thing to know is that it is not a moss, despite the name stuck on it everywhere.</p>
+
+      <h2>What a marimo actually is</h2>
+      <p>A marimo is a green alga, <em>Aegagropila linnaei</em>, that in a few cold, clean lakes in Japan, Iceland and northern Europe grows into dense spheres rolled smooth by gentle currents. The ball is not a single organism wrapped round a core but a colony of filaments growing radially, green all the way through. Wild marimo are slow-growing and rare enough to be legally protected in their native lakes, so the ones sold are cultivated or hand-rolled from loose filaments rather than taken from the wild.</p>
+
+      <h2>How to keep one</h2>
+      <p>Marimo want the conditions of the cold lakes they come from: cool water, gentle or no flow, and modest light. They are happiest below about 22 degrees and dislike a hot, brightly lit tank, which is one of the few ways to actually harm them. Keep them in clean, cool water, give them an occasional swill in old tank water or dechlorinated water to rinse out trapped debris, and that is more or less the whole regime. Looked after, they live for decades; some kept specimens are over a century old.</p>
+
+      <h2>Keeping it round and green</h2>
+      <p>Two simple habits keep a marimo looking right. Roll it gently in your hand now and again, or rely on a little water movement to turn it, so every side gets light and it stays spherical rather than flattening where it rests. And keep it out of strong light and warmth, which bleach it pale or let it brown and fur with other algae. If a ball goes patchy, a rinse, a gentle squeeze and a spell somewhere cool and dim usually brings it back; a badly misshapen one can be rolled back into form by hand.</p>
+
+      <h2>In the tank, and with shrimp</h2>
+      <p>Marimo sit happily in a community tank and are a particular favourite in shrimp tanks, where the residents graze the biofilm off the surface and pick through the filaments for scraps. They are soft, harmless and trap no sharp edges. Because they are an alga rather than a rooted plant, you simply set them on the substrate or wedge them where you like. For the wider untangling of which aquarium "mosses" are the real thing, see <a href="aquarium-moss-real-or-not.html">which aquarium mosses are really moss</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["reindeer-moss"] = dict(
+    title="Reindeer moss: the lichen everyone calls moss",
+    description="Reindeer moss explained: it is a lichen, not a moss; its role in the tundra and as caribou food, the preserved dyed form used in decor and model-making, and whether it can be grown.",
+    active="guides",
+    hero="reindeer.jpg",
+    blurb="The springy stuff in moss walls and model railways is a lichen, not a moss. What it is, and how it is used.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">The pale, springy, branching stuff sold by the bag for moss walls, floristry and model scenery goes by the name reindeer moss, and like the marimo it is misnamed. It is a lichen.</p>
+
+      <h2>Not a moss</h2>
+      <p>Reindeer moss is <em>Cladonia rangiferina</em> and its relatives, lichens rather than plants: each is a partnership between a fungus and an alga living as a single organism. That is why it feels dry, brittle and cartilaginous rather than soft and leafy, and why it is grey-white or pale green rather than the fresh green of a true moss. For how to tell the groups apart in general, see <a href="telling-moss-apart.html">moss, lichen, liverwort or algae</a>.</p>
+
+      <h2>In the wild</h2>
+      <p>In the tundra and on northern heaths it forms vast pale carpets, and it is a winter mainstay for reindeer and caribou, which dig it out from under the snow. It grows extraordinarily slowly, often only a few millimetres a year, so those carpets represent decades of growth and recover painfully slowly once grazed or stripped. That slowness matters when it is harvested commercially.</p>
+
+      <h2>The preserved decorative form</h2>
+      <p>Almost all the reindeer moss you can buy has been preserved, its structure stabilised with glycerine and usually dyed a vivid green, so it stays soft and pliable indefinitely without water or light. In that state it is the workhorse of preserved moss walls, wreaths, terrarium dressing and model railway scenery, valued for its fine springy texture. It is no longer alive and needs no care beyond keeping it out of direct sun and damp; there is more on this use in <a href="preserved-moss-wall.html">preserved moss walls</a>.</p>
+
+      <h2>Can you grow it?</h2>
+      <p>Not really, in any practical sense. Lichens this slow do not lend themselves to cultivation, and there is no quick way to raise a crop, which is exactly why the harvested wild supply raises sustainability questions. If you forage a little for a project, take sparingly and from abundant ground, knowing that what you pick took many years to grow and will take many more to return.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["bun-moss"] = dict(
+    title="Bun moss (Leucobryum): the cushion moss",
+    description="Bun moss or pincushion moss (Leucobryum glaucum): the pale domed cushion moss, where it grows, why it is a favourite for terrariums and moss gardens, and how to keep it.",
+    active="guides",
+    hero="leucobryum.jpg",
+    blurb="The pale, domed cushion moss beloved of terrariums. What Leucobryum is, where it grows, and how to keep it.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">If you picture a moss as a neat green dome, you are picturing bun moss. Its rounded, pale grey-green cushions are among the most recognisable and best-loved of all mosses, and the most useful where you want shape rather than a flat carpet.</p>
+
+      <h2>What it is</h2>
+      <p>Bun moss, also called pincushion moss, is <em>Leucobryum glaucum</em> and its close relatives. The greyish, almost glaucous colour that sets it apart comes from its unusually thick leaves, built with layers of empty cells that store water and scatter light. It is a classic acrocarpous moss, growing upward in tight tufts that mound into firm, springy hemispheres rather than spreading sideways, which is covered more fully in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>Where it grows</h2>
+      <p>Look for it on acid ground in shaded woodland and on heaths, where it forms discrete cushions on the floor, on rotting logs and over rocks. The cushions can grow surprisingly large and dense, and a single one detached and set down elsewhere will often carry on quite happily, which is part of its appeal to growers.</p>
+
+      <h2>Why terrarium makers love it</h2>
+      <p>Behind glass, bun moss is a star. It holds its domed shape for years where a carpet moss would simply spread flat, so it gives a terrarium hills, structure and a sense of miniature landscape. It tolerates the high humidity of a closed jar beautifully. A couple of bun cushions set as low hills with a feather moss running between them is the backbone of many a good terrarium; the species roundup is in <a href="best-moss-for-terrariums.html">the best mosses for a terrarium</a>.</p>
+
+      <h2>Keeping it</h2>
+      <p>Give bun moss what it has in the wild: shade, steady damp and acidic, low-nutrient conditions, watered with rainwater rather than hard tap. It resents lime and bright sun. It is slower to spread than the carpet mosses, so treat it as a specimen to place rather than a quick cover, and if you collect it from the wild take single small cushions from where it is plentiful rather than clearing a patch, as set out in <a href="collecting-moss.html">collecting moss responsibly</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-for-carnivorous-plants"] = dict(
+    title="Moss for carnivorous plants",
+    description="Using sphagnum moss for carnivorous plants: why bog moss suits sundews, pitcher plants, Venus flytraps and butterworts, live versus dried sphagnum, the strict no-minerals water rule, and potting.",
+    active="guides",
+    hero="sundew-sphagnum.jpg",
+    blurb="Why sphagnum is the growing medium for sundews, flytraps and pitchers, and the strict water rule that goes with it.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Carnivorous plants and sphagnum moss come from the same place, the nutrient-starved acid bog, and they belong together in cultivation. If you grow sundews, pitcher plants, Venus flytraps or butterworts, sphagnum is very likely your main growing medium.</p>
+
+      <h2>Why sphagnum suits them</h2>
+      <p>Carnivorous plants catch insects precisely because their native bogs offer almost no nutrients in the soil. Pot them in ordinary rich compost and the dissolved minerals scorch their roots and kill them. Sphagnum recreates the bog instead: acidic, extremely low in nutrients, and able to hold water around the roots while still letting air in. Sundews, the temperate pitcher plants, Venus flytraps and many others grow well in it, alone or cut with lime-free horticultural sand or perlite.</p>
+
+      <h2>Live or dried</h2>
+      <p>Both have a place. Dried long-fibre sphagnum, rehydrated, makes a clean, airy potting medium and is what most growers use as the bulk. Living sphagnum grown over the surface of the pot is even better where you can get it: it keeps the conditions acid, signals the moisture level by its own health, and looks the part. Milled sphagnum, ground fine, is useful for sowing the dust-like seed of many carnivorous plants, since its mild acidity discourages the fungus that damps off seedlings. The wider uses are gathered in <a href="sphagnum-moss.html">sphagnum moss and its many uses</a>.</p>
+
+      <h2>The water rule</h2>
+      <p>This is the part that catches people out, and it is non-negotiable: water carnivorous plants and their sphagnum only with mineral-free water, meaning rainwater, distilled or reverse-osmosis. Hard tap water steadily loads the medium with the very minerals these plants evolved to do without, and it kills them slowly but surely. They also want no feeding at the roots whatsoever; they feed themselves through their traps. Most are stood in a tray of that pure water through the growing season so the sphagnum stays wet from below.</p>
+
+      <h2>A note on peat</h2>
+      <p>Traditional carnivorous-plant mixes leaned on peat, which raises the same conservation problem set out in <a href="peat-and-peat-free.html">sphagnum, peat and why peat-free matters</a>. Sustainably sourced or cultivated sphagnum, and the growing range of peat-free bog mixes, let you grow these plants well without digging up the very habitat they come from.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 # Guides hub: auto-built from the list below so new articles only need adding here.
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
+    "bun-moss", "moss-for-carnivorous-plants", "marimo-moss-balls", "reindeer-moss",
     "removing-moss",
     "moss-on-roofs", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
     "moss-pole", "spraying-moss", "sphagnum-moss", "aquarium-moss",
@@ -1935,6 +2069,33 @@ PAGES["guides"] = dict(
       <div class="grid-cards">
 ''' + "\n".join(_guide_tile(s) for s in GUIDES_ORDER) + '''
       </div>
+    </div>
+  </section>
+''',
+)
+
+
+def _credit_row(c):
+    fn, desc, author, lic = c
+    return (f'        <tr><td><img src="assets/{fn}" alt="" loading="lazy" width="90" height="60" '
+            f'style="object-fit:cover;border-radius:6px;display:block"></td>'
+            f'<td>{html.escape(desc)}</td><td>{html.escape(author)}</td><td>{html.escape(lic)}</td></tr>')
+
+
+PAGES["credits"] = dict(
+    title="Image credits",
+    description="Image credits for Mossbank: every photograph on the site with its source, author and licence. All images come from Wikimedia Commons and are served from this site, not hotlinked.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Every photograph on Mossbank comes from Wikimedia Commons, is used under the licence shown, and is hosted here rather than linked from elsewhere. The site's own text is licensed CC BY-NC-SA 4.0; the images keep their individual licences listed below.</p>
+      <table class="credits-table">
+        <thead><tr><th></th><th>Image</th><th>Author</th><th>Licence</th></tr></thead>
+        <tbody>
+''' + "\n".join(_credit_row(c) for c in IMAGE_CREDITS) + '''
+        </tbody>
+      </table>
+      <p>Licence terms: <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
     </div>
   </section>
 ''',
