@@ -2495,9 +2495,75 @@ PAGES["haircap-moss"] = dict(
 ''',
 )
 
+PAGES["broom-fork-moss"] = dict(
+    title="Broom fork-moss (Dicranum scoparium)",
+    description="Broom fork-moss (Dicranum scoparium): how to recognise the swept, combed cushions of one of the handsomest woodland mosses, where it grows, why terrarium and moss-garden makers prize it, and how to keep it.",
+    active="guides",
+    hero="dicranum.jpg",
+    blurb="The combed, all-one-way cushions of a woodland favourite, much wanted for terrariums and moss gardens.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Run your eye across a patch of broom fork-moss and the whole cushion seems to lean. Every leaf curves the same way, as though a draught had passed through and swept them flat, and that combed, all-one-direction look is the surest way to know it on sight. It is among the handsomest of the woodland mosses, and one of the most asked-for by people building terrariums and moss gardens.</p>
+
+      <h2>Recognising it</h2>
+      <p><em>Dicranum scoparium</em> builds deep, rounded cushions of upright shoots, each shoot thickly clothed in long, narrow leaves that taper to a fine point. The giveaway is the set of those leaves: instead of standing out evenly all round the stem, they curve to one side in a smooth sweep, so that even on a still day under cover the cushion looks brushed by wind. The colour is a rich mid to dark green, drying a shade paler with a faint sheen, and a mature cushion is deep enough to lose a fingertip in. Its specific name, <em>scoparium</em>, means broom-like, for the way the swept shoots call to mind the worn head of a besom.</p>
+
+      <h2>Where it grows</h2>
+      <p>This is a moss of acid ground in shade. It carpets the floor of oak and birch woods, mounds over rotting logs and the swollen bases of trees, and spreads across peaty banks, heath and the tops of boulders wherever a skin of acid humus has gathered. Lime it will not tolerate, so chalk downland and mortared walls are the wrong places to look. Through the cooler temperate world it is common and widely spread, often keeping company with bun moss and the haircaps in the same sour, shaded conditions; learning the three together teaches your eye the whole acid-woodland palette.</p>
+
+      <h2>Where the name comes from</h2>
+      <p>The fork in fork-moss has nothing to do with the leaves and everything to do with the fruit. When <em>Dicranum</em> ripens its spores it raises curved capsules on tall yellow stalks, and the ring of teeth around each capsule mouth is split, or forked, at the tips. You need a lens to see it properly, but it is the feature that names the whole genus. The capsules hang nodding to one side, quietly echoing the sweep of the foliage below. One more habit is worth knowing: the shoots grow brittle when dry, and a cushion handled roughly sheds its tips, which happens to be one of the ways the moss spreads, since each snapped fragment can settle and grow into a fresh plant.</p>
+
+      <h2>A favourite under glass and out of doors</h2>
+      <p>Terrarium makers want <em>Dicranum</em> for exactly the quality that catches the eye in the wild. Set as a low mound it lends a planted jar movement and a sense of scale that flat carpet mosses never manage, and it holds its domed form for a long while in the even humidity behind glass; it features for that reason in the <a href="best-moss-for-terrariums.html">terrarium species roundup</a>. As a standing, dome-forming moss it sits firmly among the acrocarps, the upright growers set against the creeping carpets in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>. Out in a shaded moss garden it does the same work at a larger size, reading as soft green hummocks among the flatter feather mosses, and it is a staple of the Japanese gardens described in <a href="japanese-moss-gardens.html">Japanese moss gardens</a>.</p>
+
+      <h2>Keeping it</h2>
+      <p>Of the cushion mosses, broom fork-moss is one of the fussier to settle. It wants cool, humid, shaded, lime-free surroundings and dislikes both drying to a crisp and stewing in stagnant wet, so a spot with a little air movement suits it. Move it as whole cushions carrying their own pad of peaty substrate rather than as loose handfuls, press them into firm contact and water only with rainwater; hard tap water and its lime will sicken the plant. It spreads slowly, so treat each cushion as a specimen to place rather than a quick cover. Taking it from the wild deserves restraint, lifting small pieces only where it grows in plenty, along the lines set out in <a href="collecting-moss.html">collecting moss responsibly</a>. Given clean, damp air and shade, it repays the care with one of the most distinctive textures in the moss world.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["photographing-moss"] = dict(
+    title="How to photograph moss",
+    description="A practical guide to photographing moss close up: working with soft light and damp weather, getting down to its level, handling shallow depth of field and focus stacking, catching the capsules, and shooting well with a phone or a camera.",
+    active="guides",
+    blurb="Getting close to the small green world: light, angle, focus and patience, with a phone or a proper camera.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Moss repays a camera more than almost any plant its size, because most of what makes it lovely shows only up close: the capsules swaying on their stalks, the leaves lit from behind, the beads of water it carries after rain. That same closeness is the difficulty, since at this range light, focus and the faintest breath of wind all work against you. A little method beats expensive kit here.</p>
+
+      <h2>Wait for soft light and damp air</h2>
+      <p>Moss looks its best under gentle, even light, which makes an overcast day a gift rather than a disappointment. Bright sun is the thing to avoid: it burns out the pale capsules, drops hard black shadows between the shoots and drains the colour from everything. The half hour after rain is the moment to be out, when the plants are plumped up, glowing and dotted with water. Wind is the other quiet saboteur of close work, because at high magnification a shoot stirring a single millimetre turns to mush in the frame; find shelter, wait for a lull, or steady the stem with a twig held just outside the picture.</p>
+
+      <h2>Get down to its level</h2>
+      <p>The usual mistake is to photograph moss from standing height, looking down on it as a flat green smear. The picture comes alive only when the lens drops to the height of the capsules themselves, so be ready to kneel, lie down, or rest the camera straight on the ground. A phone or a camera with a screen that tilts saves your neck a good deal of strain in that position. A beanbag, or even a folded glove, props the camera at an awkward low angle more easily than a full tripod, though a tripod whose centre column swings horizontal is worth having if you photograph moss often.</p>
+
+      <h2>Tame the shallow focus</h2>
+      <p>The closer you focus, the thinner the slice of sharpness becomes, until only a sliver of a single capsule sits crisp while the rest dissolves. Switch off autofocus, which hunts hopelessly among the shoots, and set the point by hand. A smaller aperture, meaning a higher f-number, deepens the sharp zone, though stopping down too far softens the whole frame through diffraction, so there is a sweet spot to find around the middle of the range. When you want a whole forest of sporophytes sharp from front to back, focus stacking is the technique: take a run of frames shifting the focus a touch through the subject, then blend them in software. It asks for a still subject, which is one more reason to wait out the wind.</p>
+
+      <h2>Wet it, and hunt the sporophytes</h2>
+      <p>A small spray bottle of water is the most useful thing in a moss photographer's pocket. A light misting deepens the colour, coaxes open leaves that had curled shut in the dry, and strings droplets along the shoots that catch the light beautifully. The real prize is the sporophyte, the slender stalk and its capsule lifted above the cushion; these are at their most photogenic shot against a dark background or with the light coming through them from behind, so the translucent stalks seem to glow. A sharp frame of leaf and capsule is also half the work of naming a moss later, which dovetails neatly with <a href="how-to-identify-moss.html">how to identify moss</a>.</p>
+
+      <h2>Phone or camera, it scarcely matters</h2>
+      <p>A current phone takes excellent moss pictures, especially in its macro mode, and a clip-on macro lens costing a few pounds pushes it closer still; tap to set focus, lock the exposure, and brace your elbows. A system camera with a true macro lens goes further again, reaching life-size reproduction, easy focus stacking and real control over how the background melts away. Either route works. What decides the picture is the eye and the patience behind it, not the badge on the body.</p>
+
+      <h2>Leave the patch as you found it</h2>
+      <p>Working close tempts you to tidy the scene, plucking away a stray leaf or snapping off a stem that crosses the frame. Do as little of that as you can, and put nothing dead back in to fake a result. Resist trampling the surrounding cushion to reach one good capsule, since a moss bank is slow-grown and scars easily, a point the field-craft in <a href="collecting-moss.html">collecting moss responsibly</a> dwells on for good reason. The aim is to walk away with the photograph and leave the moss looking as though nobody had been there at all.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
-    "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss",
+    "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
     "moss-and-pets", "reviving-dried-moss", "kusamono",
@@ -2509,6 +2575,7 @@ GUIDES_ORDER = [
     "moss-in-vivariums", "best-moss-for-terrariums", "moss-indoors",
     "moss-terrarium-troubleshooting", "how-to-identify-moss",
     "acrocarpous-vs-pleurocarpous", "telling-moss-apart", "collecting-moss",
+    "photographing-moss",
     "growing-moss-from-spores", "how-fast-does-moss-grow", "peat-and-peat-free",
     "moss-and-wildlife", "life-in-moss", "moss-and-air-quality",
     "moss-in-history", "moss-myths",
