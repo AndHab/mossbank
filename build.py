@@ -29,6 +29,7 @@ IMAGE_CREDITS = [
     ("paludarium.jpg", "Paludarium, Grand Aquarium Saint-Malo", "Kev22", "CC BY-SA 4.0"),
     ("kusamono.jpg", "Kusamono with fern and strawberry", "Sage Ross", "CC BY-SA 3.0"),
     ("polytrichum.jpg", "Polytrichum commune, common haircap moss", "Hans Hillewaert", "CC BY-SA 4.0"),
+    ("wall-screw-moss.jpg", "Tortula muralis, wall screw-moss, in fruit", "Alexis (iNaturalist)", "CC BY 4.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2561,14 +2562,78 @@ PAGES["photographing-moss"] = dict(
 ''',
 )
 
+PAGES["wall-screw-moss"] = dict(
+    title="Wall screw-moss (Tortula muralis)",
+    description="Wall screw-moss (Tortula muralis): how to recognise the small grey-green cushions on almost every garden wall, the spiral peristome that names it, the hair-points that let it bake and revive, where it grows and how to encourage it.",
+    active="guides",
+    hero="wall-screw-moss.jpg",
+    blurb="The little hoary cushions on every wall top and mortar joint, named for the spiral of teeth that flings out its spores.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">On almost every garden wall in the temperate world there is a moss you have walked past a thousand times without a glance. Small grey-green cushions, each no bigger than a coin, sit along the coping and in the mortar joints, looking frosted and dead in dry weather and freshening to green after rain. This is wall screw-moss, <em>Tortula muralis</em>, and learning to name it puts a face to one of the most reliable plants in any built-up place.</p>
+
+      <h2>Recognising it</h2>
+      <p>The cushions are low and neat, a centimetre or two across, packed tight with short upright shoots. Each tongue-shaped leaf finishes in a long, colourless hair-point, a fine glassy thread, and it is the massed fringe of these pale tips that lends a dry cushion its hoary, almost silvered look. Wet the moss and the leaves spread out and flush a clean mid-green; let it dry and they twist inward and the hair-points close over the top like a drawstring. From early spring it lifts slender reddish stalks, each bearing a narrow upright capsule, and on a thriving wall these are produced so freely that the whole surface seems to bristle.</p>
+
+      <h2>The twist behind the name</h2>
+      <p>The screw is hidden inside the ripe capsule and rewards a hand lens. Around the capsule mouth sits a ring of long, thread-like teeth, the peristome, and in <em>Tortula</em> these are wound into a tight spiral, coiling like the thread of a screw or a stick of barley sugar. They are hygroscopic, flexing as the air's humidity changes, so that with every swing between damp and dry the spiral works loose a few spores and lobs them clear of the parent cushion. <em>Tortula</em> means, plainly enough, "little twist". If you want to see it for yourself, the close-looking techniques in <a href="how-to-identify-moss.html">how to identify moss</a> will get you there.</p>
+
+      <h2>Built for the wall top</h2>
+      <p>A sun-baked wall top offers no soil, little shelter and long droughts broken by sudden downpours, conditions that see off most mosses. Wall screw-moss prospers there on two tricks. That glassy hair-point on every leaf acts as a tiny parasol, reflecting fierce light and slowing evaporation from the green tissue below. And in common with all mosses it can dry to a brittle crisp and simply wait, snapping back into growth within minutes of a shower, though few manage the trick after as thorough a baking as this one shrugs off. It is fond of lime too, which is why mortar, concrete and limestone suit it so well, and it shrugs off urban soot, so it greens the walls of cities where choosier mosses fail. Standing upright in compact domes, it is a textbook acrocarp, the habit set against the creeping carpet mosses in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>Where to look</h2>
+      <p>The name does not mislead: walls come first. Glance along the coping of an old garden wall, the joints between bricks, the capping of a churchyard wall or the parapet of a road bridge and the grey-green cushions are very probably this. From there it strays onto pavements, the plinths of statues, gravestones, asbestos sheeting and old roof tiles, settling on any limey, stable surface out in the light. Across Europe and much further afield it ranks among the commonest mosses of pavements and masonry, often growing cheek by jowl with silvery thread-moss in the same gritty cracks, a pairing worth knowing when you start <a href="moss-in-paving.html">reading the moss in paving</a>. Damp acid woodland and bog are where it will not be; this moss belongs to bare stone and open sky.</p>
+
+      <h2>Encouraging it, and living with it</h2>
+      <p>You seldom need to plant wall screw-moss, since it finds any suitable masonry by itself given a few seasons. To hurry it onto a new wall or a concrete ornament, the slurry method serves well: blend a pinch of the moss with rainwater or buttermilk, work the paint into the joints and crevices of a shaded face, and keep it damp while it knits down. Skip the rich compost, because what it wants is the lime and grit it would meet in the wild. On sound stonework it does no harm whatever, taking nothing from the wall and only softening its lines; only where the mortar is already failing does it root into the gaps, and there its presence is a nudge to repoint rather than anything to blame. For most of us it stays what it has always been, the quiet green proof that even bare brick is never truly without life.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-green-roof"] = dict(
+    title="Making a moss green roof",
+    description="How to build a moss green roof on a shed, garage or bin store: why moss beats sedum in shade, the waterproofing and drainage layers beneath, establishing moss by slurry or transplant, choosing slope and aspect, and looking after it.",
+    active="guides",
+    blurb="Greening a shaded shed or garage where sedum sulks: the layers beneath, getting the moss to take, and keeping it.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A green roof need not mean sedum. On a shaded shed, a north-facing garage or a bin store tucked under trees, the very damp and gloom that starve a sedum mat are what moss likes best, so a moss roof can clothe a structure that would otherwise stay bare felt. It weighs next to nothing, asks for no mowing or feeding, and once it has settled it runs itself.</p>
+
+      <h2>Why moss suits a roof</h2>
+      <p>Most off-the-shelf green roofs are planted with sedum, the low succulents that ride out the heat and glare of an exposed roof in full sun. Set that same mat in shade, beneath overhanging branches or on a slope turned away from the south, and it thins, weakens and lets weeds march in. Moss runs the opposite way. It seeks out the cool, the damp and the soft light that defeat sedum, and it carries barely any weight, which counts for a great deal on a thin shed roof that could never bear a deep planted system. Soaked right through, a skin of moss weighs a fraction of a soil-based roof and wants none of the irrigation those systems depend on.</p>
+
+      <h2>What goes under the moss</h2>
+      <p>A moss roof is still a roof, so the layers below earn their keep. Begin with a sound, fully waterproof deck; over boarding, a butyl or EPDM pond liner is the usual home-build answer, carried up under the edges so no water can creep beneath. On top of that a thin drainage course, even a sheet of dimpled plastic or a spread of coarse grit, keeps the moss from standing in trapped water, which rots it from below. Because moss roots into almost nothing, a shallow base is plenty: a centimetre or two of a lean, gritty mix, or one of the water-holding mats sold for green roofs, does far better than deep rich soil, which only feeds weeds. Finish the perimeter with a batten or upstand to stop everything sliding off, leaving gaps or a gravel margin so rain can drain away at the edge.</p>
+
+      <h2>Getting the moss to take</h2>
+      <p>Three approaches will establish it. The fastest is to lay sheets or cushions of moss lifted from elsewhere, pressing them firmly onto the damp base so they make full contact and butting the pieces tight together. For a larger or more awkward roof the slurry works better: blend moss with rainwater or buttermilk to a thin paint, spread it evenly and mist it while the fragments regenerate, much as described in <a href="spraying-moss.html">spraying moss slurry at scale</a>. You can also simply let it arrive, since a shaded, grit-topped roof in a mossy district often greens over within a couple of years if you keep it weeded and damp. Whichever you pick, moisture in the first few weeks decides the outcome, while the rhizoids are still gripping; water with rainwater through any dry spell until the moss has knitted down.</p>
+
+      <h2>Slope, aspect and the right moss</h2>
+      <p>Aspect rules everything here. A roof facing north or east, or one shaded by trees or a taller building, holds the damp and gives moss its best chance, whereas a baking south pitch in full sun will defeat it as surely as it rewards sedum. A gentle slope sheds heavy rain without letting the surface dry too fast; a flat roof wants reliable drainage so it never ponds. For the covering itself, lean on the creeping carpet mosses that knit into continuous cover and cling on a slope, the plait and feather mosses rather than the loose, tumbling cushions. The plait moss that mats over a shaded woodland boulder will happily mat over a shaded roof, and there is more on it in <a href="plait-moss.html">plait moss (Hypnum cupressiforme)</a>.</p>
+
+      <h2>Looking after it</h2>
+      <p>As roof coverings go this is about as undemanding as they come, though it is not quite a case of laying it and forgetting it. Sweep off fallen leaves in autumn before they smother and rot the moss, particularly under trees, and tug out any seedlings of grass, willowherb or birch that try to gain a foothold, since these are what eventually break a moss roof apart. Through a long summer drought the moss will brown and go dormant, which unsettles people new to it; almost always it is merely thirsty and will green up with the next steady rain, so leave it be rather than stripping it off. Keep gutters and outlets clear so water keeps moving. This is a different matter from the unwanted moss that gathers on a house's tiled roof, a nuisance dealt with in <a href="moss-on-roofs.html">moss on roofs</a>. Done with a little care, a moss roof gives you a soft green covering that cools the structure beneath and soaks up rainfall, with a patch of habitat thrown in, for very little weight and almost no work.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
+    "wall-screw-moss",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
     "moss-and-pets", "reviving-dried-moss", "kusamono",
     "removing-moss",
-    "moss-on-roofs", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
+    "moss-on-roofs", "moss-green-roof", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
     "moss-pole", "spraying-moss", "sphagnum-moss", "aquarium-moss",
     "aquarium-moss-real-or-not", "propagating-aquarium-moss",
     "moss-propagation-machine", "moss-for-shrimp", "dry-start-method",
