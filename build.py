@@ -36,6 +36,12 @@ IMAGE_CREDITS = [
 ANALYTICS = (
     '<script data-goatcounter="https://stats.mossbank.de/count" '
     'async src="//stats.mossbank.de/count.js"></script>'
+    # GA4 + Consent Mode v2 (real data starts once the AdSense CMP grants consent)
+    '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}'
+    "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',"
+    "ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});</script>"
+    '<script async src="https://www.googletagmanager.com/gtag/js?id=G-FNWN0VY4KF"></script>'
+    "<script>gtag('js',new Date());gtag('config','G-FNWN0VY4KF');</script>"
 )
 
 NAV = [
