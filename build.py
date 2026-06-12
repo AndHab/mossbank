@@ -30,6 +30,7 @@ IMAGE_CREDITS = [
     ("kusamono.jpg", "Kusamono with fern and strawberry", "Sage Ross", "CC BY-SA 3.0"),
     ("polytrichum.jpg", "Polytrichum commune, common haircap moss", "Hans Hillewaert", "CC BY-SA 4.0"),
     ("wall-screw-moss.jpg", "Tortula muralis, wall screw-moss, in fruit", "Alexis (iNaturalist)", "CC BY 4.0"),
+    ("silvery-thread-moss.jpg", "Bryum argenteum, silvery thread-moss", "Randal (iNaturalist)", "CC0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2636,10 +2637,71 @@ PAGES["moss-green-roof"] = dict(
 ''',
 )
 
+PAGES["tamarisk-moss"] = dict(
+    title="Tamarisk moss (Thuidium tamariscinum)",
+    description="Tamarisk moss or common fern moss (Thuidium tamariscinum): recognising the flat, thrice-branched fern-like fronds of one of the most graceful woodland mosses, the fuzzy paraphyllia on its stem, where it grows, and how to use and keep it.",
+    active="guides",
+    hero="thuidium.jpg",
+    blurb="The elegant fern-frond moss of damp woodland floors, prized in moss gardens and terrariums for the movement its arching sprays bring.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Some mosses look like nothing but moss; tamarisk moss looks like a fern that has been left out in the rain and shrunk in the wash. Across the floor of a damp wood it spreads in loose green wefts, each shoot opening into a flat, branched frond no longer than a finger. At ground level it is about the most graceful thing a temperate woodland has to show.</p>
+
+      <h2>A fern cut down to size</h2>
+      <p><em>Thuidium tamariscinum</em> builds its shoots like little trees. From a dark, almost blackish creeping stem rise repeatedly divided fronds, the side branches themselves branching again and then once more, so the whole spray comes out two or three times pinnate and lies as flat as a pressed fern leaf. The colour is a deep, faintly yellowish green, and the fronds arch and overlap into a soft, springy weft instead of pressing tight to the soil. At arm's length a patch could pass for a colony of tiny bracken, and close up the likeness only sharpens, which is why the name fern moss clings to it as readily as the bookish tamarisk.</p>
+
+      <h2>The fuzz on the stem</h2>
+      <p>Lift a single shoot and run a lens along the main stem. It is clothed in a felt of minute green threads, the paraphyllia, branched filaments scattered so thickly that the stem looks faintly woolly. Few mosses carry them in such quantity, and they make a useful confirmation when a young frond has not yet opened out enough to show its full pattern. The plant fruits only now and then, raising curved capsules on long red stalks, so for most of the year the frond and the fuzz are how you will know it. Creeping and freely branching, it belongs among the pleurocarps, the trailing growers set against the upright cushion mosses in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>Where it grows</h2>
+      <p>This is a plant of shade and of ground with a little body to it. It favours neutral to base-rich woodland floors, the cool, humus-rich earth under ash, hazel and oak on heavier soils, and it runs over shaded banks, the sides of ditches and the bottoms of old hedges. Where the acid-loving bun moss and broom fork-moss insist on sour peat, tamarisk moss takes a milder, even slightly limey soil quite happily, though it will have nothing to do with a baking open wall. Given the damp shade it wants, it can sheet across a wide stretch of woodland floor, threaded through the leaf litter among the flatter feather mosses.</p>
+
+      <h2>In the moss garden and under glass</h2>
+      <p>Little else brings such movement to a planting. The arching fern fronds register at a glance as a wholly different texture from the flat carpets and tight domes around them, so a drift of tamarisk moss lends a moss garden or a shaded border the air of a miniature woodland floor; it is a mainstay of the plantings described in <a href="japanese-moss-gardens.html">Japanese moss gardens</a> and a rewarding choice where you want living <a href="moss-ground-cover.html">ground cover</a> with genuine character. Behind glass it plays the part of the fern in a terrarium, set as a tall accent above lower mosses, so long as the case stays cool, humid and out of direct sun. In a hot, dry room it soon looks tired and thin.</p>
+
+      <h2>Keeping it</h2>
+      <p>Patience suits this moss better than fussing. Give it steady shade, humid air and soil that never bakes, water it with rainwater, and leave it largely to itself once it has knitted down. It travels best as whole wefts carrying a little of their own leaf-mould rather than as pulled-apart strands, laid on firm damp ground and pressed gently so the undersides make contact. It settles more slowly than the toughest carpet mosses and dislikes both drought and stagnant wet, so a shaded spot with a breath of moving air goes a long way. Should you gather it from the wild, take small pieces only where it grows in plenty and leave any thin or struggling patch alone, in the spirit set out under <a href="collecting-moss.html">collecting moss responsibly</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["silvery-thread-moss"] = dict(
+    title="Silvery thread-moss (Bryum argenteum)",
+    description="Silvery thread-moss (Bryum argenteum): the metallic silver-green moss of pavements, gutters and city roofs, where its sheen comes from, why it is one of the most widespread plants on earth, how it spreads without spores, and living with it.",
+    active="guides",
+    hero="silvery-thread-moss.jpg",
+    blurb="The metallic silver cushions in every pavement crack and gutter: a true city moss, and one of the most widespread plants on the planet.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">There is a moss that lives where almost nothing green has any business growing, in the crack of a city pavement, along a clogged gutter, on a flat roof baking in the sun. It gives itself away by a metallic shimmer that no other common moss quite manages. Silvery thread-moss, <em>Bryum argenteum</em>, ranks among the most widespread plants on earth, and once its sheen is in your eye you will catch it on half the pavements you walk.</p>
+
+      <h2>Where the silver comes from</h2>
+      <p>The shimmer is a trick of the leaves. Each tiny shoot is packed with leaves that overlap closely all the way up, so the shoot stays smooth and rounded like a green catkin or a short length of plaited cord, a shape botanists call julaceous. The upper half of every leaf carries no chlorophyll and stays colourless and translucent, and it is the massed gleam of those pale tips over the green beneath that turns a dry cushion the soft silver-grey behind the name. A shower greens it again as the leaves drink; let it dry and the silver creeps back. The shoots are short, a centimetre at most, mounded into low, neat turf wherever a film of grit has lodged. Upright and tuft-forming, it counts as an acrocarp, the habit explained in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>A moss of the city</h2>
+      <p>Other mosses put up with towns; this one seems to relish them. It does best on the hard, hot, disturbed surfaces that see off nearly everything else: the mortar at the foot of a wall, the silt in a paving joint, the gravel of a flat roof, the dust along a kerb. Part of the secret is a hunger for nitrogen, since it grows lushest where bird droppings, dog urine or plain street grime enrich the ground, so a colony will often mark the spot beneath a favourite perch or beside a much-used corner. It shrugs off trampling, drought, road salt and the heavy metals of traffic, and is studied as a quiet gauge of urban pollution for exactly that toughness. Well beyond the city it reaches almost anywhere wind and people can carry it, from Antarctic gravel to high on the world's mountains, which puts it among the small handful of truly cosmopolitan mosses.</p>
+
+      <h2>How it gets everywhere</h2>
+      <p>Spores barely account for its success. In many districts it seldom bothers to fruit, though where it does it hangs reddish, drooping capsules on short stalks. Its real means of travel is breakage. The brittle shoots part at a touch, and each loose scrap can root and grow afresh, so a fragment caught on a shoe sole or a bicycle tyre is ferried off to found a fresh colony streets away. Many shoots also pinch off minute green pellets, gemmae, that achieve the same thing in miniature. Between the two it spreads without ever waiting on a partner or a ripe capsule, which goes most of the way to explaining how one small moss came to circle the globe.</p>
+
+      <h2>Living with it</h2>
+      <p>On a path or a drive a haze of silver moss does no harm worth the name, binding a little grit and softening the bare stone underfoot; where it makes a paving joint slippery after rain a stiff brush lifts it easily, the mild end of the methods gathered under <a href="removing-moss.html">removing moss</a>. Should you want to encourage it instead, you need do very little, for a shaded, gritty, faintly grimy surface left undisturbed tends to grow its own crop within a season or two. It keeps regular company with wall screw-moss in the same gritty cracks, the two of them the staple greenery of paved places and well worth learning side by side once you begin <a href="moss-in-paving.html">reading the moss in paving</a>. To pin a name on it among its neighbours, the close-looking habits in <a href="how-to-identify-moss.html">how to identify moss</a> will settle most doubts, because that silver catkin shoot, once properly seen, is hard to take for anything else.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
-    "wall-screw-moss",
+    "wall-screw-moss", "tamarisk-moss", "silvery-thread-moss",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
     "moss-and-pets", "reviving-dried-moss", "kusamono",
