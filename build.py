@@ -31,6 +31,7 @@ IMAGE_CREDITS = [
     ("polytrichum.jpg", "Polytrichum commune, common haircap moss", "Hans Hillewaert", "CC BY-SA 4.0"),
     ("wall-screw-moss.jpg", "Tortula muralis, wall screw-moss, in fruit", "Alexis (iNaturalist)", "CC BY 4.0"),
     ("silvery-thread-moss.jpg", "Bryum argenteum, silvery thread-moss", "Randal (iNaturalist)", "CC0"),
+    ("fontinalis.jpg", "Fontinalis antipyretica, willow moss, Hohenlohe", "Bernd Haynold", "CC BY-SA 3.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2698,10 +2699,80 @@ PAGES["silvery-thread-moss"] = dict(
 ''',
 )
 
+PAGES["willow-moss"] = dict(
+    title="Willow moss (Fontinalis antipyretica)",
+    description="Willow moss or greater water-moss (Fontinalis antipyretica): how to recognise the keeled, three-ranked dark streamers of a true native aquatic moss, where it grows in clean cold rivers, the curious name that means against fire, its use in ponds and coldwater tanks, and how to keep it.",
+    active="guides",
+    hero="fontinalis.jpg",
+    blurb="A true native of cold clean rivers, streaming out in the current like dark green hair. The aquatic moss for ponds and coldwater tanks.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Most of the mosses people keep underwater came from warm tropical streams and reached the hobby through the aquarium trade. Willow moss did neither. It is a true native of cold rivers across Europe and North America, a coarse dark plant that streams out in the current like green hair, and for anyone with a wildlife pond or a coldwater tank it is the natural moss to grow.</p>
+
+      <h2>Recognising it</h2>
+      <p><em>Fontinalis antipyretica</em> grows as long, branching strands, a hand's length or a good deal more, anchored at one end to stone or wood and trailing free for the rest. The leaves give it away. Set in three ranks along the stem, each is folded sharply down its midline into a keel, so a shoot held up to the light looks distinctly three-sided rather than round or flat. The colour runs from deep olive to a near-blackish green, darker than any tropical moss, and lifted out of water the whole plant collapses into limp, slippery ropes. Returned to the water it recovers at once, fanning out wherever the flow carries it.</p>
+
+      <h2>Where it grows</h2>
+      <p>This is a plant of moving, well-oxygenated, cool water. Look for it in clean streams and rivers, draped over submerged boulders and fallen branches, below the spill of weirs and along stony lake shores where the waves keep the water stirred. It puts up with a fair spread of conditions but draws the line at warmth and stagnation, so a sun-baked, sluggish pond in high summer is the one place it sulks. Since it fixes itself by tough anchoring threads rather than true roots and feeds straight from the water around it, the quality of that water counts for more than whatever it happens to sit on.</p>
+
+      <h2>A name that means against fire</h2>
+      <p>The species name puzzles everyone who meets it. <em>Antipyretica</em> is built from the Greek for "against fire", and the reason traces back to Linnaeus, who recorded that people in northern Sweden packed the dried moss into the gap between a chimney and the timber wall of a house. Rammed in thick, it was thought to lessen the chance of the wall taking light, a humble bit of fireproofing from an age before mineral wool. Whether it answered as well as hoped is hard to judge now, yet the name has held for two and a half centuries, a small fossil of old country practice carried along in the Latin.</p>
+
+      <h2>In ponds and coldwater tanks</h2>
+      <p>Willow moss suits the very setting that defeats the warm-water mosses. In a wildlife pond it oxygenates the water, shelters tadpoles and the larvae of dragonflies and caddis, and gives newts a place to fold their eggs; few submerged plants do as much for so little fuss. Under glass it belongs in coldwater and native setups, among white cloud minnows, sticklebacks or a temperate shrimp, rather than the heated tropical tanks where Java moss reigns. Wedge or tie a strand against rock or bogwood and it takes hold of its own accord in time. Tropical keepers who try it usually watch it melt away in the heat, which is partly why the warm-tank species are gathered separately in <a href="aquarium-moss-types.html">the aquarium mosses compared</a>.</p>
+
+      <h2>What a healthy stand tells you</h2>
+      <p>Because willow moss absorbs everything across its surface, it takes up dissolved metals and pollutants and locks them away in its tissue. Freshwater ecologists turn this to use, lowering bags of the moss into rivers and later measuring what has gathered inside, a cheap living gauge of how clean a watercourse runs. For the pond keeper the reading goes the other way: a thriving stand is fair evidence that the water is cool, clean and well aired. That same knack for harbouring small creatures puts it among the more rewarding mosses for a wildlife garden, a thread picked up in <a href="moss-and-wildlife.html">moss and wildlife</a>.</p>
+
+      <h2>Keeping it</h2>
+      <p>Cool water, a little movement and modest light are about all it asks. A pump, a filter return or the trickle off a small waterfall supplies the flow it prefers; still water it accepts only while the temperature stays down. Growth is unhurried, so put aside any hope of the quick sprawl a tropical moss gives, and thin it by pulling surplus strands once it crowds its neighbours. Should you lift a piece from a wild river, take a small fragment from where it grows thickly and leave the rest to close over, the same restraint laid out in <a href="collecting-moss.html">collecting moss responsibly</a>. Settled and content, it wants next to nothing and quietly does a great deal.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-in-floristry"] = dict(
+    title="Moss in floristry: wreaths and arrangements",
+    description="How florists use moss: the trade names and what they really mean, fresh versus dried versus preserved moss, mossing a wreath frame, moss as the hidden mechanic of an arrangement, sourcing it responsibly, and keeping it green.",
+    active="guides",
+    blurb="The quiet green material behind a wreath or a basket. The florist's mosses, what their muddled names mean, and how they are worked.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Long before moss became a houseplant in a jar, it was a florist's staple: the quiet green material that lines a basket, hides the mechanics of an arrangement and forms the body of a wreath. Step into almost any flower shop and there is moss somewhere, usually under another name and often doing the work nobody is meant to notice.</p>
+
+      <h2>The florist's mosses, and their muddled names</h2>
+      <p>Trade names for moss are gloriously unreliable. "Flat moss" or "sheet moss" is generally a genuine moss, frequently a <em>Hypnum</em>, sold in peeled-up sheets for covering surfaces. "Mood moss" tends to mean the rounded cushions of <em>Leucobryum</em> or <em>Dicranum</em>, wanted for their domed shape. Past those, the labels start to deceive. Reindeer moss is a lichen, the springy <em>Cladonia</em> dyed and preserved; Spanish moss is no moss at all but an air plant, a cousin of the pineapple; and the "Irish moss" of a garden centre may turn out to be a small flowering ground-cover. Sphagnum, the bog moss, keeps its own name and a set of uses all its own. Knowing what actually sits in the bag is worth the trouble, since care and conscience differ wildly between a plant, a lichen and a bromeliad; the wider muddle of mistaken identity is unpicked in <a href="telling-moss-apart.html">moss, lichen, liverwort or algae</a>.</p>
+
+      <h2>Fresh, dried or preserved</h2>
+      <p>Floristry draws on moss in three states. Fresh moss is living and soft, lifted not long ago and still green, used where it will be on show for a short spell and can be kept damp. Air-dried moss has merely been left to harden; it pales and turns crisp, useful as hidden packing where looks do not signify. Preserved moss has been steeped in glycerine and commonly dyed, which holds it pliable and vividly green for years with neither water nor light. Which to reach for follows from the job: fresh moss where it will be seen and watered, dried moss for bulk out of sight, preserved moss for anything that has to stay green on its own. That same preserved material filling a florist's order also makes the indoor panels covered in <a href="preserved-moss-wall.html">preserved moss walls</a>.</p>
+
+      <h2>The wreath, mossed from the frame out</h2>
+      <p>A classic wreath begins with moss. The maker binds a wire ring tightly with handfuls of damp sphagnum or carpet moss, winding round and round with reel wire until it forms a firm, even green doughnut. That mossed base does double duty: it gives a surface to pin foliage and flowers into, and, kept damp, it works as a reservoir that holds cut stems alive far longer than bare wire could. Funeral and Christmas wreaths are still built this way, and the technique, called mossing, ranks among the oldest in the florist's craft. A well-mossed frame is what separates a wreath that lasts a few days from one that lasts a month.</p>
+
+      <h2>The hidden mechanic of an arrangement</h2>
+      <p>Most of the moss in floristry is never meant to catch the eye. A pad of it laid over wet floral foam disguises the green brick and slows it drying out. Sheet moss lines the open sides of a wire basket or a hanging container so compost stays put and the rim reads soft rather than mechanical. Tucked round the base of a planted bowl it covers bare earth and lends an instant air of something woodland and settled. The same trick of binding a rootball in moss and twine, carried further, becomes the Japanese craft of <a href="kokedama.html">kokedama</a>.</p>
+
+      <h2>Sourcing it with a clear conscience</h2>
+      <p>Where the moss has come from deserves a thought, because much of it is gathered wild and not all that gathering is gentle. Commercial sheet moss is often stripped in quantity from forest floors, while the sphagnum behind so many wreaths is bound up with the draining of peat bogs, ground that takes thousands of years to build and locks away great quantities of carbon. Choosing preserved or cultivated moss eases the pressure, as does keeping a mossed wreath frame from one season to the next instead of starting fresh each winter. Anyone gathering their own should do so sparingly and from where moss grows in plenty, by the field manners set out in <a href="collecting-moss.html">collecting moss responsibly</a>.</p>
+
+      <h2>Keeping it green</h2>
+      <p>Fresh moss in an arrangement stays green only while it stays damp and clear of fierce light. A wreath hung outdoors in cool, humid weather can hold its colour for weeks; the same wreath above a warm radiator browns within days. An occasional light misting revives it much as it does a moss garden, and a wreath base will take a whole soak in the sink to recharge. When at last it fades, fresh moss composts away cleanly, among the gentler ends any floral material can come to.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
-    "wall-screw-moss", "tamarisk-moss", "silvery-thread-moss",
+    "wall-screw-moss", "tamarisk-moss", "silvery-thread-moss", "willow-moss",
+    "moss-in-floristry",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
     "moss-and-pets", "reviving-dried-moss", "kusamono",
