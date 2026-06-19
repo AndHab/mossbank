@@ -32,6 +32,8 @@ IMAGE_CREDITS = [
     ("wall-screw-moss.jpg", "Tortula muralis, wall screw-moss, in fruit", "Alexis (iNaturalist)", "CC BY 4.0"),
     ("silvery-thread-moss.jpg", "Bryum argenteum, silvery thread-moss", "Randal (iNaturalist)", "CC0"),
     ("fontinalis.jpg", "Fontinalis antipyretica, willow moss, Hohenlohe", "Bernd Haynold", "CC BY-SA 3.0"),
+    ("rhytidiadelphus.jpg", "Rhytidiadelphus squarrosus, springy turf-moss", "Michael Becker", "CC BY-SA 3.0"),
+    ("grimmia.jpg", "Grimmia pulvinata, common pincushion, on rock", "Christian Berg", "CC BY 4.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2768,10 +2770,75 @@ PAGES["moss-in-floristry"] = dict(
 ''',
 )
 
+PAGES["springy-turf-moss"] = dict(
+    title="Springy turf-moss (Rhytidiadelphus squarrosus)",
+    description="Springy turf-moss (Rhytidiadelphus squarrosus): how to recognise the coarse, star-shaped moss that invades lawns, where it grows, why damp shaded turf suits it so well, and how to fight it or make a lawn of it.",
+    active="guides",
+    hero="rhytidiadelphus.jpg",
+    blurb="The loose, spongy, star-shaped moss that thickens in tired lawns. The one most gardeners meet first, and the one that makes a fine moss lawn.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Kneel to pull a soft, spongy handful from a tired lawn and this is very often the moss you are holding. Springy turf-moss is the bryophyte most gardeners meet before any other, the loose green stuffing that gathers in damp, shaded grass until the turf gives like a mattress underfoot.</p>
+
+      <h2>Knowing it on sight</h2>
+      <p>The look is shaggy and star-like. Stout shoots, tinged red or orange-brown along the stem, carry small leaves that bend sharply outward and back, standing away from the stem at almost a right angle so that each shoot bristles like a little bottlebrush. That spreading set of the leaves gives the plant its scientific name, <em>squarrosus</em> meaning turned back at the tip, and it is the surest field mark. The shoots branch loosely rather than in the neat herringbone of the true feather mosses, building a coarse, open, decidedly untidy mat that springs back when you press it. Colour runs from yellow-green to a tired olive depending on light and season.</p>
+
+      <h2>Where it turns up</h2>
+      <p>Grassland is its home ground. You meet it through lawns and playing fields, in old meadows and on grassy banks, along woodland rides, in churchyards and across the damp hollows of dune systems, right across the cooler temperate world. Unlike many mosses it tolerates a degree of nourishment and will sit happily in grass that has been fed, favouring ground that is neutral to mildly acid and, above all, reliably moist. Light it is easy about, taking open sun where the ground stays damp and shade just as readily.</p>
+
+      <h2>The lawn invader</h2>
+      <p>No other moss is so tied to lawns, and the reason is that springy turf-moss flourishes in precisely the conditions that leave grass weak. Shade beneath trees and walls, soil packed hard underfoot, a surface that stays sodden, mowing too close and a hungry, sour root-run all thin the sward and open gaps, and this moss moves straight into them. So a lawn turning spongy with it is really reporting on its own ground, a point worked through in <a href="lawn.html">moss in the lawn</a>. Blacken it with iron sulphate, as the boxed lawn treatments do, and it darkens within days, yet it returns the moment the underlying damp and shade reassert themselves, which is why <a href="removing-moss.html">removing moss</a> for good means changing the conditions and not merely the moss.</p>
+
+      <h2>From nuisance to lawn</h2>
+      <p>The same vigour that frustrates the lawn-keeper makes this one of the better mosses to grow on purpose. Because it creeps and branches into continuous, walkable cover rather than sitting in slow tight domes, it knits into a soft green sheet that takes light foot traffic, stays green through winter and drought, and never needs a mower. Where grass has long given up under a tree, letting the turf-moss take the whole patch is frequently the easier and the handsomer choice, and it is one of the carpet-formers leaned on in <a href="moss-lawn.html">how to make a moss lawn</a>. A springy turf-moss lawn asks chiefly that you keep autumn leaves swept off it.</p>
+
+      <h2>Working with it or against it</h2>
+      <p>Whichever side you take, it helps to know what kind of moss you are dealing with. Springy turf-moss is a creeping, branching pleurocarp, the sprawling habit set against the upright cushions in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>, and that spreading growth is exactly why it covers ground so well and why it shrugs off half-hearted raking. To favour the grass, lift the shade, ease the compaction, raise the mower and feed; to favour the moss, do the opposite and simply let the damp shade have its way. Either path works, so long as you commit to one.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["common-pincushion-moss"] = dict(
+    title="Common pincushion (Grimmia pulvinata)",
+    description="Common pincushion or grey-cushioned grimmia (Grimmia pulvinata): recognising the hoary grey domes on sunny walls and gravestones, its curiously buried capsules, how it endures drought, and how to tell it from wall screw-moss.",
+    active="guides",
+    hero="grimmia.jpg",
+    blurb="The hoary grey-green domes, frosted with white hair-points, that stud sunny wall tops and gravestones. A moss built for sun and drought.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">On the baked top of a wall or the shoulder of an old gravestone, where most mosses dare not grow, you find tight grey domes that look as though they have been dusted with frost. That hoary cushion is common pincushion, a moss that has made its living in the one place the soft green carpets cannot follow: bare stone in full sun.</p>
+
+      <h2>Recognising it</h2>
+      <p>Look first for a neat, rounded cushion, seldom wider than a coin, packed tight enough to shed water. Its colour is a dull grey-green, and the grey is the point: each leaf ends in a long, clear, glassy hair, and the massed hair-points frost the whole dome so it reads silver from a pace away. Run a dry fingertip over it and it feels harsh and bristly. The cushions sit so firmly to the stone that you can rock one with a fingernail and feel it resist, anchored by a felt of rhizoids into every pore of the surface.</p>
+
+      <h2>The capsules that hide</h2>
+      <p>Catch it in fruit and naming it becomes almost certain. Where most mosses hoist their spore capsules proudly clear of the leaves on straight stalks, <em>Grimmia pulvinata</em> does the reverse: its stalk curves over like a shepherd's crook so that the ripening capsule is drawn back down and tucked into the cushion, half buried among the hairs. Part the hair-points and the little egg-shaped capsules lie there on their arched stalks, a quirk so reliable that it alone settles the identification. As the capsule dries and the spores ripen the stalk slowly straightens and lifts it clear again to scatter.</p>
+
+      <h2>A moss for sun and stone</h2>
+      <p>This is a plant of hard, sunlit surfaces. It colonises the mortared tops of walls, concrete, asphalt-capped posts, tombstones, limestone and other base-rich rock, generally where there is a little lime and plenty of light, conditions that would scorch a woodland moss to dust. It belongs to the small band of urban mosses that thrive on the built environment, keeping company with the <a href="wall-screw-moss.html">wall screw-moss</a> of mortar joints and the <a href="silvery-thread-moss.html">silvery thread-moss</a> of pavement cracks. In town it is genuinely everywhere, though so dry and grey that most people walk past it without a glance.</p>
+
+      <h2>How it survives the drought</h2>
+      <p>Living on sun-baked stone means coping with long spells without water, and the cushion is built for exactly that. Drawn together into a dome, the shoots shade one another and cut the surface left open to drying wind. The glassy hair-points work two ways at once, scattering fierce sunlight away from the living tissue below and snagging dew and mist so that droplets run down into the cushion. When the last of the water has gone the plant simply shuts down, greying and brittle, then revives within minutes of a shower, a feat of desiccation tolerance common to the mosses and explored in <a href="reviving-dried-moss.html">reviving dried-out moss</a>.</p>
+
+      <h2>Telling it apart, and leaving it be</h2>
+      <p>The moss most often confused with it is wall screw-moss, which shares the wall top and the hair-points but grows greener, in looser tufts, and stands its capsules upright on straight stalks rather than burying them. The buried, arch-stalked capsule settles the question every time. As a tight, upright, dome-forming moss the common pincushion sits among the acrocarps, the cushion-builders contrasted with the creepers in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>. There is little point trying to cultivate it, since it wants a baking exposure no terrarium or garden bed can offer, but it rewards a closer look on any walk through a churchyard, where a hand lens turns those frosted grey domes into one of the small marvels of the masonry.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
-    "wall-screw-moss", "tamarisk-moss", "silvery-thread-moss", "willow-moss",
+    "springy-turf-moss", "wall-screw-moss", "common-pincushion-moss", "tamarisk-moss",
+    "silvery-thread-moss", "willow-moss",
     "moss-in-floristry",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
