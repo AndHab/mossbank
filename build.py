@@ -34,6 +34,8 @@ IMAGE_CREDITS = [
     ("fontinalis.jpg", "Fontinalis antipyretica, willow moss, Hohenlohe", "Bernd Haynold", "CC BY-SA 3.0"),
     ("rhytidiadelphus.jpg", "Rhytidiadelphus squarrosus, springy turf-moss", "Michael Becker", "CC BY-SA 3.0"),
     ("grimmia.jpg", "Grimmia pulvinata, common pincushion, on rock", "Christian Berg", "CC BY 4.0"),
+    ("glittering-wood-moss.jpg", "Hylocomium splendens, glittering wood-moss", "Kristian Peters", "CC BY-SA 3.0"),
+    ("marchantia-liverwort.jpg", "Marchantia polymorpha, a liverwort, with gemma cups", "Hermann Schachner", "CC0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2834,11 +2836,75 @@ PAGES["common-pincushion-moss"] = dict(
 ''',
 )
 
+PAGES["glittering-wood-moss"] = dict(
+    title="Glittering wood-moss (Hylocomium splendens)",
+    description="Glittering wood-moss (Hylocomium splendens): recognising the glossy, feathery fronds of one of the world's most abundant mosses, how its yearly storeys let you count its age, where it carpets the northern forests, and how it is gathered and grown.",
+    active="guides",
+    hero="glittering-wood-moss.jpg",
+    blurb="The glossy feather-moss that carpets northern conifer woods, building its growth into yearly storeys you can count like the rings of a tree.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Run your eye across the floor of a northern conifer wood and much of the green underfoot is likely to be this one moss. Glittering wood-moss spreads in deep, springy carpets of feathery fronds, each catching the light with a faint sheen that gave it both its English and its Latin name. It ranks among the most abundant mosses on the planet, and it is one of the few that quietly keeps a record of its own past growth.</p>
+
+      <h2>A feather with a sheen</h2>
+      <p><em>Hylocomium splendens</em> throws up large, arching fronds that branch two or three times over, so each spray opens out flat and finely divided like a small fern leaf. The shade is a warm yellow-green to olive, and the whole plant glistens when wet, the gloss that <em>splendens</em>, meaning splendid or shining, sets down in the name. Below the green the main stem runs a clear red-brown, stiff and wiry, and the fronds rise from it in tiers rather than lying in a single plane. The nearest thing to it at a glance is <a href="tamarisk-moss.html">tamarisk moss</a>, another thrice-branched woodland feather, but that one lies flat to the ground and stays matt, where wood-moss arches up in layered storeys and catches the light.</p>
+
+      <h2>Reading the storeys</h2>
+      <p>Here is the trick worth knowing. Each season the moss raises one arched frond; the year after, a fresh shoot springs from the back of that arch, about halfway along, rather than from its tip, and arches over in its turn. Season on season the shoots pile into a stepped staircase of tiers, which is why people across North America call it stairstep moss. Trace a single stem back through its bends and you can count the storeys much as you would the rings of a log, one to a year, and read the seasons off them: a long, generous tier marks a kind year, a short and crowded one a hard or droughty season. Hardly any other moss keeps so plain a diary of its own past, and that makes it a quiet favourite with ecologists gauging how a forest floor has fared.</p>
+
+      <h2>A moss of the cold north</h2>
+      <p>Across the boreal belt of conifer forest that rings the northern hemisphere, glittering wood-moss is one of the dominant plants of the ground layer, often sheeting unbroken for hundreds of metres beneath spruce and pine. It carries on north into the Arctic tundra and climbs above the treeline, and runs south through cooler temperate woods, heaths and old dunes, always favouring ground that is acid to neutral, cool and reliably damp. That vast carpet does real work: it insulates the soil and the permafrost beneath against summer warmth and holds water like a sponge through dry spells; and, in partnership with cyanobacteria that live among its shoots, it fixes a good share of the nitrogen feeding a northern forest. The deer and caribou wintering in those woods tramp across it to reach the lichens below, and the layer it builds shelters the same teeming microfauna found in any cushion, the small world looked at in <a href="life-in-moss.html">the hidden world in a moss cushion</a>.</p>
+
+      <h2>Gathered and used</h2>
+      <p>Few wild mosses reach the florist's bench in such quantity. Its long, even, hard-wearing fronds dry to a soft khaki and keep their shape, so it is baled up by the tonne for wreath bases, swags and the backing of Christmas arrangements, a use it shares with the cushion mosses discussed under <a href="moss-in-floristry.html">moss in floristry</a>. In the timber countries of the north it once chinked the gaps between cabin logs, was packed round stored apples to fend off frost, and went into the odd mattress. Most of what the trade sells is still stripped from the wild, reason enough to favour suppliers who harvest with care and to take only sparingly if you gather a little yourself.</p>
+
+      <h2>Growing or finding it</h2>
+      <p>In the garden this is a moss for a cool, shaded, leafy corner rather than a sunny bank or a centrally heated room, where its taste for damp northern air soon tells against it. Laid as whole arched wefts on firm, lime-free, humus-rich ground in light shade and watered with rainwater, it knits into a deep, walkable carpet with more spring and body than most. Under glass it asks for a cool, humid, well-ventilated case and sulks in the heat. For most of us, though, the real pleasure of it is met on a walk through an upland conifer wood or over a damp northern hillside, where you can kneel, lift a shoot, and count back down its stepped storeys to the seasons that made them.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["liverworts"] = dict(
+    title="Liverworts: moss's quieter cousins",
+    description="Liverworts explained: what these bryophyte relatives of moss actually are, the difference between thalloid and leafy kinds, how to tell a leafy liverwort from a moss, their gemma cups and elaters, and where you meet them.",
+    active="guides",
+    hero="marchantia-liverwort.jpg",
+    blurb="Moss's near relations, sharing the same damp corners. The flat green ribbons and leafy lookalikes that fool moss-hunters, and how to know them.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Hunt for moss for any length of time and sooner or later you pick up something that is not moss at all but a liverwort, its near relation and constant companion. The two keep the same damp corners, yet liverworts belong to an older, separate branch of the plant family, and a fair number look nothing like the soft green cushions people expect. The flat, lobed sheet in the photograph above, studded with little green cups, is one of the commonest.</p>
+
+      <h2>An older branch of the family</h2>
+      <p>Liverworts, mosses and the obscure hornworts together make up the bryophytes, the small land plants that manage without roots, flowers, seeds or any inner plumbing, the group sketched out in <a href="biology.html">what a moss actually is</a>. Of the three, liverworts are reckoned the most ancient; some botanists set their ancestors among the first plants to creep onto land, well over four hundred million years ago. Around seven thousand species are known, most of them small, low and fond of wet. The name is older still: under the old doctrine of signatures the lobed, liver-shaped thallus was read as a sign the plant would soothe ailments of the liver, and 'wort' is simply the old word for a useful herb.</p>
+
+      <h2>Two ways to build a liverwort</h2>
+      <p>The group falls into two looks. The thalloid liverworts, the kind most people picture, grow as a flat, branching green ribbon pressed to the ground, forking over and over into rounded lobes, with no stem or proper leaves to speak of; <em>Marchantia</em> on the greenhouse staging and <em>Pellia</em> on a wet bank are the everyday examples. The leafy liverworts are quite another matter. These carry minute leaves along a creeping stem and pass at a glance for a small moss, which is just where the confusion begins and a hand lens starts to pay off.</p>
+
+      <h2>The leafy ones that pass for moss</h2>
+      <p>Set a leafy liverwort beside a moss and the differences hold up well once you know them. A liverwort's leaves lie in two tidy ranks along the stem, flattened into one plane like a pressed frond, often with a third row of smaller leaves tucked beneath; a moss spirals its leaves all the way round the stem in many ranks. The leaves themselves tend to be rounded or, very often, cleft into two or more lobes at the tip, where a moss leaf usually tapers to a single point. And no liverwort leaf carries a midrib, that pale central nerve you can trace up so many a moss leaf. Under the microscope one further thing clinches it: the cells of a liverwort hold glistening droplets called oil bodies, which the mosses lack entirely. The whole cast of lookalikes, liverwort against moss and lichen against both, is sorted out in <a href="telling-moss-apart.html">moss, lichen, liverwort or algae</a>.</p>
+
+      <h2>Cups, stalks and elaters</h2>
+      <p>How a liverwort breeds is half the pleasure of finding one. The little cups scattered across the <em>Marchantia</em> in the photograph are splash-cups, each holding a clutch of tiny green discs called gemmae; a raindrop landing in a cup throws them clear to root nearby, a way of spreading that skips spores altogether. When liverworts do make spores, the capsule bears no resemblance to a moss's tough, long-stalked, lidded urn. It rides up almost overnight on a soft, ghost-white stalk that wilts within a day, then splits cleanly into four spreading valves; mixed among the spores sit elaters, slender spiral threads that twist as they dry and flick the dust into the air. There is no lid, and no ring of peristome teeth of the sort a moss uses to dole its spores out by degrees. A liverwort empties in a morning and is spent.</p>
+
+      <h2>Where they turn up</h2>
+      <p>You meet liverworts wherever the ground stays wet and the air sits still: dripping rock faces, the splashed margins of streams and waterfalls, shaded woodland banks, and the bark of old trees, where the leafy kinds thread flat green ribbons through the moss. The thalloid <em>Marchantia</em> is also a well-known pest under glass, spreading as a slick green crust over the compost of pot plants and seed trays; where it shows up it is reporting standing wet and a packed, overwatered surface, so the answer is to ease off the watering and open up the compost rather than to scrape and curse. Fishkeepers run into liverworts too, since several plants sold for the tank, Riccia and the so-called Pellia among them, are liverworts and not mosses, a tangle unpicked in <a href="aquarium-moss-real-or-not.html">is aquarium moss really moss</a>. Out in the wild they repay being left exactly as they are. Many want clean, damp, unpolluted air, so a bank thick with liverworts is usually saying something good about the place.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
     "springy-turf-moss", "wall-screw-moss", "common-pincushion-moss", "tamarisk-moss",
-    "silvery-thread-moss", "willow-moss",
+    "glittering-wood-moss", "silvery-thread-moss", "willow-moss",
     "moss-in-floristry",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
@@ -2850,7 +2916,7 @@ GUIDES_ORDER = [
     "moss-propagation-machine", "moss-for-shrimp", "dry-start-method",
     "moss-in-vivariums", "best-moss-for-terrariums", "moss-indoors",
     "moss-terrarium-troubleshooting", "how-to-identify-moss",
-    "acrocarpous-vs-pleurocarpous", "telling-moss-apart", "collecting-moss",
+    "acrocarpous-vs-pleurocarpous", "telling-moss-apart", "liverworts", "collecting-moss",
     "photographing-moss",
     "growing-moss-from-spores", "how-fast-does-moss-grow", "peat-and-peat-free",
     "moss-and-wildlife", "life-in-moss", "moss-and-air-quality",
