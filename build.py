@@ -36,6 +36,8 @@ IMAGE_CREDITS = [
     ("grimmia.jpg", "Grimmia pulvinata, common pincushion, on rock", "Christian Berg", "CC BY 4.0"),
     ("glittering-wood-moss.jpg", "Hylocomium splendens, glittering wood-moss", "Kristian Peters", "CC BY-SA 3.0"),
     ("marchantia-liverwort.jpg", "Marchantia polymorpha, a liverwort, with gemma cups", "Hermann Schachner", "CC0"),
+    ("funaria.jpg", "Funaria hygrometrica, bonfire moss, in fruit", "Krzysztof Ziarnek, Kenraiz", "CC BY-SA 4.0"),
+    ("luminous-moss.jpg", "Schistostega pennata, luminous moss, glowing in a rock crevice", "OutdoorFEX", "CC BY-SA 4.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2900,11 +2902,76 @@ PAGES["liverworts"] = dict(
 ''',
 )
 
+PAGES["bonfire-moss"] = dict(
+    title="Bonfire moss (Funaria hygrometrica)",
+    description="Bonfire moss (Funaria hygrometrica), the common cord-moss: how to recognise the swan-necked orange capsules of the moss that follows fire, the twisting hygroscopic stalk that names it, its role as the textbook teaching moss, and why it haunts plant pots and burnt ground.",
+    active="guides",
+    hero="funaria.jpg",
+    blurb="The pioneer that follows fire, with swan-necked orange stalks and a seta that winds and unwinds with the weather.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Where a bonfire has burned down to cold ash, or a heath fire has swept through and left the ground black, one of the first green things to creep back is often a moss. Within a season the scorched patch furs over with a soft yellow-green pile, then bristles all over with curved orange stalks. This is bonfire moss, <em>Funaria hygrometrica</em>, a plant that has made a living out of catastrophe and turns up wherever soil has been burnt, fed or freshly broken open.</p>
+
+      <h2>The moss that follows fire</h2>
+      <p>Funaria is a pioneer, quick to seize bare ground before slower plants arrive. Burnt sites suit it especially well, because a fire does two things it likes at once: it clears away every competitor and it leaves behind a dressing of ash. Wood ash runs alkaline and carries potash and other minerals, and that flush of nutrients across freshly cleared soil suits this moss almost perfectly. So it shows up on old bonfire patches in gardens and allotments, and across the blackened seat of a moorland or forest fire. Most mosses are slow perennials, content to creep along a wall or a log for decades; Funaria lives fast instead, fruiting heavily within a year or two and then fading once taller plants close back over the ground.</p>
+
+      <h2>Recognising it</h2>
+      <p>The tufts are low and rather loose, a fresh light green flushed with yellow, the short shoots carrying broad, concave, egg-shaped leaves bunched into a little bud at the tip. What truly catches the eye is the fruit. From spring the moss throws up long stalks, the seta, often a couple of centimetres tall and coloured a warm reddish-orange, each one bent over at the very top like a shepherd's crook or the neck of a swan. At that bend hangs the capsule, pear-shaped and slightly lopsided, grooved down its flank, green at first and ripening through amber to brown. On a well-fed colony these nodding stalks crowd so thickly that the whole patch reads more orange than green. Few common mosses fruit so freely or so showily, which makes one in capsule easier to put a name to than most.</p>
+
+      <h2>A hygrometer on a stalk</h2>
+      <p>The species name, <em>hygrometrica</em>, points to a real trick. The seta is keenly sensitive to moisture: as the air dries, it screws itself into a tight corkscrew, and as damp returns it slowly unwinds, the whole stalk twisting back and forth with every shift in the weather. The movement does real work: by turning and flexing, the stalk shakes the ripe capsule about and works its spores loose a few at a time, casting them off when the air is dry enough for them to drift. Around the capsule mouth sits a double ring of teeth, the peristome, the outer and inner sets joined at their tips into a delicate lattice that itself opens and shuts as humidity changes, metering out the spores by degrees rather than all in a rush. Under a hand lens it is among the prettiest pieces of machinery in the whole moss world, and a good reason to carry one, as <a href="how-to-identify-moss.html">how to identify moss</a> sets out.</p>
+
+      <h2>The textbook moss</h2>
+      <p>Generations of botany students have met Funaria before any other moss. It is easy to find, easy to raise on a dish of damp soil, and it runs through the whole moss life cycle so plainly that it became the standard classroom example: the green thread, the protonema, growing from a germinating spore; the leafy shoots budding from that thread; the eggs and swimming sperm that need a film of water to meet; and the stalked capsule that rises only once they have. The looping, two-part life of every moss, the alternation of leafy plant and spore-bearing generation, shows here with unusual clarity, and its bones are laid out in <a href="biology.html">what a moss actually is</a>. Upright in tufts with its capsules borne at the shoot tips, Funaria is a tidy acrocarp, the habit weighed against the creeping carpet mosses in <a href="acrocarpous-vs-pleurocarpous.html">acrocarpous and pleurocarpous mosses</a>.</p>
+
+      <h2>In pots, paths and burnt corners</h2>
+      <p>No fire is needed to meet it. Funaria ranks among the commonest weeds of plant pots, seed trays and greenhouse benches, arriving unasked on the clean, fed compost it finds so agreeable, and it settles just as readily on the rich soil of allotments and in the cracks of paving. Anyone who sows in pots will know the yellow-green film, and the little forest of orange stalks above it, that spreads over a tray left damp and undisturbed for a few weeks. It does no real harm and clears off by itself once conditions move on, though a crust thick enough to cap wet compost can be teased away before it seals the surface; the general line on unwanted moss is drawn in <a href="removing-moss.html">getting rid of moss</a>. Out on its burnt patch, though, it repays a slow look before the grass grows back and shoulders it aside.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["luminous-moss"] = dict(
+    title="Luminous moss (Schistostega pennata)",
+    description="Luminous moss (Schistostega pennata), goblin gold: the cave moss that glows green-gold in the dark, how its lens-shaped protonema reflects faint light, where to find it in caves and burrows and under fallen trees, the folklore of goblin and dragon's gold, and how to see it without harm.",
+    active="guides",
+    hero="luminous-moss.jpg",
+    blurb="The cave moss that glows green-gold from dark crevices, its lens-like cells bending faint light back at the eye. Goblin gold, and how to find it.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Crouch by the mouth of a cave, or peer into the hollow left under the roots of a fallen tree, and now and then the darkness glows quietly back at you: a cool green-gold light, like a cat's eye caught in a torch beam. Yet there is no torch. The glimmer comes from a moss, <em>Schistostega pennata</em>, the luminous moss, and the soft light it throws from the dimmest of corners has seeded folk tales right across the northern world.</p>
+
+      <h2>A light from almost no light</h2>
+      <p>First the wonder and the let-down together: the moss makes no light of its own. It neither burns nor glows in the chemical way a firefly does, but instead gathers the faint light reaching its shaded den and bounces it back at whoever is looking. The secret lies in its youngest stage, the protonema, the green thread every moss sends out from a germinating spore. In most mosses that thread is a plain tangle of filaments; in Schistostega some of its cells swell into rounded, almost spherical beads, each behaving like a minute lens. Dim light entering a bead is focused onto a cluster of chloroplasts at the back wall, which soak up the red and blue for photosynthesis and bounce the leftover green straight back out the way it came, which is just why the returning light reads green. An eye sitting in its path catches the glow; shift your head a hand's width and it blinks out, since you have stepped clear of the narrow cone the cells throw back. It is the very principle that fires up a cat's eyes or a roadside reflector, here pressed into service by a plant scratching a living from the last scraps of daylight.</p>
+
+      <h2>Where it hides</h2>
+      <p>Schistostega seeks out exactly the places other plants shun: deep shade, unbroken damp and air that scarcely stirs. Look for it in the cool backs of caves and rock overhangs, in the gaps between sandstone boulders, in old mine adits and the mouths of badger setts and rabbit burrows, and on the raw soil clinging to the upended root-plate of a wind-thrown tree. It holds to acid, lime-free ground, sandstone and gritty soil rather than chalk, and to the cooler temperate and boreal reaches of the Northern Hemisphere. The light it asks for is barely more than a rumour of day, far less than any flowering plant could turn to account, which is just how it keeps these black recesses to itself.</p>
+
+      <h2>Goblin gold and dragon's gold</h2>
+      <p>A wink of gold from a dark hole, gone the moment you reach for it, was never going to slip past the folk imagination. Across Europe the moss picked up names like goblin gold, dragon's gold and elf-gold, and more than one hopeful soul is said to have dug into a bank after buried treasure only to come away with a fistful of damp earth. In Japan it is <em>hikarigoke</em>, the shining moss, and at several caves and hollows where it gathers in quantity it is guarded as a Natural Monument, visited for the pale fire it shows in the gloom. People have always loaded moss with meanings out of all proportion to its size, a habit picked over in <a href="moss-myths.html">moss myths and old beliefs</a>.</p>
+
+      <h2>The fern that comes after</h2>
+      <p>The glow belongs to the protonema, the seedling stage; the moss proper, the leafy plant that grows on from it, is a far quieter affair, easily walked past once you stop hunting the light. Its shoots are small and fragile, a translucent pale green, the leaves set in two neat rows along flattened stems so that each reads like a miniature fern frond or a single soft feather. The species name, <em>pennata</em>, means feathered, for just that look. These little fronds stand barely a centimetre high and carry no glow at all, so the plant that gives the species its name turns out to be the least striking thing about it. To get the two-stage life behind all this straight, the green thread first and the leafy plant second, the groundwork waits in <a href="biology.html">what a moss actually is</a>.</p>
+
+      <h2>Look, and leave it where it lies</h2>
+      <p>Seeing luminous moss for yourself takes patience more than effort. Find promising ground, a sunken lane cut through sandstone, the back of a cave, the underside of a tipped-up root-ball in damp woodland, then get your eye down low, let it adjust to the dark, and move slowly until the green spark answers. A torch held close beside your temple, angled to throw light back toward your own face, will often coax it out. The one thing to resist is digging: prise the moss from its niche and you wreck the exact stillness and gloom it leans on, and it will not take hold again on an open bank. This is a plant to be visited rather than collected, in the spirit of the field manners gathered in <a href="collecting-moss.html">collecting moss responsibly</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
     "springy-turf-moss", "wall-screw-moss", "common-pincushion-moss", "tamarisk-moss",
     "glittering-wood-moss", "silvery-thread-moss", "willow-moss",
+    "bonfire-moss", "luminous-moss",
     "moss-in-floristry",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
