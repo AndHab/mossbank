@@ -403,7 +403,7 @@ PAGES["projects"] = dict(
     body='''
   <section class="section">
     <div class="wrap">
-      <p class="lede">Once you can keep moss alive, it becomes a material. Six things people make with it, each with its own guide.</p>
+      <p class="lede">Once you can keep moss alive, it becomes a material. Eight things people make with it, each with its own guide.</p>
       <div class="grid-cards">
         <a class="tile" href="kokedama.html">
           <h3>Kokedama</h3>
@@ -428,6 +428,14 @@ PAGES["projects"] = dict(
         <a class="tile" href="moss-graffiti.html">
           <h3>Moss graffiti</h3>
           <p>Paint a moss slurry onto a shaded wall in a shape or letters, keep it misted, and it grows into a living design.</p>
+        </a>
+        <a class="tile" href="wabi-kusa.html">
+          <h3>Wabi-kusa</h3>
+          <p>An emersed ball or mound of substrate planted with moss and small plants, grown open to the air or half-submerged in an open tank. A cousin of kokedama from the aquascaping world.</p>
+        </a>
+        <a class="tile" href="moss-paludarium.html">
+          <h3>Paludariums</h3>
+          <p>The half-water, half-land tank, where moss thrives on the humid banks and hardscape above the waterline, a green landscape running from the water up the back wall.</p>
         </a>
       </div>
       <div class="prose">
