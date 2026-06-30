@@ -38,6 +38,7 @@ IMAGE_CREDITS = [
     ("marchantia-liverwort.jpg", "Marchantia polymorpha, a liverwort, with gemma cups", "Hermann Schachner", "CC0"),
     ("funaria.jpg", "Funaria hygrometrica, bonfire moss, in fruit", "Krzysztof Ziarnek, Kenraiz", "CC BY-SA 4.0"),
     ("luminous-moss.jpg", "Schistostega pennata, luminous moss, glowing in a rock crevice", "OutdoorFEX", "CC BY-SA 4.0"),
+    ("mnium-hornum.jpg", "Mnium hornum, swan's-neck thyme-moss", "Zihao Wang", "CC BY 4.0"),
 ]
 
 # GoatCounter: cookieless, self-hosted. One line, every page.
@@ -2974,17 +2975,80 @@ PAGES["luminous-moss"] = dict(
 ''',
 )
 
+PAGES["swan-neck-thyme-moss"] = dict(
+    title="Swan's-neck thyme-moss (Mnium hornum)",
+    description="Swan's-neck thyme-moss (Mnium hornum): the common dark-green woodland moss with large, bordered, toothed leaves you can almost read with a hand lens, its nodding swan-necked capsules, the splash cups of its male plants, where it grows on acid banks and rotting wood, and how to tell it from its creeping relatives.",
+    active="guides",
+    hero="mnium-hornum.jpg",
+    blurb="The dark-green woodland moss with surprisingly large leaves, a hemmed margin of paired teeth and a capsule that nods on a curved neck. Common on acid banks and old stumps.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">Walk into damp, acid woodland and the low banks and rotting stumps are often dressed in a sombre dark green, the shoots packed upright and the leaves a little crisped if the day has been dry. That tuft is very likely swan's-neck thyme-moss, <em>Mnium hornum</em>, among the most familiar mosses of the temperate wood and, for once, one whose parts are large enough to puzzle out by eye.</p>
+
+      <h2>Leaves you can almost read</h2>
+      <p>A microscope is usually the toll for naming a moss with any confidence. This one is kinder. Its leaves run to four or five millimetres, broad and tongue-shaped, and held up to the light they show their workings plainly: a clear rim of long narrow cells running right round the edge like a hem, and along the upper margin a row of small teeth set two by two. A single midrib reaches almost to the tip. A pocket lens shows all of it, which makes the moss a good one to learn the anatomy of a leaf on before you tackle the fiddlier species in <a href="how-to-identify-moss.html">how to identify a moss</a>. Fresh spring shoots come up a clean yellow-green and stand out sharply against the older, almost black-green growth beneath them.</p>
+
+      <h2>Where it settles</h2>
+      <p>This is a plant of lime-free ground. It wants acid soil, peaty humus, the crumbling wood of old logs and stumps, the damp lower trunks of trees and the shaded sandstone of a stream bank, and it turns its back on chalk and mortar. You will meet it throughout Britain and Europe and right round the cooler Northern Hemisphere, sometimes in such quantity that it sheets a whole woodland bank in green. Because it leans towards old, undisturbed, acid woodland, a deep stand of it is a small clue to the age and character of the wood around you, much as certain wildflowers come to stand for the ground they favour.</p>
+
+      <h2>The swan's neck</h2>
+      <p>The common name fixes on the moss in fruit. From the tip of a female shoot a slender stalk, the seta, rises a couple of centimetres and then bends sharply over at the top, carrying the spore capsule face down so that it hangs and nods like the crooked neck of a swan. The capsules swell through spring into early summer, green at first and ripening to a warm brown, and once the little lid drops away the spores drift out on dry air. A bank of <em>Mnium hornum</em> in May, pricked all over with these nodding heads on their fine stalks, is one of the quiet pleasures of the spring wood.</p>
+
+      <h2>Splash cups and the rain</h2>
+      <p>The moss keeps its sexes on separate plants, so a male shoot and a female shoot must somehow be brought together. The males manage it with rain. Each male shoot is tipped by a flat rosette of leaves spread open like a tiny green flower, a shallow cup holding the sperm-making organs at its centre. When a raindrop lands square in the cup it splashes outward, flinging a fine spray of sperm-laden water a hand's breadth across the colony, far enough to reach a neighbouring female and fertilise her. It is a tidy piece of plumbing, and well worth crouching to watch after a shower. The two-part life that follows, the leafy plant giving rise to the stalked capsule, runs through every moss and is set out in <a href="biology.html">what a moss actually is</a>.</p>
+
+      <h2>Telling it apart</h2>
+      <p>Several relatives share the dark green and the bordered, toothed leaves, and the group as a whole answers to the name thyme-mosses. The likeliest to confuse are the creeping <em>Plagiomnium</em> mosses, which throw out long, arching, almost bare runners across the ground and often carry leaves with a wavy, puckered surface. Swan's-neck thyme-moss holds its shoots more upright and tufted and keeps its leaves flat rather than crimped, and those paired marginal teeth are a dependable mark once your lens is on them. Put the hemmed border, the double teeth and the upright habit together and you can name it without hesitation.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
+PAGES["moss-on-trees"] = dict(
+    title="Moss on trees: should you worry?",
+    description="Moss on tree trunks and branches explained: why it is a harmless epiphyte rather than a parasite, what makes bark turn green, which mosses grow on trees, when a heavy growth is a sign rather than a cause of trouble, how to remove it safely if you must, and why it is usually worth leaving alone.",
+    active="guides",
+    blurb="The green sleeve climbing a trunk is a lodger that takes nothing from the tree. When moss on bark matters, when it does not, and how to deal with it kindly.",
+    body='''
+  <section class="section">
+    <div class="wrap prose">
+      <p class="lede">A trunk furred green to head height, or a green sleeve up the shaded side of an old apple tree, makes many gardeners uneasy: the tree looks as though it is being slowly smothered. It almost never is. Moss on bark is among the most harmless things in a garden, and understanding why settles most of the worry at a stroke.</p>
+
+      <h2>A guest that takes nothing</h2>
+      <p>Moss growing on a tree is an epiphyte, a plant that uses the tree purely as somewhere to sit. It has no true roots, only fine anchoring threads called rhizoids that grip the surface of the bark, and it makes its own food from light and air exactly as it would on a rock or a roof tile. Nothing passes from tree to moss. It draws no sap, opens no wound and touches nothing living beneath the bark. Ivy, which does haul itself into the canopy and compete for light, is a separate worry; a film of moss on the bark is not. To the tree the moss is a perch and no more.</p>
+
+      <h2>Why bark turns green</h2>
+      <p>Moss settles where bark stays damp and the air hangs still: the shaded, rain-catching side of a trunk, the lower few feet where humidity gathers, the rough furrowed bark of an old tree that holds water far better than young smooth bark does. This is also why moss seems to single out ailing trees. A tree that is losing vigour carries a thinner canopy, so more light and rain reach its bark, and the moss thickens in answer. The moss has not caused the decline; it is reading the same conditions you could read for yourself. The old belief that moss marks true north rests on this same damp-side preference, though it makes a poor compass, as <a href="moss-myths.html">moss myths and old beliefs</a> sets out.</p>
+
+      <h2>What you are looking at</h2>
+      <p>The flat glossy mats pressed against a trunk or a fence rail are very often plait moss, <em>Hypnum cupressiforme</em>, the great generalist of bark and stone, which has its own profile in <a href="plait-moss.html">plait moss</a>. Higher up, out on the twigs and younger branches, you tend to find small neat cushions instead, the bristle-mosses and their kin perching in the brighter, breezier air of the canopy. Lichens usually share the bark too, grey and leafy or crusty and yellow, and the two are easily muddled, although a lichen is a partnership of fungus and alga rather than a moss at all. Because the mix shifts from the damp foot of the trunk to the windy top, a single tree can carry several quite different communities at once.</p>
+
+      <h2>When it is worth a second look</h2>
+      <p>For an ornamental or a woodland tree, moss on the bark asks nothing of you. Old fruit trees are a slightly different case, less because the moss does any harm and more because a heavy fur of moss and lichen usually goes hand in hand with an open, under-pruned, low-vigour tree, and the damp crevices give overwintering pests somewhere to shelter. The remedy is to tend the tree rather than scrub the moss: prune for an open crown, then feed and mulch a struggling specimen, and the bark dries quicker and greens over far less. As for the weight of moss on a branch, often fretted about, it is trifling and never a structural concern.</p>
+
+      <h2>Removing it kindly, or leaving it be</h2>
+      <p>If a prized specimen or a smartly trained fruit tree really must be cleared, brush the moss off gently with a stiff hand brush while it is damp and lifts easily, and stop at that. Keep a pressure washer well away from living bark, since the jet shreds the thin outer layers and can reach the living tissue underneath, doing far more damage than the moss ever could. The harsh moss killers sold for paths and roofs have no business on a tree either. In most gardens the wiser course is simply to leave it. Bark moss shelters the small insects that feed nesting birds and gives the birds themselves a soft lining for the nest, and it carries good news about your air, for the bristle-mosses crept back onto town trees as the old sulphur smogs lifted, a recovery traced in <a href="moss-and-air-quality.html">moss and air quality</a>.</p>
+
+      <p class="next"><a href="guides.html">&larr; Back to guides</a></p>
+    </div>
+  </section>
+''',
+)
+
 GUIDES_ORDER = [
     "preserved-moss-wall", "moss-lawn", "moss-ground-cover", "moss-as-living-mulch",
     "ageing-with-moss", "bun-moss", "plait-moss", "haircap-moss", "broom-fork-moss",
     "springy-turf-moss", "wall-screw-moss", "common-pincushion-moss", "tamarisk-moss",
     "glittering-wood-moss", "silvery-thread-moss", "willow-moss",
-    "bonfire-moss", "luminous-moss",
+    "swan-neck-thyme-moss", "bonfire-moss", "luminous-moss",
     "moss-in-floristry",
     "moss-for-carnivorous-plants", "moss-for-orchids",
     "marimo-moss-balls", "reindeer-moss", "fairy-gardens", "moss-biophilic-design",
     "moss-and-pets", "reviving-dried-moss", "kusamono",
-    "removing-moss",
+    "removing-moss", "moss-on-trees",
     "moss-on-roofs", "moss-green-roof", "moss-in-paving", "watering-moss", "moss-through-the-seasons",
     "moss-pole", "spraying-moss", "sphagnum-moss", "aquarium-moss",
     "aquarium-moss-real-or-not", "propagating-aquarium-moss",
